@@ -1,0 +1,149 @@
+:root {
+    --font-family: "Montserrat";
+    --second-family: "Roboto";
+}
+
+html,
+body {
+    padding: 0;
+}
+
+/* ****************************HEADER TOP******************************* */
+.header-top {
+    padding: 30px 200px;
+    display: flex;
+    align-items: center;
+    gap: 70px;
+    justify-content: center;
+}
+
+.first-li-header-top,
+.second-li-header-top {
+    display: flex;
+    list-style-type: none;
+    gap: 45px;
+}
+
+.first-li-header-top a,
+.second-li-header-top a {
+    text-decoration: none;
+}
+
+.first-li-header-top li,
+.second-li-header-top li {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 14px;
+    color: #000;
+}
+
+.city-pick-header-top-wrapper {
+    position: relative;
+    display: flex;
+    cursor: pointer;
+}
+
+.city-pick-header-top-wrapper img:not(.geo) {
+    position: absolute;
+    right: -18%;
+    top: 42%;
+}
+
+.city-pick-img {
+    margin-right: 5px;
+}
+
+.city-pick-header-top {
+    border-bottom: 1px solid #000;
+}
+
+.first-li-header-top img,
+.second-li-header-top img {
+    margin-right: 3px;
+}
+
+/* ****************************HEADER MAIN******************************* */
+
+.header-main {
+    position: relative;
+    overflow: visible;
+    padding-right: 100px;
+    height: 480px;
+    margin-bottom: 20px;
+}
+
+.header-main::before,
+.header-main::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+}
+
+.header-main::before {
+    background-color: #00093c;
+    left: 0;
+    width: 65%;
+}
+
+.header-main::after {
+    background-image: url(images/header-images/slider\ 1-small.png);
+    background-size: cover;
+    background-position: right;
+    right: 0;
+    width: 40%;
+}
+
+.header-content {
+    position: relative;
+    z-index: 2;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.svg-header {
+    position: absolute;
+    z-index: 1;
+}
+
+.header-img {
+    background-color: #fff;
+    height: 520px;
+}
+
+.header-main img {
+    position: absolute;
+    z-index: 1;
+}
+
+.header-content h1 {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 36px;
+    color: #fff;
+}
+
+.header-content h1 span:first-of-type {
+    position: absolute;
+    top: 66%;
+    left: 22%;
+}
+
+.header-content h1 span:last-of-type {
+    position: absolute;
+    top: 101%;
+    left: 22%;
+}
+
+.header-content p {
+    position: absolute;
+    top: 139%;
+    left: 22.2%;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 20px;
+    color: #fff;
+}
