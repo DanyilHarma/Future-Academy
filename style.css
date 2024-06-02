@@ -301,13 +301,28 @@ body {
 }
 
 .for-who {
+    position: relative;
     display: flex;
     gap: 280px;
+    width: 100%;
+    max-width: 990px;
 }
 
 .for-who-people {
+    position: relative;
     display: flex;
     gap: 10px;
+    cursor: pointer;
+}
+
+.indicator {
+    position: absolute;
+    top: 90%;
+    left: 0;
+    width: 13.3%;
+    background: linear-gradient(90deg, #f7941d 0%, #27aae1 100%);
+    transition: left 0.3s ease;
+    opacity: 1;
 }
 
 .people-text {
