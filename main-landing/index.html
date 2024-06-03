@@ -1,0 +1,1478 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel=" stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
+        integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <title>Future Academy</title>
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/17/17047.png" type="image/png">
+</head>
+
+<body>
+    <header>
+        <div class="header-top">
+            <a href="#"><svg width="100" height="71" viewBox="0 0 100 71" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M16.4671 70.6464C7.38524 70.6464 0 63.2611 0 54.1793C0 45.0974 7.38524 37.7122 16.4671 37.7122C25.549 37.7122 32.9342 45.0974 32.9342 54.1793C32.9342 63.311 25.549 70.6464 16.4671 70.6464Z"
+                        fill="#00093C" />
+                    <path
+                        d="M16.4671 70.6464C7.38524 70.6464 0 63.2611 0 54.1793C0 45.0974 7.38524 37.7122 16.4671 37.7122C25.549 37.7122 32.9342 45.0974 32.9342 54.1793C32.9342 63.311 25.549 70.6464 16.4671 70.6464Z"
+                        fill="#00093C" />
+                    <path
+                        d="M55.3895 1.8336L37.5251 31.0253C37.0261 31.8736 37.575 32.9215 38.5232 32.9215H56.3875H74.2518C75.1999 32.9215 75.7488 31.8237 75.2498 31.0253L57.3855 1.8336C56.8865 1.08509 55.8386 1.08509 55.3895 1.8336Z"
+                        fill="#00093C" />
+                    <path
+                        d="M32.5847 6.77396L26.1475 0.336827C25.6984 -0.112276 24.9 -0.112276 24.4509 0.336827L17.3651 7.42267C16.916 7.87177 16.1176 7.87177 15.6685 7.42267L8.58263 0.336827C8.13353 -0.112276 7.33513 -0.112276 6.88602 0.336827L0.448888 6.77396C-0.000215136 7.22307 -0.000215136 8.02147 0.448888 8.47058L7.53472 15.5564C7.98382 16.0055 7.98382 16.8039 7.53472 17.253L0.448888 24.3389C-0.000215136 24.788 -0.000215136 25.5864 0.448888 26.0355L6.88602 32.4726C7.33513 32.9217 8.13353 32.9217 8.58263 32.4726L15.6685 25.3868C16.1176 24.9377 16.916 24.9377 17.3651 25.3868L24.4509 32.4726C24.9 32.9217 25.6984 32.9217 26.1475 32.4726L32.5847 26.0355C33.0338 25.5864 33.0338 24.788 32.5847 24.3389L25.4988 17.253C25.0497 16.8039 25.0497 16.0055 25.4988 15.5564L32.5847 8.47058C33.0837 8.02147 33.0837 7.27297 32.5847 6.77396Z"
+                        fill="#00093C" />
+                    <path
+                        d="M40.6685 49.0892V51.185H44.3112V52.6321H40.6685V55.4764H38.8721V47.6421H44.7603V49.0892H40.6685Z"
+                        fill="black" />
+                    <path
+                        d="M47.2058 54.678C46.607 54.0792 46.2577 53.181 46.2577 52.0333V47.6421H48.0541V51.9335C48.0541 53.3307 48.6529 54.0293 49.8006 54.0293C50.3495 54.0293 50.7986 53.8796 51.098 53.5303C51.3974 53.181 51.5471 52.682 51.5471 51.9335V47.6421H53.3435V52.0333C53.3435 53.181 53.0441 54.0792 52.3954 54.678C51.7966 55.2768 50.8984 55.6261 49.8006 55.6261C48.7028 55.6261 47.8046 55.2768 47.2058 54.678Z"
+                        fill="black" />
+                    <path d="M56.9361 49.1391H54.441V47.6421H61.2275V49.1391H58.7325V55.4764H56.9361V49.1391Z"
+                        fill="black" />
+                    <path
+                        d="M63.2733 54.678C62.6745 54.0792 62.3252 53.181 62.3252 52.0333V47.6421H64.1216V51.9335C64.1216 53.3307 64.7204 54.0293 65.8681 54.0293C66.417 54.0293 66.8661 53.8796 67.1655 53.5303C67.4649 53.181 67.6146 52.682 67.6146 51.9335V47.6421H69.411V52.0333C69.411 53.181 69.1116 54.0792 68.4629 54.678C67.8641 55.2768 66.9659 55.6261 65.8681 55.6261C64.7703 55.6261 63.922 55.2768 63.2733 54.678Z"
+                        fill="black" />
+                    <path
+                        d="M76.4971 55.4768L75.0001 53.2812H74.9003H73.3035V55.4768H71.5071V47.6924H74.9003C75.5989 47.6924 76.1977 47.7922 76.6967 48.0417C77.1957 48.2912 77.5949 48.5906 77.8943 49.0397C78.1438 49.4389 78.2935 49.9878 78.2935 50.5367C78.2935 51.1355 78.1438 51.6345 77.8943 52.0337C77.5949 52.4329 77.1957 52.7822 76.6967 52.9818L78.4432 55.4768H76.4971ZM76.048 49.4888C75.7486 49.2393 75.3494 49.1395 74.8005 49.1395H73.3035V51.884H74.8005C75.3494 51.884 75.7486 51.7842 76.048 51.5347C76.3474 51.2852 76.4472 50.9858 76.4472 50.5367C76.4971 50.0377 76.3474 49.7383 76.048 49.4888Z"
+                        fill="black" />
+                    <path
+                        d="M86.1279 54.0293V55.4764H80.09V47.6421H85.9782V49.0892H81.8864V50.7858H85.4792V52.2329H81.8864V54.0293H86.1279Z"
+                        fill="black" />
+                    <path
+                        d="M44.012 68.2512H40.3693L39.6707 69.9478H37.8243L41.3174 62.1633H43.1138L46.6068 69.9478H44.7106L44.012 68.2512ZM43.4631 66.9039L42.2156 63.9098L40.9681 66.9039H43.4631Z"
+                        fill="black" />
+                    <path
+                        d="M49.2017 69.5485C48.553 69.1992 48.054 68.7002 47.7047 68.1014C47.3554 67.5026 47.1558 66.804 47.1558 66.0056C47.1558 65.257 47.3554 64.5584 47.7047 63.9097C48.054 63.3109 48.6029 62.8119 49.2017 62.4626C49.8504 62.1133 50.549 61.9636 51.3474 61.9636C52.046 61.9636 52.6448 62.0634 53.1937 62.3129C53.7426 62.5624 54.1917 62.9117 54.5909 63.3608L53.4432 64.4087C52.8943 63.8099 52.2456 63.5105 51.4971 63.5105C50.9981 63.5105 50.5989 63.6103 50.1997 63.8099C49.8005 64.0095 49.5011 64.3089 49.3015 64.7081C49.1019 65.1073 49.0021 65.5065 49.0021 66.0056C49.0021 66.5046 49.1019 66.9038 49.3015 67.303C49.5011 67.7022 49.8005 68.0016 50.1997 68.2012C50.5989 68.4008 50.9981 68.5006 51.4971 68.5006C52.2955 68.5006 52.9442 68.2012 53.4432 67.5525L54.5909 68.6004C54.2416 69.0495 53.7426 69.3988 53.1937 69.6483C52.6448 69.8978 52.046 69.9976 51.3474 69.9976C50.5989 70.0475 49.8504 69.8978 49.2017 69.5485Z"
+                        fill="black" />
+                    <path
+                        d="M61.1277 68.2512H57.485L56.7864 69.9478H54.9401L58.4331 62.1633H60.2295L63.7225 69.9478H61.8263L61.1277 68.2512ZM60.5788 66.9039L59.3313 63.9098L58.0838 66.9039H60.5788Z"
+                        fill="black" />
+                    <path
+                        d="M64.8704 62.1133H68.4133C69.2616 62.1133 70.0101 62.263 70.6588 62.6123C71.3075 62.9117 71.8065 63.4107 72.1558 63.9596C72.5051 64.5584 72.7047 65.2071 72.7047 66.0055C72.7047 66.8039 72.5051 67.4526 72.1558 68.0514C71.8065 68.6502 71.3075 69.0993 70.6588 69.3987C70.0101 69.6981 69.2616 69.8977 68.4133 69.8977H64.8704V62.1133ZM68.3135 68.4506C69.1119 68.4506 69.7107 68.251 70.1598 67.8019C70.6089 67.3528 70.8584 66.754 70.8584 66.0554C70.8584 65.3069 70.6089 64.7081 70.1598 64.3089C69.7107 63.8598 69.062 63.6602 68.3135 63.6602H66.6668V68.5005H68.3135V68.4506Z"
+                        fill="black" />
+                    <path
+                        d="M80.4391 68.5005V69.9476H74.4011V62.1133H80.2894V63.5604H76.1975V65.257H79.8403V66.6542H76.1975V68.5005H80.4391Z"
+                        fill="black" />
+                    <path
+                        d="M89.3214 69.9476V65.257L87.026 69.0993H86.2276L83.9322 65.3568V69.9476H82.2356V62.1133H83.7326L86.6268 66.9536L89.521 62.1133H91.0181V69.9476H89.3214Z"
+                        fill="black" />
+                    <path
+                        d="M96.9561 67.1532V69.9476H95.1596V67.1532L92.1157 62.1133H94.0618L96.1577 65.6063L98.2036 62.1133H100L96.9561 67.1532Z"
+                        fill="black" />
+                </svg></a>
+            <ul class="first-li-header-top">
+                <a href="">
+                    <li><img src="images/header-top-images/Group 14.png" alt=""> Все курсы</li>
+                </a>
+                <a href="">
+                    <li>Мероприятия</li>
+                </a>
+                <a href="">
+                    <li>Базы знаний</li>
+                </a>
+                <a href="">
+                    <li>Карьера</li>
+                </a>
+            </ul>
+            <ul class="second-li-header-top">
+                <div class="city-pick-header-top-wrapper">
+                    <img src="images/header-top-images/Group 830.png" alt="" style="margin-right: 8px; cursor: auto;"
+                        class="geo">
+                    <li class="city-pick-header-top"> Дубоссары</li>
+                    <img src="images/header-top-images/Vector 197.png" alt="" class="city-pick-header-top-arrow">
+                </div>
+                <a href="tel:+37368432044">
+                    <li>+37368432044</li>
+                </a>
+                <a href="">
+                    <li><img src="images/header-top-images/Group 593.png" alt="">Войти</li>
+                </a>
+            </ul>
+            <div class="popup-city-container">
+                <div class="shadow-gradient-popup-city">
+                    <div class="popup-city">
+                        <div class="title-wrap">
+                            <h2>Выберите свой город</h2>
+                            <img src="images/header-top-images/Group 858.png" alt="" class="close-popup">
+                        </div>
+                        <div class="cities">
+                            <div class="cities-col">
+                                <span>Бендеры</span>
+                                <span>Григориополь</span>
+                                <span>Дубоссары</span>
+                            </div>
+                            <div class="cities-col">
+                                <span>Днестровск</span>
+                                <span>Каменка</span>
+                                <span>Рыбница</span>
+                            </div>
+                            <div class="cities-col">
+                                <span>Слободзея</span>
+                                <span>Тирасполь</span>
+                                <span>Ягорлык</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header-main">
+            <svg width="1012" height="480" class="svg-header" viewBox="0 0 1012 442" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <g opacity="0.5">
+                    <circle cx="21" cy="1" r="1" fill="#27AAE1" />
+                    <circle cx="43" cy="1" r="1" fill="#27AAE1" />
+                    <circle cx="65" cy="1" r="1" fill="#27AAE1" />
+                    <circle cx="87" cy="1" r="1" fill="#27AAE1" />
+                    <circle cx="109" cy="1" r="1" fill="#27AAE1" />
+                    <circle cx="131" cy="1" r="1" fill="#27AAE1" />
+                    <circle cx="153" cy="1" r="1" fill="#27AAE1" />
+                    <circle cx="175" cy="1" r="1" fill="#27AAE1" />
+                    <circle cx="197" cy="1" r="1" fill="#27AAE1" />
+                    <circle cx="219" cy="1" r="1" fill="#27AAE1" />
+                    <circle cx="241" cy="1" r="1" fill="#27AAE1" />
+                    <circle cx="263" cy="1" r="1" fill="#27AAE1" />
+                    <circle cx="285" cy="1" r="1" fill="#27AAE1" />
+                    <circle cx="307" cy="1" r="1" fill="#27AAE1" />
+                    <circle cx="329" cy="1" r="1" fill="#27AAE1" />
+                    <circle cx="351" cy="1" r="1" fill="#27AAE1" />
+                    <circle cx="373" cy="1" r="1" fill="#27AAE1" />
+                    <circle cx="395" cy="1" r="1" fill="#27AAE1" />
+                    <circle cx="417" cy="1" r="1" fill="#27AAE1" />
+                    <circle cx="439" cy="1" r="1" fill="#27AAE1" />
+                    <circle cx="461" cy="1" r="1" fill="#27AAE1" />
+                    <circle cx="483" cy="1" r="1" fill="#27AAE1" />
+                    <circle cx="505" cy="1" r="1" fill="#27AAE1" />
+                    <circle cx="527" cy="1" r="1" fill="#27AAE1" />
+                    <circle cx="549" cy="1" r="1" fill="#27AAE1" />
+                    <circle cx="571" cy="1" r="1" fill="#27AAE1" />
+                    <circle cx="593" cy="1" r="1" fill="#27AAE1" />
+                    <circle cx="615" cy="1" r="1" fill="#27AAE1" />
+                    <circle cx="637" cy="1" r="1" fill="#27AAE1" />
+                    <circle cx="659" cy="1" r="1" fill="#27AAE1" />
+                    <circle cx="681" cy="1" r="1" fill="#27AAE1" />
+                    <circle cx="703" cy="1" r="1" fill="#27AAE1" />
+                    <circle cx="725" cy="1" r="1" fill="#27AAE1" />
+                    <circle cx="747" cy="1" r="1" fill="#27AAE1" />
+                    <circle cx="769" cy="1" r="1" fill="#27AAE1" />
+                    <circle cx="791" cy="1" r="1" fill="#27AAE1" />
+                    <circle cx="813" cy="1" r="1" fill="#27AAE1" />
+                    <circle cx="835" cy="1" r="1" fill="#27AAE1" />
+                    <circle cx="857" cy="1" r="1" fill="#27AAE1" />
+                    <circle cx="879" cy="1" r="1" fill="#27AAE1" />
+                    <circle cx="901" cy="1" r="1" fill="#27AAE1" />
+                    <circle cx="923" cy="1" r="1" fill="#27AAE1" />
+                    <circle cx="945" cy="1" r="1" fill="#27AAE1" />
+                    <circle cx="967" cy="1" r="1" fill="#27AAE1" />
+                    <circle cx="989" cy="1" r="1" fill="#27AAE1" />
+                    <circle cx="1011" cy="1" r="1" fill="#27AAE1" />
+                    <circle cx="21" cy="23" r="1" fill="#27AAE1" />
+                    <circle cx="43" cy="23" r="1" fill="#27AAE1" />
+                    <circle cx="65" cy="23" r="1" fill="#27AAE1" />
+                    <circle cx="87" cy="23" r="1" fill="#27AAE1" />
+                    <circle cx="109" cy="23" r="1" fill="#27AAE1" />
+                    <circle cx="131" cy="23" r="1" fill="#27AAE1" />
+                    <circle cx="153" cy="23" r="1" fill="#27AAE1" />
+                    <circle cx="175" cy="23" r="1" fill="#27AAE1" />
+                    <circle cx="197" cy="23" r="1" fill="#27AAE1" />
+                    <circle cx="219" cy="23" r="1" fill="#27AAE1" />
+                    <circle cx="241" cy="23" r="1" fill="#27AAE1" />
+                    <circle cx="263" cy="23" r="1" fill="#27AAE1" />
+                    <circle cx="285" cy="23" r="1" fill="#27AAE1" />
+                    <circle cx="307" cy="23" r="1" fill="#27AAE1" />
+                    <circle cx="329" cy="23" r="1" fill="#27AAE1" />
+                    <circle cx="351" cy="23" r="1" fill="#27AAE1" />
+                    <circle cx="373" cy="23" r="1" fill="#27AAE1" />
+                    <circle cx="395" cy="23" r="1" fill="#27AAE1" />
+                    <circle cx="417" cy="23" r="1" fill="#27AAE1" />
+                    <circle cx="439" cy="23" r="1" fill="#27AAE1" />
+                    <circle cx="461" cy="23" r="1" fill="#27AAE1" />
+                    <circle cx="483" cy="23" r="1" fill="#27AAE1" />
+                    <circle cx="505" cy="23" r="1" fill="#27AAE1" />
+                    <circle cx="527" cy="23" r="1" fill="#27AAE1" />
+                    <circle cx="549" cy="23" r="1" fill="#27AAE1" />
+                    <circle cx="571" cy="23" r="1" fill="#27AAE1" />
+                    <circle cx="593" cy="23" r="1" fill="#27AAE1" />
+                    <circle cx="615" cy="23" r="1" fill="#27AAE1" />
+                    <circle cx="637" cy="23" r="1" fill="#27AAE1" />
+                    <circle cx="659" cy="23" r="1" fill="#27AAE1" />
+                    <circle cx="681" cy="23" r="1" fill="#27AAE1" />
+                    <circle cx="703" cy="23" r="1" fill="#27AAE1" />
+                    <circle cx="725" cy="23" r="1" fill="#27AAE1" />
+                    <circle cx="747" cy="23" r="1" fill="#27AAE1" />
+                    <circle cx="769" cy="23" r="1" fill="#27AAE1" />
+                    <circle cx="791" cy="23" r="1" fill="#27AAE1" />
+                    <circle cx="813" cy="23" r="1" fill="#27AAE1" />
+                    <circle cx="835" cy="23" r="1" fill="#27AAE1" />
+                    <circle cx="857" cy="23" r="1" fill="#27AAE1" />
+                    <circle cx="879" cy="23" r="1" fill="#27AAE1" />
+                    <circle cx="901" cy="23" r="1" fill="#27AAE1" />
+                    <circle cx="923" cy="23" r="1" fill="#27AAE1" />
+                    <circle cx="945" cy="23" r="1" fill="#27AAE1" />
+                    <circle cx="967" cy="23" r="1" fill="#27AAE1" />
+                    <circle cx="989" cy="23" r="1" fill="#27AAE1" />
+                    <circle cx="1011" cy="23" r="1" fill="#27AAE1" />
+                    <circle cx="21" cy="45" r="1" fill="#27AAE1" />
+                    <circle cx="43" cy="45" r="1" fill="#27AAE1" />
+                    <circle cx="65" cy="45" r="1" fill="#27AAE1" />
+                    <circle cx="87" cy="45" r="1" fill="#27AAE1" />
+                    <circle cx="109" cy="45" r="1" fill="#27AAE1" />
+                    <circle cx="131" cy="45" r="1" fill="#27AAE1" />
+                    <circle cx="153" cy="45" r="1" fill="#27AAE1" />
+                    <circle cx="175" cy="45" r="1" fill="#27AAE1" />
+                    <circle cx="197" cy="45" r="1" fill="#27AAE1" />
+                    <circle cx="219" cy="45" r="1" fill="#27AAE1" />
+                    <circle cx="241" cy="45" r="1" fill="#27AAE1" />
+                    <circle cx="263" cy="45" r="1" fill="#27AAE1" />
+                    <circle cx="285" cy="45" r="1" fill="#27AAE1" />
+                    <circle cx="307" cy="45" r="1" fill="#27AAE1" />
+                    <circle cx="329" cy="45" r="1" fill="#27AAE1" />
+                    <circle cx="351" cy="45" r="1" fill="#27AAE1" />
+                    <circle cx="373" cy="45" r="1" fill="#27AAE1" />
+                    <circle cx="395" cy="45" r="1" fill="#27AAE1" />
+                    <circle cx="417" cy="45" r="1" fill="#27AAE1" />
+                    <circle cx="439" cy="45" r="1" fill="#27AAE1" />
+                    <circle cx="461" cy="45" r="1" fill="#27AAE1" />
+                    <circle cx="483" cy="45" r="1" fill="#27AAE1" />
+                    <circle cx="505" cy="45" r="1" fill="#27AAE1" />
+                    <circle cx="527" cy="45" r="1" fill="#27AAE1" />
+                    <circle cx="549" cy="45" r="1" fill="#27AAE1" />
+                    <circle cx="571" cy="45" r="1" fill="#27AAE1" />
+                    <circle cx="593" cy="45" r="1" fill="#27AAE1" />
+                    <circle cx="615" cy="45" r="1" fill="#27AAE1" />
+                    <circle cx="637" cy="45" r="1" fill="#27AAE1" />
+                    <circle cx="659" cy="45" r="1" fill="#27AAE1" />
+                    <circle cx="681" cy="45" r="1" fill="#27AAE1" />
+                    <circle cx="703" cy="45" r="1" fill="#27AAE1" />
+                    <circle cx="725" cy="45" r="1" fill="#27AAE1" />
+                    <circle cx="747" cy="45" r="1" fill="#27AAE1" />
+                    <circle cx="769" cy="45" r="1" fill="#27AAE1" />
+                    <circle cx="791" cy="45" r="1" fill="#27AAE1" />
+                    <circle cx="813" cy="45" r="1" fill="#27AAE1" />
+                    <circle cx="835" cy="45" r="1" fill="#27AAE1" />
+                    <circle cx="857" cy="45" r="1" fill="#27AAE1" />
+                    <circle cx="879" cy="45" r="1" fill="#27AAE1" />
+                    <circle cx="901" cy="45" r="1" fill="#27AAE1" />
+                    <circle cx="923" cy="45" r="1" fill="#27AAE1" />
+                    <circle cx="945" cy="45" r="1" fill="#27AAE1" />
+                    <circle cx="967" cy="45" r="1" fill="#27AAE1" />
+                    <circle cx="989" cy="45" r="1" fill="#27AAE1" />
+                    <circle cx="1011" cy="45" r="1" fill="#27AAE1" />
+                    <circle cx="21" cy="67" r="1" fill="#27AAE1" />
+                    <circle cx="43" cy="67" r="1" fill="#27AAE1" />
+                    <circle cx="65" cy="67" r="1" fill="#27AAE1" />
+                    <circle cx="87" cy="67" r="1" fill="#27AAE1" />
+                    <circle cx="109" cy="67" r="1" fill="#27AAE1" />
+                    <circle cx="131" cy="67" r="1" fill="#27AAE1" />
+                    <circle cx="153" cy="67" r="1" fill="#27AAE1" />
+                    <circle cx="175" cy="67" r="1" fill="#27AAE1" />
+                    <circle cx="197" cy="67" r="1" fill="#27AAE1" />
+                    <circle cx="219" cy="67" r="1" fill="#27AAE1" />
+                    <circle cx="241" cy="67" r="1" fill="#27AAE1" />
+                    <circle cx="263" cy="67" r="1" fill="#27AAE1" />
+                    <circle cx="285" cy="67" r="1" fill="#27AAE1" />
+                    <circle cx="307" cy="67" r="1" fill="#27AAE1" />
+                    <circle cx="329" cy="67" r="1" fill="#27AAE1" />
+                    <circle cx="351" cy="67" r="1" fill="#27AAE1" />
+                    <circle cx="373" cy="67" r="1" fill="#27AAE1" />
+                    <circle cx="395" cy="67" r="1" fill="#27AAE1" />
+                    <circle cx="417" cy="67" r="1" fill="#27AAE1" />
+                    <circle cx="439" cy="67" r="1" fill="#27AAE1" />
+                    <circle cx="461" cy="67" r="1" fill="#27AAE1" />
+                    <circle cx="483" cy="67" r="1" fill="#27AAE1" />
+                    <circle cx="505" cy="67" r="1" fill="#27AAE1" />
+                    <circle cx="527" cy="67" r="1" fill="#27AAE1" />
+                    <circle cx="549" cy="67" r="1" fill="#27AAE1" />
+                    <circle cx="571" cy="67" r="1" fill="#27AAE1" />
+                    <circle cx="593" cy="67" r="1" fill="#27AAE1" />
+                    <circle cx="615" cy="67" r="1" fill="#27AAE1" />
+                    <circle cx="637" cy="67" r="1" fill="#27AAE1" />
+                    <circle cx="659" cy="67" r="1" fill="#27AAE1" />
+                    <circle cx="681" cy="67" r="1" fill="#27AAE1" />
+                    <circle cx="703" cy="67" r="1" fill="#27AAE1" />
+                    <circle cx="725" cy="67" r="1" fill="#27AAE1" />
+                    <circle cx="747" cy="67" r="1" fill="#27AAE1" />
+                    <circle cx="769" cy="67" r="1" fill="#27AAE1" />
+                    <circle cx="791" cy="67" r="1" fill="#27AAE1" />
+                    <circle cx="813" cy="67" r="1" fill="#27AAE1" />
+                    <circle cx="835" cy="67" r="1" fill="#27AAE1" />
+                    <circle cx="857" cy="67" r="1" fill="#27AAE1" />
+                    <circle cx="879" cy="67" r="1" fill="#27AAE1" />
+                    <circle cx="901" cy="67" r="1" fill="#27AAE1" />
+                    <circle cx="923" cy="67" r="1" fill="#27AAE1" />
+                    <circle cx="945" cy="67" r="1" fill="#27AAE1" />
+                    <circle cx="967" cy="67" r="1" fill="#27AAE1" />
+                    <circle cx="989" cy="67" r="1" fill="#27AAE1" />
+                    <circle cx="1011" cy="67" r="1" fill="#27AAE1" />
+                    <circle cx="21" cy="89" r="1" fill="#27AAE1" />
+                    <circle cx="43" cy="89" r="1" fill="#27AAE1" />
+                    <circle cx="65" cy="89" r="1" fill="#27AAE1" />
+                    <circle cx="87" cy="89" r="1" fill="#27AAE1" />
+                    <circle cx="109" cy="89" r="1" fill="#27AAE1" />
+                    <circle cx="131" cy="89" r="1" fill="#27AAE1" />
+                    <circle cx="153" cy="89" r="1" fill="#27AAE1" />
+                    <circle cx="175" cy="89" r="1" fill="#27AAE1" />
+                    <circle cx="197" cy="89" r="1" fill="#27AAE1" />
+                    <circle cx="219" cy="89" r="1" fill="#27AAE1" />
+                    <circle cx="241" cy="89" r="1" fill="#27AAE1" />
+                    <circle cx="263" cy="89" r="1" fill="#27AAE1" />
+                    <circle cx="285" cy="89" r="1" fill="#27AAE1" />
+                    <circle cx="307" cy="89" r="1" fill="#27AAE1" />
+                    <circle cx="329" cy="89" r="1" fill="#27AAE1" />
+                    <circle cx="351" cy="89" r="1" fill="#27AAE1" />
+                    <circle cx="373" cy="89" r="1" fill="#27AAE1" />
+                    <circle cx="395" cy="89" r="1" fill="#27AAE1" />
+                    <circle cx="417" cy="89" r="1" fill="#27AAE1" />
+                    <circle cx="439" cy="89" r="1" fill="#27AAE1" />
+                    <circle cx="461" cy="89" r="1" fill="#27AAE1" />
+                    <circle cx="483" cy="89" r="1" fill="#27AAE1" />
+                    <circle cx="505" cy="89" r="1" fill="#27AAE1" />
+                    <circle cx="527" cy="89" r="1" fill="#27AAE1" />
+                    <circle cx="549" cy="89" r="1" fill="#27AAE1" />
+                    <circle cx="571" cy="89" r="1" fill="#27AAE1" />
+                    <circle cx="593" cy="89" r="1" fill="#27AAE1" />
+                    <circle cx="615" cy="89" r="1" fill="#27AAE1" />
+                    <circle cx="637" cy="89" r="1" fill="#27AAE1" />
+                    <circle cx="659" cy="89" r="1" fill="#27AAE1" />
+                    <circle cx="681" cy="89" r="1" fill="#27AAE1" />
+                    <circle cx="703" cy="89" r="1" fill="#27AAE1" />
+                    <circle cx="725" cy="89" r="1" fill="#27AAE1" />
+                    <circle cx="747" cy="89" r="1" fill="#27AAE1" />
+                    <circle cx="769" cy="89" r="1" fill="#27AAE1" />
+                    <circle cx="791" cy="89" r="1" fill="#27AAE1" />
+                    <circle cx="813" cy="89" r="1" fill="#27AAE1" />
+                    <circle cx="835" cy="89" r="1" fill="#27AAE1" />
+                    <circle cx="857" cy="89" r="1" fill="#27AAE1" />
+                    <circle cx="879" cy="89" r="1" fill="#27AAE1" />
+                    <circle cx="901" cy="89" r="1" fill="#27AAE1" />
+                    <circle cx="923" cy="89" r="1" fill="#27AAE1" />
+                    <circle cx="945" cy="89" r="1" fill="#27AAE1" />
+                    <circle cx="967" cy="89" r="1" fill="#27AAE1" />
+                    <circle cx="989" cy="89" r="1" fill="#27AAE1" />
+                    <circle cx="1011" cy="89" r="1" fill="#27AAE1" />
+                    <circle cx="21" cy="111" r="1" fill="#27AAE1" />
+                    <circle cx="43" cy="111" r="1" fill="#27AAE1" />
+                    <circle cx="65" cy="111" r="1" fill="#27AAE1" />
+                    <circle cx="87" cy="111" r="1" fill="#27AAE1" />
+                    <circle cx="109" cy="111" r="1" fill="#27AAE1" />
+                    <circle cx="131" cy="111" r="1" fill="#27AAE1" />
+                    <circle cx="153" cy="111" r="1" fill="#27AAE1" />
+                    <circle cx="175" cy="111" r="1" fill="#27AAE1" />
+                    <circle cx="197" cy="111" r="1" fill="#27AAE1" />
+                    <circle cx="219" cy="111" r="1" fill="#27AAE1" />
+                    <circle cx="241" cy="111" r="1" fill="#27AAE1" />
+                    <circle cx="263" cy="111" r="1" fill="#27AAE1" />
+                    <circle cx="285" cy="111" r="1" fill="#27AAE1" />
+                    <circle cx="307" cy="111" r="1" fill="#27AAE1" />
+                    <circle cx="329" cy="111" r="1" fill="#27AAE1" />
+                    <circle cx="945" cy="111" r="1" fill="#27AAE1" />
+                    <circle cx="967" cy="111" r="1" fill="#27AAE1" />
+                    <circle cx="989" cy="111" r="1" fill="#27AAE1" />
+                    <circle cx="1011" cy="111" r="1" fill="#27AAE1" />
+                    <circle cx="21" cy="133" r="1" fill="#27AAE1" />
+                    <circle cx="43" cy="133" r="1" fill="#27AAE1" />
+                    <circle cx="65" cy="133" r="1" fill="#27AAE1" />
+                    <circle cx="87" cy="133" r="1" fill="#27AAE1" />
+                    <circle cx="109" cy="133" r="1" fill="#27AAE1" />
+                    <circle cx="131" cy="133" r="1" fill="#27AAE1" />
+                    <circle cx="153" cy="133" r="1" fill="#27AAE1" />
+                    <circle cx="175" cy="133" r="1" fill="#27AAE1" />
+                    <circle cx="197" cy="133" r="1" fill="#27AAE1" />
+                    <circle cx="219" cy="133" r="1" fill="#27AAE1" />
+                    <circle cx="241" cy="133" r="1" fill="#27AAE1" />
+                    <circle cx="263" cy="133" r="1" fill="#27AAE1" />
+                    <circle cx="285" cy="133" r="1" fill="#27AAE1" />
+                    <circle cx="307" cy="133" r="1" fill="#27AAE1" />
+                    <circle cx="329" cy="133" r="1" fill="#27AAE1" />
+                    <circle cx="945" cy="133" r="1" fill="#27AAE1" />
+                    <circle cx="967" cy="133" r="1" fill="#27AAE1" />
+                    <circle cx="989" cy="133" r="1" fill="#27AAE1" />
+                    <circle cx="1011" cy="133" r="1" fill="#27AAE1" />
+                    <circle cx="21" cy="155" r="1" fill="#27AAE1" />
+                    <circle cx="43" cy="155" r="1" fill="#27AAE1" />
+                    <circle cx="65" cy="155" r="1" fill="#27AAE1" />
+                    <circle cx="87" cy="155" r="1" fill="#27AAE1" />
+                    <circle cx="109" cy="155" r="1" fill="#27AAE1" />
+                    <circle cx="131" cy="155" r="1" fill="#27AAE1" />
+                    <circle cx="153" cy="155" r="1" fill="#27AAE1" />
+                    <circle cx="175" cy="155" r="1" fill="#27AAE1" />
+                    <circle cx="197" cy="155" r="1" fill="#27AAE1" />
+                    <circle cx="219" cy="155" r="1" fill="#27AAE1" />
+                    <circle cx="241" cy="155" r="1" fill="#27AAE1" />
+                    <circle cx="263" cy="155" r="1" fill="#27AAE1" />
+                    <circle cx="285" cy="155" r="1" fill="#27AAE1" />
+                    <circle cx="307" cy="155" r="1" fill="#27AAE1" />
+                    <circle cx="329" cy="155" r="1" fill="#27AAE1" />
+                    <circle cx="945" cy="155" r="1" fill="#27AAE1" />
+                    <circle cx="967" cy="155" r="1" fill="#27AAE1" />
+                    <circle cx="989" cy="155" r="1" fill="#27AAE1" />
+                    <circle cx="1011" cy="155" r="1" fill="#27AAE1" />
+                    <circle cx="21" cy="177" r="1" fill="#27AAE1" />
+                    <circle cx="43" cy="177" r="1" fill="#27AAE1" />
+                    <circle cx="65" cy="177" r="1" fill="#27AAE1" />
+                    <circle cx="87" cy="177" r="1" fill="#27AAE1" />
+                    <circle cx="109" cy="177" r="1" fill="#27AAE1" />
+                    <circle cx="131" cy="177" r="1" fill="#27AAE1" />
+                    <circle cx="153" cy="177" r="1" fill="#27AAE1" />
+                    <circle cx="175" cy="177" r="1" fill="#27AAE1" />
+                    <circle cx="197" cy="177" r="1" fill="#27AAE1" />
+                    <circle cx="219" cy="177" r="1" fill="#27AAE1" />
+                    <circle cx="241" cy="177" r="1" fill="#27AAE1" />
+                    <circle cx="263" cy="177" r="1" fill="#27AAE1" />
+                    <circle cx="285" cy="177" r="1" fill="#27AAE1" />
+                    <circle cx="307" cy="177" r="1" fill="#27AAE1" />
+                    <circle cx="329" cy="177" r="1" fill="#27AAE1" />
+                    <circle cx="791" cy="177" r="1" fill="#27AAE1" />
+                    <circle cx="813" cy="177" r="1" fill="#27AAE1" />
+                    <circle cx="835" cy="177" r="1" fill="#27AAE1" />
+                    <circle cx="857" cy="177" r="1" fill="#27AAE1" />
+                    <circle cx="879" cy="177" r="1" fill="#27AAE1" />
+                    <circle cx="901" cy="177" r="1" fill="#27AAE1" />
+                    <circle cx="923" cy="177" r="1" fill="#27AAE1" />
+                    <circle cx="945" cy="177" r="1" fill="#27AAE1" />
+                    <circle cx="967" cy="177" r="1" fill="#27AAE1" />
+                    <circle cx="989" cy="177" r="1" fill="#27AAE1" />
+                    <circle cx="1011" cy="177" r="1" fill="#27AAE1" />
+                    <circle cx="21" cy="199" r="1" fill="#27AAE1" />
+                    <circle cx="43" cy="199" r="1" fill="#27AAE1" />
+                    <circle cx="65" cy="199" r="1" fill="#27AAE1" />
+                    <circle cx="87" cy="199" r="1" fill="#27AAE1" />
+                    <circle cx="109" cy="199" r="1" fill="#27AAE1" />
+                    <circle cx="131" cy="199" r="1" fill="#27AAE1" />
+                    <circle cx="153" cy="199" r="1" fill="#27AAE1" />
+                    <circle cx="175" cy="199" r="1" fill="#27AAE1" />
+                    <circle cx="197" cy="199" r="1" fill="#27AAE1" />
+                    <circle cx="219" cy="199" r="1" fill="#27AAE1" />
+                    <circle cx="241" cy="199" r="1" fill="#27AAE1" />
+                    <circle cx="263" cy="199" r="1" fill="#27AAE1" />
+                    <circle cx="285" cy="199" r="1" fill="#27AAE1" />
+                    <circle cx="307" cy="199" r="1" fill="#27AAE1" />
+                    <circle cx="329" cy="199" r="1" fill="#27AAE1" />
+                    <circle cx="791" cy="199" r="1" fill="#27AAE1" />
+                    <circle cx="813" cy="199" r="1" fill="#27AAE1" />
+                    <circle cx="835" cy="199" r="1" fill="#27AAE1" />
+                    <circle cx="857" cy="199" r="1" fill="#27AAE1" />
+                    <circle cx="879" cy="199" r="1" fill="#27AAE1" />
+                    <circle cx="901" cy="199" r="1" fill="#27AAE1" />
+                    <circle cx="923" cy="199" r="1" fill="#27AAE1" />
+                    <circle cx="945" cy="199" r="1" fill="#27AAE1" />
+                    <circle cx="967" cy="199" r="1" fill="#27AAE1" />
+                    <circle cx="989" cy="199" r="1" fill="#27AAE1" />
+                    <circle cx="1011" cy="199" r="1" fill="#27AAE1" />
+                    <circle cx="21" cy="221" r="1" fill="#27AAE1" />
+                    <circle cx="43" cy="221" r="1" fill="#27AAE1" />
+                    <circle cx="65" cy="221" r="1" fill="#27AAE1" />
+                    <circle cx="87" cy="221" r="1" fill="#27AAE1" />
+                    <circle cx="109" cy="221" r="1" fill="#27AAE1" />
+                    <circle cx="131" cy="221" r="1" fill="#27AAE1" />
+                    <circle cx="153" cy="221" r="1" fill="#27AAE1" />
+                    <circle cx="175" cy="221" r="1" fill="#27AAE1" />
+                    <circle cx="197" cy="221" r="1" fill="#27AAE1" />
+                    <circle cx="219" cy="221" r="1" fill="#27AAE1" />
+                    <circle cx="241" cy="221" r="1" fill="#27AAE1" />
+                    <circle cx="263" cy="221" r="1" fill="#27AAE1" />
+                    <circle cx="285" cy="221" r="1" fill="#27AAE1" />
+                    <circle cx="307" cy="221" r="1" fill="#27AAE1" />
+                    <circle cx="329" cy="221" r="1" fill="#27AAE1" />
+                    <circle cx="791" cy="221" r="1" fill="#27AAE1" />
+                    <circle cx="813" cy="221" r="1" fill="#27AAE1" />
+                    <circle cx="835" cy="221" r="1" fill="#27AAE1" />
+                    <circle cx="857" cy="221" r="1" fill="#27AAE1" />
+                    <circle cx="879" cy="221" r="1" fill="#27AAE1" />
+                    <circle cx="901" cy="221" r="1" fill="#27AAE1" />
+                    <circle cx="923" cy="221" r="1" fill="#27AAE1" />
+                    <circle cx="945" cy="221" r="1" fill="#27AAE1" />
+                    <circle cx="967" cy="221" r="1" fill="#27AAE1" />
+                    <circle cx="989" cy="221" r="1" fill="#27AAE1" />
+                    <circle cx="1011" cy="221" r="1" fill="#27AAE1" />
+                    <circle cx="21" cy="243" r="1" fill="#27AAE1" />
+                    <circle cx="43" cy="243" r="1" fill="#27AAE1" />
+                    <circle cx="65" cy="243" r="1" fill="#27AAE1" />
+                    <circle cx="87" cy="243" r="1" fill="#27AAE1" />
+                    <circle cx="109" cy="243" r="1" fill="#27AAE1" />
+                    <circle cx="131" cy="243" r="1" fill="#27AAE1" />
+                    <circle cx="153" cy="243" r="1" fill="#27AAE1" />
+                    <circle cx="175" cy="243" r="1" fill="#27AAE1" />
+                    <circle cx="197" cy="243" r="1" fill="#27AAE1" />
+                    <circle cx="219" cy="243" r="1" fill="#27AAE1" />
+                    <circle cx="241" cy="243" r="1" fill="#27AAE1" />
+                    <circle cx="263" cy="243" r="1" fill="#27AAE1" />
+                    <circle cx="285" cy="243" r="1" fill="#27AAE1" />
+                    <circle cx="307" cy="243" r="1" fill="#27AAE1" />
+                    <circle cx="329" cy="243" r="1" fill="#27AAE1" />
+                    <circle cx="351" cy="243" r="1" fill="#27AAE1" />
+                    <circle cx="373" cy="243" r="1" fill="#27AAE1" />
+                    <circle cx="395" cy="243" r="1" fill="#27AAE1" />
+                    <circle cx="417" cy="243" r="1" fill="#27AAE1" />
+                    <circle cx="439" cy="243" r="1" fill="#27AAE1" />
+                    <circle cx="461" cy="243" r="1" fill="#27AAE1" />
+                    <circle cx="483" cy="243" r="1" fill="#27AAE1" />
+                    <circle cx="505" cy="243" r="1" fill="#27AAE1" />
+                    <circle cx="527" cy="243" r="1" fill="#27AAE1" />
+                    <circle cx="549" cy="243" r="1" fill="#27AAE1" />
+                    <circle cx="571" cy="243" r="1" fill="#27AAE1" />
+                    <circle cx="593" cy="243" r="1" fill="#27AAE1" />
+                    <circle cx="615" cy="243" r="1" fill="#27AAE1" />
+                    <circle cx="637" cy="243" r="1" fill="#27AAE1" />
+                    <circle cx="659" cy="243" r="1" fill="#27AAE1" />
+                    <circle cx="681" cy="243" r="1" fill="#27AAE1" />
+                    <circle cx="703" cy="243" r="1" fill="#27AAE1" />
+                    <circle cx="725" cy="243" r="1" fill="#27AAE1" />
+                    <circle cx="747" cy="243" r="1" fill="#27AAE1" />
+                    <circle cx="769" cy="243" r="1" fill="#27AAE1" />
+                    <circle cx="791" cy="243" r="1" fill="#27AAE1" />
+                    <circle cx="813" cy="243" r="1" fill="#27AAE1" />
+                    <circle cx="835" cy="243" r="1" fill="#27AAE1" />
+                    <circle cx="857" cy="243" r="1" fill="#27AAE1" />
+                    <circle cx="879" cy="243" r="1" fill="#27AAE1" />
+                    <circle cx="901" cy="243" r="1" fill="#27AAE1" />
+                    <circle cx="923" cy="243" r="1" fill="#27AAE1" />
+                    <circle cx="945" cy="243" r="1" fill="#27AAE1" />
+                    <circle cx="967" cy="243" r="1" fill="#27AAE1" />
+                    <circle cx="989" cy="243" r="1" fill="#27AAE1" />
+                    <circle cx="1011" cy="243" r="1" fill="#27AAE1" />
+                    <circle cx="21" cy="265" r="1" fill="#27AAE1" />
+                    <circle cx="43" cy="265" r="1" fill="#27AAE1" />
+                    <circle cx="65" cy="265" r="1" fill="#27AAE1" />
+                    <circle cx="87" cy="265" r="1" fill="#27AAE1" />
+                    <circle cx="109" cy="265" r="1" fill="#27AAE1" />
+                    <circle cx="131" cy="265" r="1" fill="#27AAE1" />
+                    <circle cx="153" cy="265" r="1" fill="#27AAE1" />
+                    <circle cx="175" cy="265" r="1" fill="#27AAE1" />
+                    <circle cx="197" cy="265" r="1" fill="#27AAE1" />
+                    <circle cx="219" cy="265" r="1" fill="#27AAE1" />
+                    <circle cx="241" cy="265" r="1" fill="#27AAE1" />
+                    <circle cx="263" cy="265" r="1" fill="#27AAE1" />
+                    <circle cx="285" cy="265" r="1" fill="#27AAE1" />
+                    <circle cx="307" cy="265" r="1" fill="#27AAE1" />
+                    <circle cx="945" cy="265" r="1" fill="#27AAE1" />
+                    <circle cx="967" cy="265" r="1" fill="#27AAE1" />
+                    <circle cx="989" cy="265" r="1" fill="#27AAE1" />
+                    <circle cx="1011" cy="265" r="1" fill="#27AAE1" />
+                    <circle cx="21" cy="287" r="1" fill="#27AAE1" />
+                    <circle cx="43" cy="287" r="1" fill="#27AAE1" />
+                    <circle cx="65" cy="287" r="1" fill="#27AAE1" />
+                    <circle cx="87" cy="287" r="1" fill="#27AAE1" />
+                    <circle cx="109" cy="287" r="1" fill="#27AAE1" />
+                    <circle cx="131" cy="287" r="1" fill="#27AAE1" />
+                    <circle cx="153" cy="287" r="1" fill="#27AAE1" />
+                    <circle cx="175" cy="287" r="1" fill="#27AAE1" />
+                    <circle cx="197" cy="287" r="1" fill="#27AAE1" />
+                    <circle cx="219" cy="287" r="1" fill="#27AAE1" />
+                    <circle cx="241" cy="287" r="1" fill="#27AAE1" />
+                    <circle cx="263" cy="287" r="1" fill="#27AAE1" />
+                    <circle cx="285" cy="287" r="1" fill="#27AAE1" />
+                    <circle cx="307" cy="287" r="1" fill="#27AAE1" />
+                    <circle cx="945" cy="287" r="1" fill="#27AAE1" />
+                    <circle cx="967" cy="287" r="1" fill="#27AAE1" />
+                    <circle cx="989" cy="287" r="1" fill="#27AAE1" />
+                    <circle cx="1011" cy="287" r="1" fill="#27AAE1" />
+                    <circle cx="21" cy="309" r="1" fill="#27AAE1" />
+                    <circle cx="43" cy="309" r="1" fill="#27AAE1" />
+                    <circle cx="65" cy="309" r="1" fill="#27AAE1" />
+                    <circle cx="87" cy="309" r="1" fill="#27AAE1" />
+                    <circle cx="109" cy="309" r="1" fill="#27AAE1" />
+                    <circle cx="131" cy="309" r="1" fill="#27AAE1" />
+                    <circle cx="153" cy="309" r="1" fill="#27AAE1" />
+                    <circle cx="175" cy="309" r="1" fill="#27AAE1" />
+                    <circle cx="197" cy="309" r="1" fill="#27AAE1" />
+                    <circle cx="219" cy="309" r="1" fill="#27AAE1" />
+                    <circle cx="241" cy="309" r="1" fill="#27AAE1" />
+                    <circle cx="263" cy="309" r="1" fill="#27AAE1" />
+                    <circle cx="285" cy="309" r="1" fill="#27AAE1" />
+                    <circle cx="307" cy="309" r="1" fill="#27AAE1" />
+                    <circle cx="329" cy="309" r="1" fill="#27AAE1" />
+                    <circle cx="351" cy="309" r="1" fill="#27AAE1" />
+                    <circle cx="373" cy="309" r="1" fill="#27AAE1" />
+                    <circle cx="395" cy="309" r="1" fill="#27AAE1" />
+                    <circle cx="417" cy="309" r="1" fill="#27AAE1" />
+                    <circle cx="439" cy="309" r="1" fill="#27AAE1" />
+                    <circle cx="461" cy="309" r="1" fill="#27AAE1" />
+                    <circle cx="483" cy="309" r="1" fill="#27AAE1" />
+                    <circle cx="505" cy="309" r="1" fill="#27AAE1" />
+                    <circle cx="527" cy="309" r="1" fill="#27AAE1" />
+                    <circle cx="549" cy="309" r="1" fill="#27AAE1" />
+                    <circle cx="571" cy="309" r="1" fill="#27AAE1" />
+                    <circle cx="593" cy="309" r="1" fill="#27AAE1" />
+                    <circle cx="615" cy="309" r="1" fill="#27AAE1" />
+                    <circle cx="637" cy="309" r="1" fill="#27AAE1" />
+                    <circle cx="659" cy="309" r="1" fill="#27AAE1" />
+                    <circle cx="681" cy="309" r="1" fill="#27AAE1" />
+                    <circle cx="703" cy="309" r="1" fill="#27AAE1" />
+                    <circle cx="725" cy="309" r="1" fill="#27AAE1" />
+                    <circle cx="747" cy="309" r="1" fill="#27AAE1" />
+                    <circle cx="769" cy="309" r="1" fill="#27AAE1" />
+                    <circle cx="791" cy="309" r="1" fill="#27AAE1" />
+                    <circle cx="813" cy="309" r="1" fill="#27AAE1" />
+                    <circle cx="835" cy="309" r="1" fill="#27AAE1" />
+                    <circle cx="857" cy="309" r="1" fill="#27AAE1" />
+                    <circle cx="879" cy="309" r="1" fill="#27AAE1" />
+                    <circle cx="901" cy="309" r="1" fill="#27AAE1" />
+                    <circle cx="923" cy="309" r="1" fill="#27AAE1" />
+                    <circle cx="945" cy="309" r="1" fill="#27AAE1" />
+                    <circle cx="967" cy="309" r="1" fill="#27AAE1" />
+                    <circle cx="989" cy="309" r="1" fill="#27AAE1" />
+                    <circle cx="1011" cy="309" r="1" fill="#27AAE1" />
+                    <circle cx="21" cy="331" r="1" fill="#27AAE1" />
+                    <circle cx="43" cy="331" r="1" fill="#27AAE1" />
+                    <circle cx="65" cy="331" r="1" fill="#27AAE1" />
+                    <circle cx="87" cy="331" r="1" fill="#27AAE1" />
+                    <circle cx="109" cy="331" r="1" fill="#27AAE1" />
+                    <circle cx="131" cy="331" r="1" fill="#27AAE1" />
+                    <circle cx="153" cy="331" r="1" fill="#27AAE1" />
+                    <circle cx="175" cy="331" r="1" fill="#27AAE1" />
+                    <circle cx="197" cy="331" r="1" fill="#27AAE1" />
+                    <circle cx="219" cy="331" r="1" fill="#27AAE1" />
+                    <circle cx="241" cy="331" r="1" fill="#27AAE1" />
+                    <circle cx="263" cy="331" r="1" fill="#27AAE1" />
+                    <circle cx="285" cy="331" r="1" fill="#27AAE1" />
+                    <circle cx="307" cy="331" r="1" fill="#27AAE1" />
+                    <circle cx="329" cy="331" r="1" fill="#27AAE1" />
+                    <circle cx="351" cy="331" r="1" fill="#27AAE1" />
+                    <circle cx="373" cy="331" r="1" fill="#27AAE1" />
+                    <circle cx="395" cy="331" r="1" fill="#27AAE1" />
+                    <circle cx="417" cy="331" r="1" fill="#27AAE1" />
+                    <circle cx="439" cy="331" r="1" fill="#27AAE1" />
+                    <circle cx="461" cy="331" r="1" fill="#27AAE1" />
+                    <circle cx="483" cy="331" r="1" fill="#27AAE1" />
+                    <circle cx="505" cy="331" r="1" fill="#27AAE1" />
+                    <circle cx="527" cy="331" r="1" fill="#27AAE1" />
+                    <circle cx="549" cy="331" r="1" fill="#27AAE1" />
+                    <circle cx="571" cy="331" r="1" fill="#27AAE1" />
+                    <circle cx="593" cy="331" r="1" fill="#27AAE1" />
+                    <circle cx="615" cy="331" r="1" fill="#27AAE1" />
+                    <circle cx="637" cy="331" r="1" fill="#27AAE1" />
+                    <circle cx="659" cy="331" r="1" fill="#27AAE1" />
+                    <circle cx="681" cy="331" r="1" fill="#27AAE1" />
+                    <circle cx="703" cy="331" r="1" fill="#27AAE1" />
+                    <circle cx="725" cy="331" r="1" fill="#27AAE1" />
+                    <circle cx="747" cy="331" r="1" fill="#27AAE1" />
+                    <circle cx="769" cy="331" r="1" fill="#27AAE1" />
+                    <circle cx="791" cy="331" r="1" fill="#27AAE1" />
+                    <circle cx="813" cy="331" r="1" fill="#27AAE1" />
+                    <circle cx="835" cy="331" r="1" fill="#27AAE1" />
+                    <circle cx="857" cy="331" r="1" fill="#27AAE1" />
+                    <circle cx="879" cy="331" r="1" fill="#27AAE1" />
+                    <circle cx="901" cy="331" r="1" fill="#27AAE1" />
+                    <circle cx="923" cy="331" r="1" fill="#27AAE1" />
+                    <circle cx="945" cy="331" r="1" fill="#27AAE1" />
+                    <circle cx="967" cy="331" r="1" fill="#27AAE1" />
+                    <circle cx="989" cy="331" r="1" fill="#27AAE1" />
+                    <circle cx="1011" cy="331" r="1" fill="#27AAE1" />
+                    <circle cx="21" cy="353" r="1" fill="#27AAE1" />
+                    <circle cx="43" cy="353" r="1" fill="#27AAE1" />
+                    <circle cx="65" cy="353" r="1" fill="#27AAE1" />
+                    <circle cx="87" cy="353" r="1" fill="#27AAE1" />
+                    <circle cx="109" cy="353" r="1" fill="#27AAE1" />
+                    <circle cx="131" cy="353" r="1" fill="#27AAE1" />
+                    <circle cx="153" cy="353" r="1" fill="#27AAE1" />
+                    <circle cx="175" cy="353" r="1" fill="#27AAE1" />
+                    <circle cx="197" cy="353" r="1" fill="#27AAE1" />
+                    <circle cx="219" cy="353" r="1" fill="#27AAE1" />
+                    <circle cx="241" cy="353" r="1" fill="#27AAE1" />
+                    <circle cx="263" cy="353" r="1" fill="#27AAE1" />
+                    <circle cx="285" cy="353" r="1" fill="#27AAE1" />
+                    <circle cx="307" cy="353" r="1" fill="#27AAE1" />
+                    <circle cx="329" cy="353" r="1" fill="#27AAE1" />
+                    <circle cx="351" cy="353" r="1" fill="#27AAE1" />
+                    <circle cx="373" cy="353" r="1" fill="#27AAE1" />
+                    <circle cx="395" cy="353" r="1" fill="#27AAE1" />
+                    <circle cx="417" cy="353" r="1" fill="#27AAE1" />
+                    <circle cx="439" cy="353" r="1" fill="#27AAE1" />
+                    <circle cx="461" cy="353" r="1" fill="#27AAE1" />
+                    <circle cx="483" cy="353" r="1" fill="#27AAE1" />
+                    <circle cx="505" cy="353" r="1" fill="#27AAE1" />
+                    <circle cx="527" cy="353" r="1" fill="#27AAE1" />
+                    <circle cx="549" cy="353" r="1" fill="#27AAE1" />
+                    <circle cx="571" cy="353" r="1" fill="#27AAE1" />
+                    <circle cx="593" cy="353" r="1" fill="#27AAE1" />
+                    <circle cx="615" cy="353" r="1" fill="#27AAE1" />
+                    <circle cx="637" cy="353" r="1" fill="#27AAE1" />
+                    <circle cx="659" cy="353" r="1" fill="#27AAE1" />
+                    <circle cx="681" cy="353" r="1" fill="#27AAE1" />
+                    <circle cx="703" cy="353" r="1" fill="#27AAE1" />
+                    <circle cx="725" cy="353" r="1" fill="#27AAE1" />
+                    <circle cx="747" cy="353" r="1" fill="#27AAE1" />
+                    <circle cx="769" cy="353" r="1" fill="#27AAE1" />
+                    <circle cx="791" cy="353" r="1" fill="#27AAE1" />
+                    <circle cx="813" cy="353" r="1" fill="#27AAE1" />
+                    <circle cx="835" cy="353" r="1" fill="#27AAE1" />
+                    <circle cx="857" cy="353" r="1" fill="#27AAE1" />
+                    <circle cx="879" cy="353" r="1" fill="#27AAE1" />
+                    <circle cx="901" cy="353" r="1" fill="#27AAE1" />
+                    <circle cx="923" cy="353" r="1" fill="#27AAE1" />
+                    <circle cx="945" cy="353" r="1" fill="#27AAE1" />
+                    <circle cx="967" cy="353" r="1" fill="#27AAE1" />
+                    <circle cx="989" cy="353" r="1" fill="#27AAE1" />
+                    <circle cx="1011" cy="353" r="1" fill="#27AAE1" />
+                    <circle cx="21" cy="375" r="1" fill="#27AAE1" />
+                    <circle cx="43" cy="375" r="1" fill="#27AAE1" />
+                    <circle cx="65" cy="375" r="1" fill="#27AAE1" />
+                    <circle cx="87" cy="375" r="1" fill="#27AAE1" />
+                    <circle cx="109" cy="375" r="1" fill="#27AAE1" />
+                    <circle cx="131" cy="375" r="1" fill="#27AAE1" />
+                    <circle cx="153" cy="375" r="1" fill="#27AAE1" />
+                    <circle cx="175" cy="375" r="1" fill="#27AAE1" />
+                    <circle cx="197" cy="375" r="1" fill="#27AAE1" />
+                    <circle cx="219" cy="375" r="1" fill="#27AAE1" />
+                    <circle cx="241" cy="375" r="1" fill="#27AAE1" />
+                    <circle cx="263" cy="375" r="1" fill="#27AAE1" />
+                    <circle cx="285" cy="375" r="1" fill="#27AAE1" />
+                    <circle cx="307" cy="375" r="1" fill="#27AAE1" />
+                    <circle cx="329" cy="375" r="1" fill="#27AAE1" />
+                    <circle cx="351" cy="375" r="1" fill="#27AAE1" />
+                    <circle cx="373" cy="375" r="1" fill="#27AAE1" />
+                    <circle cx="395" cy="375" r="1" fill="#27AAE1" />
+                    <circle cx="417" cy="375" r="1" fill="#27AAE1" />
+                    <circle cx="439" cy="375" r="1" fill="#27AAE1" />
+                    <circle cx="461" cy="375" r="1" fill="#27AAE1" />
+                    <circle cx="483" cy="375" r="1" fill="#27AAE1" />
+                    <circle cx="505" cy="375" r="1" fill="#27AAE1" />
+                    <circle cx="527" cy="375" r="1" fill="#27AAE1" />
+                    <circle cx="549" cy="375" r="1" fill="#27AAE1" />
+                    <circle cx="571" cy="375" r="1" fill="#27AAE1" />
+                    <circle cx="593" cy="375" r="1" fill="#27AAE1" />
+                    <circle cx="615" cy="375" r="1" fill="#27AAE1" />
+                    <circle cx="637" cy="375" r="1" fill="#27AAE1" />
+                    <circle cx="659" cy="375" r="1" fill="#27AAE1" />
+                    <circle cx="681" cy="375" r="1" fill="#27AAE1" />
+                    <circle cx="703" cy="375" r="1" fill="#27AAE1" />
+                    <circle cx="725" cy="375" r="1" fill="#27AAE1" />
+                    <circle cx="747" cy="375" r="1" fill="#27AAE1" />
+                    <circle cx="769" cy="375" r="1" fill="#27AAE1" />
+                    <circle cx="791" cy="375" r="1" fill="#27AAE1" />
+                    <circle cx="813" cy="375" r="1" fill="#27AAE1" />
+                    <circle cx="835" cy="375" r="1" fill="#27AAE1" />
+                    <circle cx="857" cy="375" r="1" fill="#27AAE1" />
+                    <circle cx="879" cy="375" r="1" fill="#27AAE1" />
+                    <circle cx="901" cy="375" r="1" fill="#27AAE1" />
+                    <circle cx="923" cy="375" r="1" fill="#27AAE1" />
+                    <circle cx="945" cy="375" r="1" fill="#27AAE1" />
+                    <circle cx="967" cy="375" r="1" fill="#27AAE1" />
+                    <circle cx="989" cy="375" r="1" fill="#27AAE1" />
+                    <circle cx="1011" cy="375" r="1" fill="#27AAE1" />
+                    <circle cx="21" cy="397" r="1" fill="#27AAE1" />
+                    <circle cx="43" cy="397" r="1" fill="#27AAE1" />
+                    <circle cx="65" cy="397" r="1" fill="#27AAE1" />
+                    <circle cx="87" cy="397" r="1" fill="#27AAE1" />
+                    <circle cx="109" cy="397" r="1" fill="#27AAE1" />
+                    <circle cx="131" cy="397" r="1" fill="#27AAE1" />
+                    <circle cx="153" cy="397" r="1" fill="#27AAE1" />
+                    <circle cx="175" cy="397" r="1" fill="#27AAE1" />
+                    <circle cx="197" cy="397" r="1" fill="#27AAE1" />
+                    <circle cx="219" cy="397" r="1" fill="#27AAE1" />
+                    <circle cx="241" cy="397" r="1" fill="#27AAE1" />
+                    <circle cx="263" cy="397" r="1" fill="#27AAE1" />
+                    <circle cx="285" cy="397" r="1" fill="#27AAE1" />
+                    <circle cx="307" cy="397" r="1" fill="#27AAE1" />
+                    <circle cx="329" cy="397" r="1" fill="#27AAE1" />
+                    <circle cx="351" cy="397" r="1" fill="#27AAE1" />
+                    <circle cx="373" cy="397" r="1" fill="#27AAE1" />
+                    <circle cx="395" cy="397" r="1" fill="#27AAE1" />
+                    <circle cx="417" cy="397" r="1" fill="#27AAE1" />
+                    <circle cx="439" cy="397" r="1" fill="#27AAE1" />
+                    <circle cx="461" cy="397" r="1" fill="#27AAE1" />
+                    <circle cx="483" cy="397" r="1" fill="#27AAE1" />
+                    <circle cx="505" cy="397" r="1" fill="#27AAE1" />
+                    <circle cx="527" cy="397" r="1" fill="#27AAE1" />
+                    <circle cx="549" cy="397" r="1" fill="#27AAE1" />
+                    <circle cx="571" cy="397" r="1" fill="#27AAE1" />
+                    <circle cx="593" cy="397" r="1" fill="#27AAE1" />
+                    <circle cx="615" cy="397" r="1" fill="#27AAE1" />
+                    <circle cx="637" cy="397" r="1" fill="#27AAE1" />
+                    <circle cx="659" cy="397" r="1" fill="#27AAE1" />
+                    <circle cx="681" cy="397" r="1" fill="#27AAE1" />
+                    <circle cx="703" cy="397" r="1" fill="#27AAE1" />
+                    <circle cx="725" cy="397" r="1" fill="#27AAE1" />
+                    <circle cx="747" cy="397" r="1" fill="#27AAE1" />
+                    <circle cx="769" cy="397" r="1" fill="#27AAE1" />
+                    <circle cx="791" cy="397" r="1" fill="#27AAE1" />
+                    <circle cx="813" cy="397" r="1" fill="#27AAE1" />
+                    <circle cx="835" cy="397" r="1" fill="#27AAE1" />
+                    <circle cx="857" cy="397" r="1" fill="#27AAE1" />
+                    <circle cx="879" cy="397" r="1" fill="#27AAE1" />
+                    <circle cx="901" cy="397" r="1" fill="#27AAE1" />
+                    <circle cx="923" cy="397" r="1" fill="#27AAE1" />
+                    <circle cx="945" cy="397" r="1" fill="#27AAE1" />
+                    <circle cx="967" cy="397" r="1" fill="#27AAE1" />
+                    <circle cx="989" cy="397" r="1" fill="#27AAE1" />
+                    <circle cx="1011" cy="397" r="1" fill="#27AAE1" />
+                    <circle cx="21" cy="419" r="1" fill="#27AAE1" />
+                    <circle cx="43" cy="419" r="1" fill="#27AAE1" />
+                    <circle cx="65" cy="419" r="1" fill="#27AAE1" />
+                    <circle cx="87" cy="419" r="1" fill="#27AAE1" />
+                    <circle cx="109" cy="419" r="1" fill="#27AAE1" />
+                    <circle cx="131" cy="419" r="1" fill="#27AAE1" />
+                    <circle cx="153" cy="419" r="1" fill="#27AAE1" />
+                    <circle cx="175" cy="419" r="1" fill="#27AAE1" />
+                    <circle cx="197" cy="419" r="1" fill="#27AAE1" />
+                    <circle cx="219" cy="419" r="1" fill="#27AAE1" />
+                    <circle cx="241" cy="419" r="1" fill="#27AAE1" />
+                    <circle cx="263" cy="419" r="1" fill="#27AAE1" />
+                    <circle cx="285" cy="419" r="1" fill="#27AAE1" />
+                    <circle cx="307" cy="419" r="1" fill="#27AAE1" />
+                    <circle cx="329" cy="419" r="1" fill="#27AAE1" />
+                    <circle cx="351" cy="419" r="1" fill="#27AAE1" />
+                    <circle cx="373" cy="419" r="1" fill="#27AAE1" />
+                    <circle cx="395" cy="419" r="1" fill="#27AAE1" />
+                    <circle cx="417" cy="419" r="1" fill="#27AAE1" />
+                    <circle cx="439" cy="419" r="1" fill="#27AAE1" />
+                    <circle cx="461" cy="419" r="1" fill="#27AAE1" />
+                    <circle cx="483" cy="419" r="1" fill="#27AAE1" />
+                    <circle cx="505" cy="419" r="1" fill="#27AAE1" />
+                    <circle cx="527" cy="419" r="1" fill="#27AAE1" />
+                    <circle cx="549" cy="419" r="1" fill="#27AAE1" />
+                    <circle cx="571" cy="419" r="1" fill="#27AAE1" />
+                    <circle cx="593" cy="419" r="1" fill="#27AAE1" />
+                    <circle cx="615" cy="419" r="1" fill="#27AAE1" />
+                    <circle cx="637" cy="419" r="1" fill="#27AAE1" />
+                    <circle cx="659" cy="419" r="1" fill="#27AAE1" />
+                    <circle cx="681" cy="419" r="1" fill="#27AAE1" />
+                    <circle cx="703" cy="419" r="1" fill="#27AAE1" />
+                    <circle cx="725" cy="419" r="1" fill="#27AAE1" />
+                    <circle cx="747" cy="419" r="1" fill="#27AAE1" />
+                    <circle cx="769" cy="419" r="1" fill="#27AAE1" />
+                    <circle cx="791" cy="419" r="1" fill="#27AAE1" />
+                    <circle cx="813" cy="419" r="1" fill="#27AAE1" />
+                    <circle cx="835" cy="419" r="1" fill="#27AAE1" />
+                    <circle cx="857" cy="419" r="1" fill="#27AAE1" />
+                    <circle cx="879" cy="419" r="1" fill="#27AAE1" />
+                    <circle cx="901" cy="419" r="1" fill="#27AAE1" />
+                    <circle cx="923" cy="419" r="1" fill="#27AAE1" />
+                    <circle cx="945" cy="419" r="1" fill="#27AAE1" />
+                    <circle cx="967" cy="419" r="1" fill="#27AAE1" />
+                    <circle cx="989" cy="419" r="1" fill="#27AAE1" />
+                    <circle cx="1011" cy="419" r="1" fill="#27AAE1" />
+                    <circle cx="21" cy="441" r="1" fill="#27AAE1" />
+                    <circle cx="43" cy="441" r="1" fill="#27AAE1" />
+                    <circle cx="65" cy="441" r="1" fill="#27AAE1" />
+                    <circle cx="87" cy="441" r="1" fill="#27AAE1" />
+                    <circle cx="109" cy="441" r="1" fill="#27AAE1" />
+                    <circle cx="131" cy="441" r="1" fill="#27AAE1" />
+                    <circle cx="153" cy="441" r="1" fill="#27AAE1" />
+                    <circle cx="175" cy="441" r="1" fill="#27AAE1" />
+                    <circle cx="197" cy="441" r="1" fill="#27AAE1" />
+                    <circle cx="219" cy="441" r="1" fill="#27AAE1" />
+                    <circle cx="241" cy="441" r="1" fill="#27AAE1" />
+                    <circle cx="263" cy="441" r="1" fill="#27AAE1" />
+                    <circle cx="285" cy="441" r="1" fill="#27AAE1" />
+                    <circle cx="307" cy="441" r="1" fill="#27AAE1" />
+                    <circle cx="329" cy="441" r="1" fill="#27AAE1" />
+                    <circle cx="351" cy="441" r="1" fill="#27AAE1" />
+                    <circle cx="373" cy="441" r="1" fill="#27AAE1" />
+                    <circle cx="395" cy="441" r="1" fill="#27AAE1" />
+                    <circle cx="417" cy="441" r="1" fill="#27AAE1" />
+                    <circle cx="439" cy="441" r="1" fill="#27AAE1" />
+                    <circle cx="461" cy="441" r="1" fill="#27AAE1" />
+                    <circle cx="483" cy="441" r="1" fill="#27AAE1" />
+                    <circle cx="505" cy="441" r="1" fill="#27AAE1" />
+                    <circle cx="527" cy="441" r="1" fill="#27AAE1" />
+                    <circle cx="549" cy="441" r="1" fill="#27AAE1" />
+                    <circle cx="571" cy="441" r="1" fill="#27AAE1" />
+                    <circle cx="593" cy="441" r="1" fill="#27AAE1" />
+                    <circle cx="615" cy="441" r="1" fill="#27AAE1" />
+                    <circle cx="637" cy="441" r="1" fill="#27AAE1" />
+                    <circle cx="659" cy="441" r="1" fill="#27AAE1" />
+                    <circle cx="681" cy="441" r="1" fill="#27AAE1" />
+                    <circle cx="703" cy="441" r="1" fill="#27AAE1" />
+                    <circle cx="725" cy="441" r="1" fill="#27AAE1" />
+                    <circle cx="747" cy="441" r="1" fill="#27AAE1" />
+                    <circle cx="769" cy="441" r="1" fill="#27AAE1" />
+                    <circle cx="791" cy="441" r="1" fill="#27AAE1" />
+                    <circle cx="813" cy="441" r="1" fill="#27AAE1" />
+                    <circle cx="835" cy="441" r="1" fill="#27AAE1" />
+                    <circle cx="857" cy="441" r="1" fill="#27AAE1" />
+                    <circle cx="879" cy="441" r="1" fill="#27AAE1" />
+                    <circle cx="901" cy="441" r="1" fill="#27AAE1" />
+                    <circle cx="923" cy="441" r="1" fill="#27AAE1" />
+                    <circle cx="945" cy="441" r="1" fill="#27AAE1" />
+                    <circle cx="967" cy="441" r="1" fill="#27AAE1" />
+                    <circle cx="989" cy="441" r="1" fill="#27AAE1" />
+                    <circle cx="1011" cy="441" r="1" fill="#27AAE1" />
+                </g>
+            </svg>
+            <div class="header-content">
+                <h1><span>Образовательная платформа</span> <br> <span>ХОД Future Academy</span></h1>
+                <p>Актуальные знания для новичков и профессионалов</p>
+            </div>
+            <div class="header-img"><img src="images/header-images/Vector.png" alt="" style="top:18%;left:11%;">
+                <img src="images/header-images/Vector (1).png" alt="" style="top:70%;left:36%;">
+                <img src="images/header-images/Vector 178.png" alt="" style="top:55%;left:91%;">
+                <img src="images/header-images/Vector 181.png" alt="" style="top:75%;left:8%;">
+                <img src="images/header-images/Vector (2).png" alt="" style="top:8%;left:56%;">
+                <img src="images/header-images/Vector.png" alt="" style="top:26%;left:87%;width:80px;">
+                <img src="images/header-images/Vector 179.png" alt="" style="top:47%;left:48.78%;">
+                <img src="images/header-images/Vector 180.png" alt="" style="top:25.1%;left:70%;">
+            </div>
+        </div>
+    </header>
+
+    <section>
+        <div class="courses-block">
+            <div class="owl">
+                <div class="owl-container">
+                    <img src="images/courses-images/Union-small.png" alt="" class="union-small">
+                    <div class="owl-text-container">
+                        <div class="owl-text">
+                            <span class="big-text">Кем вы хотите стать?</span><br>
+                            <span class="small-text">Пора найти себя <br> и выбрать подходящий <br> курс :)</span>
+                            <span class="small-text">Удачи!</span>
+                        </div>
+                    </div>
+                </div>
+                <img src="images/courses-images/owl-small.png" alt="" class="owl-small">
+            </div>
+            <div class="courses-content">
+                <div class="for-who">
+                    <div class="for-who-people" data-target="0">
+                        <img src="images/courses-images/children.png" alt="">
+                        <div class="people-text">
+                            <span>Дети</span>
+                            <span>8 — 14 лет</span>
+                        </div>
+                    </div>
+                    <div class="for-who-people" data-target="1">
+                        <img src="images/courses-images/children (1).png" alt="">
+                        <div class="people-text">
+                            <span>Подростки</span>
+                            <span>14 — 18 лет</span>
+                        </div>
+                    </div>
+
+                    <div class="for-who-people" data-target="2">
+                        <img src="images/courses-images/family.png" alt="">
+                        <div class="people-text">
+                            <span>Взрослые</span>
+                            <span>18 — <span style="font-size: 13px;">∞</span> </span>
+                        </div>
+                    </div>
+                    <hr class="indicator" style="height:5px;">
+                </div>
+                <hr>
+                <div class="courses-wrapper" data-target="0">
+                    <div class="course-row">
+                        <div class="container-course">
+                            <div class="shadow-course"></div>
+                            <div class="course">Робототехника</div>
+                        </div>
+                        <div class="container-course">
+                            <div class="shadow-course"></div>
+                            <div class="course">Создание игр</div>
+                        </div>
+                        <div class="container-course">
+                            <div class="shadow-course"></div>
+                            <div class="course">Web-разработка</div>
+                        </div>
+                        <div class="container-course">
+                            <div class="shadow-course"></div>
+                            <div class="course">Мультимедиа</div>
+                        </div>
+                        <div class="container-course">
+                            <div class="shadow-course"></div>
+                            <div class="course">Шахматы</div>
+                        </div>
+                    </div>
+                    <div class="course-row">
+                        <div class="container-course">
+                            <div class="shadow-course"></div>
+                            <div class="course">3D-моделирование и дизайн</div>
+                        </div>
+                        <div class="container-course">
+                            <div class="shadow-course"></div>
+                            <div class="course">Английский язык</div>
+                        </div>
+                        <div class="container-course">
+                            <div class="shadow-course"></div>
+                            <div class="course">Блогинг</div>
+                        </div>
+                        <div class="container-course">
+                            <div class="shadow-course"></div>
+                            <div class="course">Soft skills</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="courses-wrapper" data-target="1" style="display: none;">
+                    <div class="course-row">
+                        <div class="container-course">
+                            <div class="shadow-course"></div>
+                            <div class="course">Иностранные языки</div>
+                        </div>
+                        <div class="container-course">
+                            <div class="shadow-course"></div>
+                            <div class="course">Создание игр</div>
+                        </div>
+                        <div class="container-course">
+                            <div class="shadow-course"></div>
+                            <div class="course">Интенсивы</div>
+                        </div>
+                        <div class="container-course">
+                            <div class="shadow-course"></div>
+                            <div class="course">Подготовка к ЕГЭ</div>
+                        </div>
+                        <div class="container-course">
+                            <div class="shadow-course"></div>
+                            <div class="course">Шахматы</div>
+                        </div>
+                    </div>
+                    <div class="course-row">
+                        <div class="container-course">
+                            <div class="shadow-course"></div>
+                            <div class="course">3D-моделирование и дизайн</div>
+                        </div>
+                        <div class="container-course">
+                            <div class="shadow-course"></div>
+                            <div class="course">Английский язык</div>
+                        </div>
+                        <div class="container-course">
+                            <div class="shadow-course"></div>
+                            <div class="course">Блогинг</div>
+                        </div>
+                        <div class="container-course">
+                            <div class="shadow-course"></div>
+                            <div class="course">Soft skills</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="courses-wrapper" data-target="2" style="display: none;">
+                    <div class="course-row">
+                        <div class="container-course">
+                            <div class="shadow-course"></div>
+                            <div class="course">Робототехника</div>
+                        </div>
+                        <div class="container-course">
+                            <div class="shadow-course"></div>
+                            <div class="course">Мастер классы</div>
+                        </div>
+                        <div class="container-course">
+                            <div class="shadow-course"></div>
+                            <div class="course">Web-разработка</div>
+                        </div>
+                        <div class="container-course">
+                            <div class="shadow-course"></div>
+                            <div class="course">Программирование</div>
+                        </div>
+                        <div class="container-course">
+                            <div class="shadow-course"></div>
+                            <div class="course">Шахматы</div>
+                        </div>
+                    </div>
+                    <div class="course-row">
+                        <div class="container-course">
+                            <div class="shadow-course"></div>
+                            <div class="course">3D-моделирование и дизайн</div>
+                        </div>
+                        <div class="container-course">
+                            <div class="shadow-course"></div>
+                            <div class="course">Интенсивы</div>
+                        </div>
+                        <div class="container-course">
+                            <div class="shadow-course"></div>
+                            <div class="course">Блогинг</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <div class="info-about-project">
+        <div class="video-container">
+            <svg width="165" height="137" viewBox="0 0 165 137" fill="none" xmlns="http://www.w3.org/2000/svg"
+                style="top:-16%;left:-12%;">
+                <path
+                    d="M78.8653 2.94796L78.8698 2.94045C80.3996 0.390727 84.0096 0.307454 85.7956 2.96528L162.984 129.098L162.989 129.106C164.772 131.959 162.757 135.77 159.524 135.77H82.3251H5.12573C1.89957 135.77 -0.135345 132.171 1.67051 129.09C1.67196 129.088 1.6734 129.085 1.67485 129.083L78.8653 2.94796Z"
+                    fill="white" stroke="url(#paint0_linear_64_4051)" stroke-width="2" />
+                <defs>
+                    <linearGradient id="paint0_linear_64_4051" x1="0" y1="68.385" x2="164.65" y2="68.385"
+                        gradientUnits="userSpaceOnUse">
+                        <stop stop-color="#F7941D" />
+                        <stop offset="1" stop-color="#27AAE1" />
+                    </linearGradient>
+                </defs>
+            </svg>
+            <svg width="281" height="132" viewBox="0 0 281 132" fill="none" xmlns="http://www.w3.org/2000/svg"
+                style="top:64%;left:-32%;">
+                <path d="M0 131H150L280 1" stroke="url(#paint0_linear_64_4053)" stroke-width="2" />
+                <defs>
+                    <linearGradient id="paint0_linear_64_4053" x1="0" y1="66" x2="280" y2="66"
+                        gradientUnits="userSpaceOnUse">
+                        <stop stop-color="#F7941D" />
+                        <stop offset="1" stop-color="#27AAE1" />
+                    </linearGradient>
+                </defs>
+            </svg>
+            <svg width="352" height="351" viewBox="0 0 352 351" fill="none" xmlns="http://www.w3.org/2000/svg"
+                style="top:-15%;right:-32%;">
+                <path d="M1 0V180H181L351 350" stroke="url(#paint0_linear_64_4054)" stroke-width="2" />
+                <defs>
+                    <linearGradient id="paint0_linear_64_4054" x1="1" y1="175" x2="351" y2="175"
+                        gradientUnits="userSpaceOnUse">
+                        <stop stop-color="#F7941D" />
+                        <stop offset="1" stop-color="#27AAE1" />
+                    </linearGradient>
+                </defs>
+            </svg>
+            <svg width="230" height="230" viewBox="0 0 230 230" fill="none" xmlns="http://www.w3.org/2000/svg"
+                style="top:82%;right:-19%;">
+                <path
+                    d="M226.71 58.8085L226.691 58.8261L226.672 58.8447L177.056 108.461C173.521 111.996 173.521 118.22 177.056 121.755L226.672 171.372C229.426 174.126 229.426 179.083 226.672 181.838L181.598 226.912C178.844 229.666 173.887 229.666 171.133 226.912L121.516 177.295C117.981 173.76 111.757 173.76 108.222 177.295L58.6054 226.912C55.8512 229.666 50.8939 229.666 48.1397 226.912L3.06563 181.838C0.311455 179.083 0.311455 174.126 3.06563 171.372L52.682 121.755C56.2172 118.22 56.2172 111.996 52.682 108.461L3.06563 58.8447C0.311455 56.0906 0.311456 51.1331 3.06563 48.3789L48.1397 3.30489C50.8939 0.550713 55.8512 0.550713 58.6054 3.30489L108.222 52.9213C111.757 56.4565 117.981 56.4565 121.516 52.9213L171.133 3.30489C173.887 0.550713 178.844 0.550713 181.598 3.30489L226.672 48.3789C229.798 51.5044 229.741 56.0808 226.71 58.8085Z"
+                    fill="white" stroke="url(#paint0_linear_64_4046)" stroke-width="2" />
+                <defs>
+                    <linearGradient id="paint0_linear_64_4046" x1="0" y1="115.108" x2="230" y2="115.108"
+                        gradientUnits="userSpaceOnUse">
+                        <stop stop-color="#F7941D" />
+                        <stop offset="1" stop-color="#27AAE1" />
+                    </linearGradient>
+                </defs>
+            </svg>
+            <div class="video">
+                <div class="video-overlay" onclick="playVideo()">
+                    <img src="images/iframe-images/603123.png" alt="" class="boy-image-iframe">
+                    <img src="images/iframe-images/Group 779.png" alt="" class="play">
+                    <div class="dark"></div>
+                </div>
+                <iframe class="iframe-video" width="560" height="315"
+                    src="https://www.youtube.com/embed/1Y5n0nu98Vg?si=d8dZ5vilaINExv8x" title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="info-wrapper-bottom">
+            <h4>Актуальные знания от признанных экспертов рынка <br>
+                для новичков и практикующих специалистов.</h4>
+            <div class="quantity-container">
+                <div class="quantity">
+                    <img src="images/quantity-images/600.png" alt="">
+                    <span>Курсов</span>
+                </div>
+                <div class="quantity">
+                    <img src="images/quantity-images/82.png" alt="">
+                    <span>Ведущих <br> преподавателей</span>
+                </div>
+                <div class="quantity">
+                    <img src="images/quantity-images/14 795.png" alt="">
+                    <span>Выпускников</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="day-of-open-door">
+            <div class="svg-day-of">
+                <svg width="108" height="68" viewBox="0 0 108 68" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M52.1017 54.6263V66.8855H2.97193V57.1339L28.0476 33.4513C30.71 30.9128 32.5055 28.7457 33.4343 26.9502C34.363 25.0927 34.8274 23.2662 34.8274 21.4707C34.8274 18.8702 33.9296 16.8889 32.134 15.5268C30.4004 14.1028 27.8309 13.3907 24.4256 13.3907C21.5775 13.3907 19.008 13.948 16.7171 15.0624C14.4263 16.115 12.5069 17.7248 10.959 19.8918L0 12.8335C2.53853 9.05666 6.03674 6.11568 10.4946 4.01056C14.9525 1.84352 20.0606 0.76001 25.8187 0.76001C30.6481 0.76001 34.8583 1.5649 38.4494 3.1747C42.1024 4.72258 44.9195 6.95154 46.9008 9.86155C48.944 12.7097 49.9656 16.084 49.9656 19.9847C49.9656 23.5139 49.2227 26.8263 47.7367 29.9221C46.2507 33.0179 43.3717 36.547 39.0995 40.5096L24.147 54.6263H52.1017Z"
+                        fill="black" />
+                    <path
+                        d="M80.5992 26.3001C89.7627 26.3001 96.5114 28.1266 100.846 31.7796C105.241 35.4326 107.439 40.3239 107.439 46.4535C107.439 50.4161 106.449 54.0381 104.468 57.3196C102.486 60.5392 99.4524 63.1397 95.366 65.121C91.3415 67.0403 86.3573 68 80.4135 68C75.8317 68 71.3119 67.4118 66.854 66.2354C62.458 64.9971 58.7121 63.2635 55.6164 61.0345L61.5602 49.5183C64.0369 51.3758 66.885 52.8308 70.1046 53.8833C73.3242 54.874 76.6366 55.3693 80.042 55.3693C83.8188 55.3693 86.7907 54.6263 88.9578 53.1403C91.1248 51.6544 92.2083 49.5802 92.2083 46.9179C92.2083 44.1317 91.0629 42.0265 88.772 40.6025C86.5431 39.1784 82.6424 38.4664 77.07 38.4664H60.4458L63.7892 1.87448H103.446V13.948H76.327L75.3054 26.3001H80.5992Z"
+                        fill="black" />
+                </svg>
+                <svg width="103" height="28" viewBox="0 0 103 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M0.952393 7.25535H3.59352V13.4455H11.9021V7.25535H14.5432V21.8366H11.9021V15.729H3.59352V21.8366H0.952393V7.25535Z"
+                        fill="black" />
+                    <path
+                        d="M25.9238 22.0016C24.4748 22.0016 23.1726 21.6807 22.0171 21.0387C20.8616 20.3968 19.9537 19.5164 19.2935 18.3976C18.6515 17.2604 18.3305 15.9766 18.3305 14.546C18.3305 13.1153 18.6515 11.8406 19.2935 10.7218C19.9537 9.58468 20.8616 8.7043 22.0171 8.0807C23.1726 7.43876 24.4748 7.11779 25.9238 7.11779C27.3727 7.11779 28.6658 7.43876 29.8029 8.0807C30.9584 8.7043 31.8571 9.58468 32.4991 10.7218C33.1594 11.8406 33.4895 13.1153 33.4895 14.546C33.4895 15.9766 33.1594 17.2604 32.4991 18.3976C31.8571 19.5164 30.9584 20.3968 29.8029 21.0387C28.6658 21.6807 27.3727 22.0016 25.9238 22.0016ZM25.9238 19.6906C26.8592 19.6906 27.6937 19.4797 28.4273 19.0579C29.1793 18.6177 29.7662 18.0124 30.1881 17.2421C30.6099 16.4534 30.8209 15.5547 30.8209 14.546C30.8209 13.5372 30.6099 12.6476 30.1881 11.8773C29.7662 11.0886 29.1793 10.4834 28.4273 10.0615C27.6937 9.6397 26.8592 9.42878 25.9238 9.42878C24.9884 9.42878 24.1447 9.6397 23.3927 10.0615C22.6591 10.4834 22.0721 11.0886 21.632 11.8773C21.2101 12.6476 20.9992 13.5372 20.9992 14.546C20.9992 15.5547 21.2101 16.4534 21.632 17.2421C22.0721 18.0124 22.6591 18.6177 23.3927 19.0579C24.1447 19.4797 24.9884 19.6906 25.9238 19.6906Z"
+                        fill="black" />
+                    <path
+                        d="M48.5122 7.25535V21.8366H46.1462V17.2146H41.9094H41.6067L38.4154 21.8366H35.5817L39.1307 16.8569C38.0302 16.5268 37.1865 15.9857 36.5996 15.2337C36.0127 14.4634 35.7192 13.5097 35.7192 12.3725C35.7192 10.7035 36.2878 9.43795 37.425 8.57591C38.5621 7.69554 40.1303 7.25535 42.1295 7.25535H48.5122ZM38.4154 12.4551C38.4154 13.4271 38.718 14.1516 39.3233 14.6285C39.9469 15.087 40.8731 15.3163 42.1019 15.3163H46.1462V9.56633H42.212C39.6809 9.56633 38.4154 10.5292 38.4154 12.4551Z"
+                        fill="black" />
+                    <path
+                        d="M61.0934 7.75056C62.4506 7.75056 63.6612 8.05319 64.725 8.65845C65.7887 9.26371 66.6141 10.1074 67.201 11.1895C67.8063 12.2533 68.1089 13.473 68.1089 14.8486C68.1089 16.2608 67.7879 17.5172 67.146 18.6177C66.5224 19.6998 65.6328 20.5435 64.4773 21.1488C63.3402 21.754 62.038 22.0566 60.5707 22.0566C58.0946 22.0566 56.178 21.213 54.8207 19.5256C53.4818 17.8198 52.8124 15.4263 52.8124 12.345C52.8124 9.35541 53.4268 7.01692 54.6557 5.32953C55.8845 3.62381 57.7645 2.49583 60.2956 1.94559L66.9534 0.459961L67.3386 2.88099L61.2035 4.20155C59.296 4.6234 57.8745 5.3387 56.9391 6.34747C56.0037 7.35623 55.4719 8.80518 55.3435 10.6943C55.9671 9.75892 56.7741 9.03444 57.7645 8.52089C58.7549 8.00734 59.8645 7.75056 61.0934 7.75056ZM60.6257 19.8557C61.5611 19.8557 62.3865 19.6448 63.1018 19.2229C63.8354 18.8011 64.404 18.2234 64.8075 17.4897C65.211 16.7377 65.4127 15.8849 65.4127 14.9311C65.4127 13.4822 64.9726 12.3175 64.0922 11.4371C63.2118 10.5568 62.0563 10.1166 60.6257 10.1166C59.1951 10.1166 58.0304 10.5568 57.1317 11.4371C56.2513 12.3175 55.8112 13.4822 55.8112 14.9311C55.8112 15.8849 56.0129 16.7377 56.4164 17.4897C56.8383 18.2234 57.416 18.8011 58.1497 19.2229C58.8833 19.6448 59.7087 19.8557 60.6257 19.8557Z"
+                        fill="black" />
+                    <path
+                        d="M79.6118 7.11779C81.0241 7.11779 82.2896 7.42959 83.4084 8.05319C84.5272 8.67679 85.3984 9.54799 86.022 10.6668C86.664 11.7856 86.9849 13.0787 86.9849 14.546C86.9849 16.0132 86.664 17.3155 86.022 18.4526C85.3984 19.5714 84.5272 20.4426 83.4084 21.0662C82.2896 21.6898 81.0241 22.0016 79.6118 22.0016C78.5663 22.0016 77.6034 21.7999 76.7231 21.3964C75.861 20.9929 75.1274 20.4059 74.5221 19.6356V27.1738H71.881V7.25535H74.4121V9.56633C74.999 8.75933 75.7418 8.15407 76.6405 7.75056C77.5392 7.32872 78.5297 7.11779 79.6118 7.11779ZM79.3917 19.6906C80.3271 19.6906 81.1616 19.4797 81.8953 19.0579C82.6472 18.6177 83.2342 18.0124 83.656 17.2421C84.0962 16.4534 84.3163 15.5547 84.3163 14.546C84.3163 13.5372 84.0962 12.6476 83.656 11.8773C83.2342 11.0886 82.6472 10.4834 81.8953 10.0615C81.1616 9.6397 80.3271 9.42878 79.3917 9.42878C78.4746 9.42878 77.6401 9.64887 76.8881 10.0891C76.1545 10.5109 75.5676 11.107 75.1274 11.8773C74.7055 12.6476 74.4946 13.5372 74.4946 14.546C74.4946 15.5547 74.7055 16.4534 75.1274 17.2421C75.5492 18.0124 76.1361 18.6177 76.8881 19.0579C77.6401 19.4797 78.4746 19.6906 79.3917 19.6906Z"
+                        fill="black" />
+                    <path
+                        d="M102.031 7.25535V21.8366H99.665V17.2146H95.4282H95.1256L91.9342 21.8366H89.1005L92.6495 16.8569C91.5491 16.5268 90.7054 15.9857 90.1185 15.2337C89.5315 14.4634 89.2381 13.5097 89.2381 12.3725C89.2381 10.7035 89.8067 9.43795 90.9438 8.57591C92.081 7.69554 93.6491 7.25535 95.6483 7.25535H102.031ZM91.9342 12.4551C91.9342 13.4271 92.2369 14.1516 92.8421 14.6285C93.4657 15.087 94.392 15.3163 95.6208 15.3163H99.665V9.56633H95.7309C93.1998 9.56633 91.9342 10.5292 91.9342 12.4551Z"
+                        fill="black" />
+                </svg>
+            </div>
+            <div class="text-day-of">
+                <span>День открытых дверей</span>
+                <p>Приглашаем всех желающих на бесплатную экскурсию <br>
+                    в мир востребованных профессий и полезных навыков</p>
+            </div>
+            <div class="button-day-of-container">
+                <div class="button-day-of">
+                    <span>Записаться </span>
+                    <svg width="10" height="13" viewBox="0 0 10 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1.87354 0.996582L7.68115 6.56201L1.87354 11.9655" stroke="black" stroke-width="2"
+                            stroke-linecap="round" />
+                    </svg>
+                </div>
+            </div>
+        </div>
+        <div class="sections">
+            <div class="container-shadow">
+                <div class="shadow-info-bottom"></div>
+                <div class="programms"><img src="images/section-info/monitor.png" alt="">
+                    <h4>Программы обучения</h4>
+                    <p>В списке наших курсов вы сможете найти <br> профессию и занятие по душе, изучить новое <br> и
+                        получить
+                        практические знания, которые <br> помогут получить работу мечты.</p>
+                    <div class="button-programms">
+                        <span>Подробнее</span>
+                        <svg width="10" height="13" viewBox="0 0 10 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1.87354 0.996582L7.68115 6.56201L1.87354 11.9655" stroke="black" stroke-width="2"
+                                stroke-linecap="round" />
+                        </svg>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="wrapper-three-section">
+                <div class="news-it-wrapper">
+                    <div class="container-shadow" style="width:100%;max-width: 320px;height:100%;max-height: 220px;">
+                        <div class="shadow-info-bottom"></div>
+                        <div class="news">
+                            <img src="images/section-info/newspaper.png" alt="">
+                            <h4>Новости Академии</h4>
+                        </div>
+                    </div>
+                    <div class="container-shadow" style="width:100%;max-width: 320px;height:100%;max-height: 220px;">
+                        <div class="shadow-info-bottom"></div>
+                        <div class="it-world">
+                            <img src="images/section-info/diagram.png" alt="">
+                            <h4>Мир IT</h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container-shadow" style="width:100%;max-width: 680px;height:100%;max-height: 220px;">
+                    <div class="shadow-info-bottom"></div>
+                    <div class="test">
+                        <div class="images-test"><img src="images/section-info/Group 837.png" alt=""></div>
+                        <div class="text-test">
+                            <h4>Попробуй!</h4>
+                            <p>Пройдите тест и узнайте свои способности <br>
+                                в сфере информационных технологий</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="reviews">
+        <h2>Отзывы наших студентов</h2>
+        <div class="owl-carousel">
+            <div class="review">
+                <div class="acc-info-wrap">
+                    <img src="images/reviews-images/Ellipse 185.png" alt="">
+                    <div class="acc-info">
+                        <div class="acc-name">Ирина Сухолапова</div>
+                        <div class="acc-course">Студент курса "WEB-разработчик"</div>
+                    </div>
+                </div>
+                <div class="review-text">
+                    Поддержка IT-отрасли - это не только финансовые инвестиции, но, прежде всего, подготовка и
+                    предоставление широкого спектра образовательных услуг по подготовке и повышению квалификации
+                    действующего персонала.Образование является движущей силой развития общества. Крайне важно, чтобы
+                    современная система знаний.
+                </div>
+                <div class="review-rating"><img src="images/reviews-images/Star 1.png" alt=""> <span>4,5 / 5</span>
+                </div>
+            </div>
+            <div class="review">
+                <div class="acc-info-wrap">
+                    <img src="images/reviews-images/Ellipse 185 (1).png" alt="">
+                    <div class="acc-info">
+                        <div class="acc-name">Ольга Убивака</div>
+                        <div class="acc-course">Студент курса "Иностранные языки"</div>
+                    </div>
+                </div>
+                <div class="review-text">
+                    Преподавания давала детям целостную картину мира давала возможность
+                    понимание процессов, погружала их умы и в глубины теории, и в практическую деятельность.
+                </div>
+                <div class="review-rating"><img src="images/reviews-images/Star 1.png" alt=""> <span>4,77 / 5</span>
+                </div>
+            </div>
+            <div class="review">
+                <div class="acc-info-wrap">
+                    <img src="images/reviews-images/Ellipse 185 (2).png" alt="">
+                    <div class="acc-info">
+                        <div class="acc-name">Елена Кучурган</div>
+                        <div class="acc-course">Студент курса "Шахматы для всех"</div>
+                    </div>
+                </div>
+                <div class="review-text">
+                    В Академии
+                    Будущего ХОД я увидел очень важную миссию – развитие интеллекта через программирование, шахматы,
+                    моделирование 3D-пространства. Увлечь ребенка книгами сейчас не очень просто, а вот применение
+                    возможностей компьютерных технологий для тренировки памяти, мышления, внимания, воображения
+                    открывает большие перспективы в обучении.
+                </div>
+                <div class="review-rating"><img src="images/reviews-images/Star 1.png" alt=""> <span>4,6 / 5</span>
+                </div>
+            </div>
+            <div class="review">
+                <div class="acc-info-wrap">
+                    <img src="images/reviews-images/Ellipse 185 (3).png" alt="">
+                    <div class="acc-info">
+                        <div class="acc-name">Мария Ломоносикова</div>
+                        <div class="acc-course">Студент курса "Роботостроение"</div>
+                    </div>
+                </div>
+                <div class="review-text">
+                    Педагогические подходы, которые легли в основу образовательной структуры Академии, помогают грамотно
+                    формировать личность ребенка, дают возможность сориентироваться в мире современных профессий и
+                    станут важным началом в становлении успешного человека: открытого миру и науке.
+                </div>
+                <div class="review-rating"><img src="images/reviews-images/Star 1.png" alt=""> <span>4 / 5</span>
+                </div>
+            </div>
+            <div class="review">
+                <div class="acc-info-wrap">
+                    <img src="images/reviews-images/Ellipse (4).png" alt="">
+                    <div class="acc-info">
+                        <div class="acc-name">Михаил Стремов</div>
+                        <div class="acc-course">Студент курса "Роботостроение"</div>
+                    </div>
+                </div>
+                <div class="review-text">
+                    Я рад сотрудничеству с перспективной организацией, с которой мы сможем вместе позитивно влиять на
+                    современное поколение.
+                </div>
+                <div class="review-rating"><img src="images/reviews-images/Star 1.png" alt=""> <span>4,8 / 5</span>
+                </div>
+            </div>
+            <div class="review">
+                <div class="acc-info-wrap">
+                    <img src="images/reviews-images/Ellipse (3).png" alt="">
+                    <div class="acc-info">
+                        <div class="acc-name">Сергей Пивососов</div>
+                        <div class="acc-course">Студент курса "3D-моделирование"</div>
+                    </div>
+                </div>
+                <div class="review-text">
+                    В летний период Нижегородский кампус Высшей Школы Экономики и Академия Будущего Ход организовали и
+                    успешно провели несколько каникулярных программ. IT-проект получился очень интересным и
+                    продуктивным.
+                </div>
+                <div class="review-rating"><img src="images/reviews-images/Star 1.png" alt=""> <span>4,1 / 5</span>
+                </div>
+            </div>
+            <div class="review">
+                <div class="acc-info-wrap">
+                    <img src="images/reviews-images/Ellipse (2).png" alt="">
+                    <div class="acc-info">
+                        <div class="acc-name">Анастасия Предалая</div>
+                        <div class="acc-course">Студент курса "Робототехника"</div>
+                    </div>
+                </div>
+                <div class="review-text">
+                    Желаю успехов и удачи Академия Будущего "ХОД". Пусть исполнятся все цели и мечты! Покорения самых
+                    больших высот! Спасибо за развитие и любовь к шахматам и нашему светлому будущему!
+                </div>
+                <div class="review-rating"><img src="images/reviews-images/Star 1.png" alt=""> <span>4,9 / 5</span>
+                </div>
+            </div>
+            <div class="review">
+                <div class="acc-info-wrap">
+                    <img src="images/reviews-images/Ellipse (8).png" alt="">
+                    <div class="acc-info">
+                        <div class="acc-name">Евгения Вольф</div>
+                        <div class="acc-course">Студент курса "Программирование"</div>
+                    </div>
+                </div>
+                <div class="review-text">
+                    В новом учебном году нас ждут другие совместные проекты и мероприятия с Академией Будущего. Их курсы
+                    по программированию на Python, UI/UX-дизайну и Web-разработке станут отличной возможностью для ребят
+                    получить массу полезных IT-навыков и примерить на себя профессию айтишника.
+
+
+                </div>
+                <div class="review-rating"><img src="images/reviews-images/Star 1.png" alt=""> <span>4,7 / 5</span>
+                </div>
+            </div>
+        </div>
+        <div class="slider-container">
+            <div class="slider-reviews"></div>
+            <hr>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="welcome-to-academy">
+            <h2 class="welcome-title">Добро пожаловать в Академию будущего ХОД</h2>
+            <div class="welcome-info">
+                <div class="welcome-info-content">
+                    <img src="images/welcome-images/Group 797.png" alt="">
+                    <p>Передовой подход <br>
+                        к образовательному <br> процессу</p>
+                </div>
+                <div class="welcome-info-content">
+                    <img src="images/welcome-images/Group 798.png" alt="">
+                    <p>Непрерывное <br> усовершенствование <br>
+                        и пополнение базы курсов</p>
+                </div>
+                <div class="welcome-info-content">
+                    <img src="images/welcome-images/Group 800.png" alt="">
+                    <p>Только практикующие <br> преподаватели</p>
+                </div>
+                <div class="welcome-info-content">
+                    <img src="images/welcome-images/Group 801.png" alt="">
+                    <p>Сопровождение на всех <br> этапах. От начала обучения <br> до трудоустройства</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="form-shadow-container">
+            <div class="form-help-choice">
+                <img src="images/form-help-images/Union.png" alt="" style="left: 19%;">
+                <div class="union-form-text">
+                    <div>Помочь с выбором?</div>
+                    <div>Оставьте заявку и наши специалисты <br> свяжутся с вами, ответят на все вопросы <br>
+                        и подберут подходящий вариант <br> обучения.</div>
+                </div>
+                <img src="images/form-help-images/ovl-big.png" alt="" style="left: -5%;top: 8%;">
+                <div class="form-shadow"></div>
+                <div class="form-inside">
+                    <form action="" class="form-help">
+                        <input type="text" placeholder="Ваше имя" name="Name">
+                        <div class="bottom-input">
+                            <input type="tel" placeholder="Ваш телефон" name="Number">
+                            <input type="email" placeholder="Ваш e-mail" name="Email">
+                        </div>
+                        <div class="info-button-form">
+                            <p>
+                                Нажимая на кнопку, я соглашаюсь <br>
+                                на обработку персональных данных <br>
+                                и с правилами пользования <br> Платформой
+                            </p>
+                            <button type="submit" class="button-form-help">
+                                Отправить
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+
+    </footer>
+    <script src="myjs.js"></script>
+</body>
+
+</html>
