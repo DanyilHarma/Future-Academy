@@ -80,8 +80,35 @@
     <div class="container all-courses">
         <h1 class="all-courses-title">Все программы обучения</h1>
 
+        <div class="for-who">
+            <div class="for-who-people" data-target="0">
+                <img src="images/children.png" alt="">
+                <div class="people-text">
+                    <span>Дети</span>
+                    <span>8 — 14 лет</span>
+                </div>
+            </div>
+            <div class="for-who-people" data-target="1">
+                <img src="images/children (1).png" alt="">
+                <div class="people-text">
+                    <span>Подростки</span>
+                    <span>14 — 18 лет</span>
+                </div>
+            </div>
+
+            <div class="for-who-people" data-target="2">
+                <img src="images/family.png" alt="">
+                <div class="people-text">
+                    <span>Взрослые</span>
+                    <span>18 — <span style="font-size: 13px;">∞</span> </span>
+                </div>
+            </div>
+            <hr class="indicator" style="height:5px;">
+        </div>
+
         <hr class="first-hr">
         <div class="all-courses-container">
+
             <div class="all-courses-filter">
                 <h6>Уровень сложности</h6>
                 <form action="">
@@ -102,7 +129,7 @@
                         <label for="cheater">Читер</label>
                     </div>
                 </form>
-                <hr>
+                <hr class="filter-hr">
                 <h6>Тип обучения</h6>
                 <form action="">
                     <div class="li-radio">
@@ -118,12 +145,305 @@
                         <label for="course">Курс</label>
                     </div>
                 </form>
-                <hr>
-                <h6>Длительность</h6>
-                <form action="" class="duration">
-                    <p>от <span id="rangeMin">1</span> до <span id="rangeMax">24</span> месяцев</p>
-
-                </form>
+            </div>
+            <div class="all-courses">
+                <h6>Направления</h6>
+                <div class="directions">
+                    <div class="courses-wrapper" data-target="0">
+                        <div class="course-row">
+                            <div class="container-course">
+                                <div class="shadow-course"></div>
+                                <div class="course">Робототехника</div>
+                            </div>
+                            <div class="container-course">
+                                <div class="shadow-course"></div>
+                                <div class="course">Создание игр</div>
+                            </div>
+                            <div class="container-course">
+                                <div class="shadow-course"></div>
+                                <div class="course">Web-разработка</div>
+                            </div>
+                            <div class="container-course">
+                                <div class="shadow-course"></div>
+                                <div class="course">Мультимедиа</div>
+                            </div>
+                            <div class="container-course">
+                                <div class="shadow-course"></div>
+                                <div class="course">Шахматы</div>
+                            </div>
+                        </div>
+                        <div class="course-row">
+                            <div class="container-course">
+                                <div class="shadow-course"></div>
+                                <div class="course">3D-моделирование и дизайн</div>
+                            </div>
+                            <div class="container-course">
+                                <div class="shadow-course"></div>
+                                <div class="course">Английский язык</div>
+                            </div>
+                            <div class="container-course">
+                                <div class="shadow-course"></div>
+                                <div class="course">Блогинг</div>
+                            </div>
+                            <div class="container-course">
+                                <div class="shadow-course"></div>
+                                <div class="course">Soft skills</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="courses-wrapper" data-target="1" style="display: none;">
+                        <div class="course-row">
+                            <div class="container-course">
+                                <div class="shadow-course"></div>
+                                <div class="course">Иностранные языки</div>
+                            </div>
+                            <div class="container-course">
+                                <div class="shadow-course"></div>
+                                <div class="course">Создание игр</div>
+                            </div>
+                            <div class="container-course">
+                                <div class="shadow-course"></div>
+                                <div class="course">Интенсивы</div>
+                            </div>
+                            <div class="container-course">
+                                <div class="shadow-course"></div>
+                                <div class="course">Подготовка к ЕГЭ</div>
+                            </div>
+                            <div class="container-course">
+                                <div class="shadow-course"></div>
+                                <div class="course">Шахматы</div>
+                            </div>
+                        </div>
+                        <div class="course-row">
+                            <div class="container-course">
+                                <div class="shadow-course"></div>
+                                <div class="course">3D-моделирование и дизайн</div>
+                            </div>
+                            <div class="container-course">
+                                <div class="shadow-course"></div>
+                                <div class="course">Английский язык</div>
+                            </div>
+                            <div class="container-course">
+                                <div class="shadow-course"></div>
+                                <div class="course">Блогинг</div>
+                            </div>
+                            <div class="container-course">
+                                <div class="shadow-course"></div>
+                                <div class="course">Soft skills</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="courses-wrapper" data-target="2" style="display: none;">
+                        <div class="course-row">
+                            <div class="container-course">
+                                <div class="shadow-course"></div>
+                                <div class="course">Робототехника</div>
+                            </div>
+                            <div class="container-course">
+                                <div class="shadow-course"></div>
+                                <div class="course">Мастер классы</div>
+                            </div>
+                            <div class="container-course">
+                                <div class="shadow-course"></div>
+                                <div class="course">Web-разработка</div>
+                            </div>
+                            <div class="container-course">
+                                <div class="shadow-course"></div>
+                                <div class="course">Программирование</div>
+                            </div>
+                            <div class="container-course">
+                                <div class="shadow-course"></div>
+                                <div class="course">Шахматы</div>
+                            </div>
+                        </div>
+                        <div class="course-row">
+                            <div class="container-course">
+                                <div class="shadow-course"></div>
+                                <div class="course">3D-моделирование и дизайн</div>
+                            </div>
+                            <div class="container-course">
+                                <div class="shadow-course"></div>
+                                <div class="course">Интенсивы</div>
+                            </div>
+                            <div class="container-course">
+                                <div class="shadow-course"></div>
+                                <div class="course">Блогинг</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="courses-section">
+                    <div class="section-row">
+                        <div class="courses-section-container">
+                            <div class="shadow-develop"></div>
+                            <div class="develop-cours">
+                                <span>Программа</span>
+                                <div class="image-info">
+                                    <img src="images/Group 815.png" alt="">
+                                    <div class="title-info">«Разработка мобильных <br> приложений»</div>
+                                </div>
+                                <p>Разработчик мобильных приложений создаёт <br> приложения, которыми люди ежедневно
+                                    пользуются
+                                    <br>
+                                    на смартфонах, умных часах и планшетах.
+                                </p>
+                                <span>24 месяца</span>
+                            </div>
+                        </div>
+                        <div class="courses-section-container">
+                            <div class="shadow-develop"></div>
+                            <div class="develop-cours" style="background-color: #FFCE94;">
+                                <span>Программа</span>
+                                <div class="image-info">
+                                    <img src="images/Group 815.png" alt="">
+                                    <div class="title-info">«Разработка мобильных <br> приложений»</div>
+                                </div>
+                                <p>Разработчик мобильных приложений создаёт <br> приложения, которыми люди ежедневно
+                                    пользуются
+                                    <br>
+                                    на смартфонах, умных часах и планшетах.
+                                </p>
+                                <span>24 месяца</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="section-row">
+                        <div class="courses-section-container">
+                            <div class="shadow-develop"></div>
+                            <div class="develop-cours" style="background-color: #FFE38E;">
+                                <span>Программа</span>
+                                <div class="image-info">
+                                    <img src="images/Group 815.png" alt="">
+                                    <div class="title-info">«Разработка мобильных <br> приложений»</div>
+                                </div>
+                                <p>Разработчик мобильных приложений создаёт <br> приложения, которыми люди ежедневно
+                                    пользуются
+                                    <br>
+                                    на смартфонах, умных часах и планшетах.
+                                </p>
+                                <span>24 месяца</span>
+                            </div>
+                        </div>
+                        <div class="courses-section-container">
+                            <div class="shadow-develop"></div>
+                            <div class="develop-cours" style="background-color: #DDDDFF;">
+                                <span>Программа</span>
+                                <div class="image-info">
+                                    <img src="images/Group 815.png" alt="">
+                                    <div class="title-info">«Разработка мобильных <br> приложений»</div>
+                                </div>
+                                <p>Разработчик мобильных приложений создаёт <br> приложения, которыми люди ежедневно
+                                    пользуются
+                                    <br>
+                                    на смартфонах, умных часах и планшетах.
+                                </p>
+                                <span>24 месяца</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="section-row">
+                        <div class="courses-section-container">
+                            <div class="shadow-develop"></div>
+                            <div class="develop-cours" style="background-color: #B8EFCF;">
+                                <span>Программа</span>
+                                <div class="image-info">
+                                    <img src="images/Group 815.png" alt="">
+                                    <div class="title-info">«Разработка мобильных <br> приложений»</div>
+                                </div>
+                                <p>Разработчик мобильных приложений создаёт <br> приложения, которыми люди ежедневно
+                                    пользуются
+                                    <br>
+                                    на смартфонах, умных часах и планшетах.
+                                </p>
+                                <span>24 месяца</span>
+                            </div>
+                        </div>
+                        <div class="courses-section-container">
+                            <div class="shadow-develop"></div>
+                            <div class="develop-cours">
+                                <span>Программа</span>
+                                <div class="image-info">
+                                    <img src="images/Group 815.png" alt="">
+                                    <div class="title-info">«Разработка мобильных <br> приложений»</div>
+                                </div>
+                                <p>Разработчик мобильных приложений создаёт <br> приложения, которыми люди ежедневно
+                                    пользуются
+                                    <br>
+                                    на смартфонах, умных часах и планшетах.
+                                </p>
+                                <span>24 месяца</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="section-row">
+                        <div class="courses-section-container">
+                            <div class="shadow-develop"></div>
+                            <div class="develop-cours" style="background-color: #C5DDFF;">
+                                <span>Программа</span>
+                                <div class="image-info">
+                                    <img src="images/Group 815.png" alt="">
+                                    <div class="title-info">«Разработка мобильных <br> приложений»</div>
+                                </div>
+                                <p>Разработчик мобильных приложений создаёт <br> приложения, которыми люди ежедневно
+                                    пользуются
+                                    <br>
+                                    на смартфонах, умных часах и планшетах.
+                                </p>
+                                <span>24 месяца</span>
+                            </div>
+                        </div>
+                        <div class="courses-section-container">
+                            <div class="shadow-develop"></div>
+                            <div class="develop-cours" style="background-color: #FFE9A8;">
+                                <span>Программа</span>
+                                <div class="image-info">
+                                    <img src="images/Group 815.png" alt="">
+                                    <div class="title-info">«Разработка мобильных <br> приложений»</div>
+                                </div>
+                                <p>Разработчик мобильных приложений создаёт <br> приложения, которыми люди ежедневно
+                                    пользуются
+                                    <br>
+                                    на смартфонах, умных часах и планшетах.
+                                </p>
+                                <span>24 месяца</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="section-row">
+                        <div class="courses-section-container">
+                            <div class="shadow-develop"></div>
+                            <div class="develop-cours" style="background-color: #FFEEF6;">
+                                <span>Программа</span>
+                                <div class="image-info">
+                                    <img src="images/Group 815.png" alt="">
+                                    <div class="title-info">«Разработка мобильных <br> приложений»</div>
+                                </div>
+                                <p>Разработчик мобильных приложений создаёт <br> приложения, которыми люди ежедневно
+                                    пользуются
+                                    <br>
+                                    на смартфонах, умных часах и планшетах.
+                                </p>
+                                <span>24 месяца</span>
+                            </div>
+                        </div>
+                        <div class="courses-section-container">
+                            <div class="shadow-develop"></div>
+                            <div class="develop-cours" style="background-color: #DDDDFF;">
+                                <span>Программа</span>
+                                <div class="image-info">
+                                    <img src="images/Group 815.png" alt="">
+                                    <div class="title-info">«Разработка мобильных <br> приложений»</div>
+                                </div>
+                                <p>Разработчик мобильных приложений создаёт <br> приложения, которыми люди ежедневно
+                                    пользуются
+                                    <br>
+                                    на смартфонах, умных часах и планшетах.
+                                </p>
+                                <span>24 месяца</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
