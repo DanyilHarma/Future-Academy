@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
     <meta charset="UTF-8">
@@ -11,7 +11,7 @@
         rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <title>Document</title>
+    <title>Все курсы</title>
     <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/17/17047.png" type="image/png">
 </head>
 
@@ -22,27 +22,26 @@
                 <img src="images/Group 1.png" alt="">
             </a>
             <ul class="first-li-header-top">
-                <li id="all-courses" data-target="0">
+                <li id="all-courses" data-link="../index.html" data-target="0">
                     <a href="">
                         <img src="images/Group 14.png" alt=""> Все курсы
                     </a>
                 </li>
-                <li id="events" data-target="1">
+                <li id="events" data-link="" data-target="1">
                     <a href="">
                         Мероприятия
                     </a>
                 </li>
-                <li id="data-base" data-target="2">
+                <li id="data-base" data-link="" data-target="2">
                     <a href="">
                         Базы знаний
                     </a>
                 </li>
-                <li id="career" data-target="3">
+                <li id="career" data-link="" data-target="3">
                     <a href="">
                         Карьера
                     </a>
                 </li>
-
             </ul>
             <ul class="second-li-header-top">
                 <div class="city-pick-header-top-wrapper">
@@ -287,7 +286,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="courses-section">
+                <div class="courses-section" data-target="0">
                     <div class="section-row">
                         <div class="courses-section-container">
                             <div class="shadow-develop"></div>
@@ -354,7 +353,8 @@
                     <div class="section-row">
                         <div class="courses-section-container">
                             <div class="shadow-develop"></div>
-                            <div class="develop-cours" style="background-color: #B8EFCF;">
+                            <div class="develop-cours clickable" data-link="chess-page/index.html"
+                                style="background-color: #B8EFCF;">
                                 <span>Программа</span>
                                 <div class="image-info">
                                     <img src="images/free-icon-chess-140469.png" alt="">
@@ -429,18 +429,322 @@
                                 <div class="sale">-10%</div>
                             </div>
                         </div>
+                    </div>
+                </div>
+                <div class="courses-section" data-target="1" style="display:none;">
+                    <div class="section-row">
+                        <div class="courses-section-container">
+                            <div class="shadow-develop"></div>
+                            <div class="develop-cours">
+                                <span>Программа</span>
+                                <div class="image-info">
+                                    <img src="images/002-mobile-app.png" alt="">
+                                    <div class="title-info">«Разработка мобильных <br> приложений»</div>
+                                </div>
+                                <p>Разработчик мобильных приложений создаёт <br> приложения, которыми люди ежедневно
+                                    пользуются
+                                    <br>
+                                    на смартфонах, умных часах и планшетах.
+                                </p>
+                                <span>24 месяца</span>
+                            </div>
+                        </div>
+                        <div class="courses-section-container">
+                            <div class="shadow-develop"></div>
+                            <div class="develop-cours" style="background-color: #FFCE94;">
+                                <span>Программа</span>
+                                <div class="image-info">
+                                    <img src="images/001-gamepad.png" alt="">
+                                    <div class="title-info">«Создание игр»</div>
+                                </div>
+                                <p>Курс, который обучит вас разработке игр, включает программирование, дизайн, анимацию
+                                    и звук. Разработан профессионалами индустрии.
+                                </p>
+                                <span>12 месяца</span>
+                                <div class="sale">-10%</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="section-row">
                         <div class="courses-section-container">
                             <div class="shadow-develop"></div>
                             <div class="develop-cours" style="background-color: #DDDDFF;">
                                 <span>Программа</span>
                                 <div class="image-info">
+                                    <img src="images/free-icon-exam-895984.png" alt="">
+                                    <div class="title-info">«Подготовка к ЕГЭ»</div>
+                                </div>
+                                <p>Курс, который поможет вам подготовиться к ЕГЭ, включает все необходимые предметы и
+                                    практические задания.
+                                </p>
+                                <span>3 месяца</span>
+                            </div>
+                        </div>
+                        <div class="courses-section-container">
+                            <div class="shadow-develop"></div>
+                            <div class="develop-cours" style="background-color: #FFEEF6;">
+                                <span>Программа</span>
+                                <div class="image-info">
+                                    <img src="images/soft-skills.png" alt="">
+                                    <div class="title-info">«Soft-skills»</div>
+                                </div>
+                                <p>Курс, который обучит вас софт-скиллами, включает коммуникацию, управление временем и
+                                    работу в команде. Разработан профессионалами.
+                                </p>
+                                <span>2 месяца</span>
+                                <div class="sale">-10%</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="section-row">
+                        <div class="courses-section-container">
+                            <div class="shadow-develop"></div>
+                            <div class="develop-cours clickable" data-link="chess-page/index.html"
+                                style="background-color: #B8EFCF;">
+                                <span>Программа</span>
+                                <div class="image-info">
+                                    <img src="images/free-icon-chess-140469.png" alt="">
+                                    <div class="title-info">«Шахматы»</div>
+                                </div>
+                                <p>Курс, который обучит вас шахматам, включает стратегии, тактику и решения задач.
+                                    Разработан опытными шахматистами.
+                                </p>
+                                <span>3 месяца</span>
+                                <div class="sale">-10%</div>
+                            </div>
+                        </div>
+                        <div class="courses-section-container">
+                            <div class="shadow-develop"></div>
+                            <div class="develop-cours">
+                                <span>Программа</span>
+                                <div class="image-info">
+                                    <img src="images/005-curve.png" alt="">
+                                    <div class="title-info">«3D-моделирование и дизайн»</div>
+                                </div>
+                                <p>Курс, который обучит вас 3D моделированию и дизайну, включает создание и рендеринг
+                                    моделей. Разработан профессионалами отрасли.
+                                </p>
+                                <span>6 месяцев</span>
+                                <div class="sale">-10%</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="section-row">
+                        <div class="courses-section-container">
+                            <div class="shadow-develop"></div>
+                            <div class="develop-cours" style="background-color: #C5DDFF;">
+                                <span>Программа</span>
+                                <div class="image-info">
+                                    <img src="images/free-icon-foreign-language-7177941.png" alt="">
+                                    <div class="title-info">«Иностранные языки»</div>
+                                </div>
+                                <p>Курс, который обучит вас английскому языку, включает грамматику, разговорную практику
+                                    и аудирование. Разработан опытными лингвистами.
+                                </p>
+                                <span>24 месяца</span>
+                            </div>
+                        </div>
+                        <div class="courses-section-container">
+                            <div class="shadow-develop"></div>
+                            <div class="develop-cours" style="background-color: #FFE9A8;">
+                                <span>Программа</span>
+                                <div class="image-info">
+                                    <img src="images/free-icon-blog-3959420.png" alt="">
+                                    <div class="title-info">«Блогинг»</div>
+                                </div>
+                                <p>Курс, который обучит вас блогингу, включает создание контента, продвижение и
+                                    монетизацию. Разработан успешными блогерами.
+                                </p>
+                                <span>1 месяц</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="section-row">
+                        <div class="courses-section-container">
+                            <div class="shadow-develop"></div>
+                            <div class="develop-cours" style="background-color: #FFE9A8;">
+                                <span>Программа</span>
+                                <div class="image-info">
                                     <img src="images/free-icon-sensory-10655739.png" alt="">
                                     <div class="title-info">«Интенсивы»</div>
                                 </div>
-                                <p>Курс, который обучит вас на интенсиве, включает ускоренное освоение ключевых навыков.
-                                    Разработан профессионалами для быстрого результата.
+                                <p>Курс, который обучит вас блогингу, включает создание контента, продвижение и
+                                    монетизацию. Разработан успешными блогерами.
                                 </p>
-                                <span>1-3 месяца(зависит от темы)</span>
+                                <span>1 месяц</span>
+                            </div>
+                        </div>
+                        <div class="courses-section-container">
+                            <div class="shadow-develop"></div>
+                            <div class="develop-cours" style="background-color: #a8ffd5;">
+                                <span>Программа</span>
+                                <div class="image-info">
+                                    <img src="images/free-icon-english-language-1378036.png" alt="">
+                                    <div class="title-info">«Английский язык»</div>
+                                </div>
+                                <p>Курс, который обучит вас английскому языку, включает грамматику, разговорную практику
+                                    и аудирование. Разработан опытными лингвистами.
+                                </p>
+                                <span>1 месяц</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="courses-section" data-target="2" style="display:none;">
+                    <div class="section-row">
+                        <div class="courses-section-container">
+                            <div class="shadow-develop"></div>
+                            <div class="develop-cours">
+                                <span>Программа</span>
+                                <div class="image-info">
+                                    <img src="images/002-mobile-app.png" alt="">
+                                    <div class="title-info">«Разработка мобильных <br> приложений»</div>
+                                </div>
+                                <p>Разработчик мобильных приложений создаёт <br> приложения, которыми люди ежедневно
+                                    пользуются
+                                    <br>
+                                    на смартфонах, умных часах и планшетах.
+                                </p>
+                                <span>24 месяца</span>
+                            </div>
+                        </div>
+                        <div class="courses-section-container">
+                            <div class="shadow-develop"></div>
+                            <div class="develop-cours" style="background-color: #FFCE94;">
+                                <span>Программа</span>
+                                <div class="image-info">
+                                    <img src="images/001-gamepad.png" alt="">
+                                    <div class="title-info">«Создание игр»</div>
+                                </div>
+                                <p>Курс, который обучит вас разработке игр, включает программирование, дизайн, анимацию
+                                    и звук. Разработан профессионалами индустрии.
+                                </p>
+                                <span>12 месяца</span>
+                                <div class="sale">-10%</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="section-row">
+                        <div class="courses-section-container">
+                            <div class="shadow-develop"></div>
+                            <div class="develop-cours" style="background-color: #DDDDFF;">
+                                <span>Программа</span>
+                                <div class="image-info">
+                                    <img src="images/free-icon-computer-6258887.png" alt="">
+                                    <div class="title-info">«Мастер классы»</div>
+                                </div>
+                                <p>Вы сможете принять участия в мастер-классах,на которых будут присутствовать лучшие
+                                    специалисты своего дела и набираться у них опыта.
+                                </p>
+                                <span>6 месяца</span>
+                            </div>
+                        </div>
+                        <div class="courses-section-container">
+                            <div class="shadow-develop"></div>
+                            <div class="develop-cours" style="background-color: #FFEEF6;">
+                                <span>Программа</span>
+                                <div class="image-info">
+                                    <img src="images/free-icon-programming-4861897.png" alt="">
+                                    <div class="title-info">«Программирование»</div>
+                                </div>
+                                <p>Курс, который обучит вас программированию, включает основы, структуры
+                                    данных и разработку приложений. Разработан опытными разработчиками.
+                                </p>
+                                <span>2 месяца</span>
+                                <div class="sale">-10%</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="section-row">
+                        <div class="courses-section-container">
+                            <div class="shadow-develop"></div>
+                            <div class="develop-cours clickable" data-link="chess-page/index.html"
+                                style="background-color: #B8EFCF;">
+                                <span>Программа</span>
+                                <div class="image-info">
+                                    <img src="images/free-icon-chess-140469.png" alt="">
+                                    <div class="title-info">«Шахматы»</div>
+                                </div>
+                                <p>Курс, который обучит вас шахматам, включает стратегии, тактику и решения задач.
+                                    Разработан опытными шахматистами.
+                                </p>
+                                <span>3 месяца</span>
+                                <div class="sale">-10%</div>
+                            </div>
+                        </div>
+                        <div class="courses-section-container">
+                            <div class="shadow-develop"></div>
+                            <div class="develop-cours">
+                                <span>Программа</span>
+                                <div class="image-info">
+                                    <img src="images/005-curve.png" alt="">
+                                    <div class="title-info">«3D-моделирование и дизайн»</div>
+                                </div>
+                                <p>Курс, который обучит вас 3D моделированию и дизайну, включает создание и рендеринг
+                                    моделей. Разработан профессионалами отрасли.
+                                </p>
+                                <span>6 месяцев</span>
+                                <div class="sale">-10%</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="section-row">
+                        <div class="courses-section-container">
+                            <div class="shadow-develop"></div>
+                            <div class="develop-cours" style="background-color: #C5DDFF;">
+                                <span>Программа</span>
+                                <div class="image-info">
+                                    <img src="images/free-icon-foreign-language-7177941.png" alt="">
+                                    <div class="title-info">«Иностранные языки»</div>
+                                </div>
+                                <p>Курс, который обучит вас английскому языку, включает грамматику, разговорную практику
+                                    и аудирование. Разработан опытными лингвистами.
+                                </p>
+                                <span>12 месяца</span>
+                            </div>
+                        </div>
+                        <div class="courses-section-container">
+                            <div class="shadow-develop"></div>
+                            <div class="develop-cours" style="background-color: #FFE9A8;">
+                                <span>Программа</span>
+                                <div class="image-info">
+                                    <img src="images/free-icon-blog-3959420.png" alt="">
+                                    <div class="title-info">«Блогинг»</div>
+                                </div>
+                                <p>Курс, который обучит вас блогингу, включает создание контента, продвижение и
+                                    монетизацию. Разработан успешными блогерами.
+                                </p>
+                                <span>1 месяц</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="section-row">
+                        <div class="courses-section-container">
+                            <div class="shadow-develop"></div>
+                            <div class="develop-cours" style="background-color: #FFE9A8;">
+                                <span>Программа</span>
+                                <div class="image-info">
+                                    <img src="images/free-icon-sensory-10655739.png" alt="">
+                                    <div class="title-info">«Интенсивы»</div>
+                                </div>
+                                <p>Курс, который обучит вас блогингу, включает создание контента, продвижение и
+                                    монетизацию. Разработан успешными блогерами.
+                                </p>
+                                <span>1 месяц</span>
+                            </div>
+                        </div>
+                        <div class="courses-section-container">
+                            <div class="shadow-develop"></div>
+                            <div class="develop-cours" style="background-color: #a8ffd5;">
+                                <span>Программа</span>
+                                <div class="image-info">
+                                    <img src="images/free-icon-english-language-1378036.png" alt="">
+                                    <div class="title-info">«Английский язык»</div>
+                                </div>
+                                <p>Курс, который обучит вас блогингу, включает создание контента, продвижение и
+                                    монетизацию. Разработан успешными блогерами.
+                                </p>
+                                <span>1 месяц</span>
                             </div>
                         </div>
                     </div>
