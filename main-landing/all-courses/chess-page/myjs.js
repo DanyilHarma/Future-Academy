@@ -83,3 +83,47 @@ function playVideo() {
         iframe.src += "&autoplay=1";
     }
 }
+
+/////////////////////////////////OWL REVIEWS/////////////////////////////////
+
+$(document).ready(function () {
+    $(".owl-carousel").owlCarousel({
+        items: 6,
+        loop: true,
+        margin: 10,
+        nav: false,
+        dots: false,
+        onTranslated: updateSlider,
+        responsive: {
+            0: {
+                items: 6
+            },
+            600: {
+                items: 2
+            },
+            1000: {
+                items: 5
+            }
+        }
+    });
+    function updateSlider(event) {
+        let items = event.item.count;
+        let visibleItems = event.page.size; // Количество видимых элементов
+
+        // Рассчитываем индекс текущего элемента с учетом клонированных элементов
+        let item = event.item.index - event.relatedTarget._clones.length / 2;
+        if (item < 0) {
+            item = items - 1;
+        } else if (item >= items) {
+            item = 0;
+        }
+
+        let slider = $(".slider-image-price");
+
+        // Вычисляем процент для перемещения индикатора по ширине контейнера
+        let percentage = (item / items) * 100;
+
+        // Устанавливаем позицию индикатора
+        slider.css("left", percentage + "%");
+    }
+});
