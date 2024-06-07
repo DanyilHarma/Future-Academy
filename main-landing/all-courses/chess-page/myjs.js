@@ -70,3 +70,16 @@ document.addEventListener("DOMContentLoaded", function () {
             }
         })
 })
+
+/////////////////////////////////IFRAME/////////////////////////////////
+
+function playVideo() {
+    let videoOverlay = document.querySelector(".video-overlay");
+    let iframe = document.querySelector(".iframe-video");
+    videoOverlay.style.display = "none";
+
+    let src = iframe.src;
+    if (!src.includes("autoplay=1")) {
+        iframe.src += "&autoplay=1";
+    }
+}
