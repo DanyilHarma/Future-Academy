@@ -1,3 +1,21 @@
+/////////////////////////////////DATA-LINK/////////////////////////////////
+document.addEventListener("DOMContentLoaded", function () {
+    let links = document.querySelectorAll(".first-li-header-top li a")
+
+    links.forEach((link) => {
+        link.addEventListener("click", function (event) {
+            event.preventDefault();
+
+            let dataLink = link.parentElement.getAttribute("data-link");
+            if (dataLink) {
+                window.location.href = dataLink;
+            }
+        })
+    })
+})
+
+
+
 /////////////////////////////////POPUP CITY/////////////////////////////////
 
 document.addEventListener("DOMContentLoaded", function () {

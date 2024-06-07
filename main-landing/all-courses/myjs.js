@@ -62,6 +62,7 @@ document.addEventListener("DOMContentLoaded", function () {
             });
         }
     });
+
 })
 
 /////////////////////////////////INDICATOR FOR WHO/////////////////////////////////
@@ -70,6 +71,8 @@ document.addEventListener("DOMContentLoaded", function () {
     let forWho = document.querySelectorAll(".for-who-people");
     let indicator = document.querySelector(".indicator");
     let coursesList = document.querySelectorAll(".courses-wrapper");
+    let sectionCours = document.querySelectorAll(".courses-section");
+
 
     indicator.style.left = forWho[0].offsetLeft + "px" - 10;
     indicator.style.width = forWho[0].offsetwidth + "px";
@@ -88,11 +91,33 @@ document.addEventListener("DOMContentLoaded", function () {
                     list.style.display = "none";
                 }
             })
+
+            sectionCours.forEach(list => {
+                if (list.getAttribute("data-target") === target) {
+                    list.style.display = "flex";
+                } else {
+                    list.style.display = "none";
+                }
+            })
         })
 
     })
 })
 
+/////////////////////////////////GO TO PAGE/////////////////////////////////
+
+document.addEventListener("DOMContentLoaded", function () {
+    let links = document.querySelectorAll(".clickable");
+
+    links.forEach((link) => {
+        link.addEventListener("click", function () {
+            let dataLink = link.getAttribute("data-link");
+            if (dataLink) {
+                window.location.href = dataLink;
+            }
+        })
+    })
+})
 
 /////////////////////////////////FOOTER/////////////////////////////////
 

@@ -28,6 +28,11 @@ body {
 .first-li-header-top a,
 .second-li-header-top a {
     text-decoration: none;
+    color: #000;
+}
+
+.first-li-header-top a:hover {
+    color: #000;
 }
 
 .first-li-header-top li,
@@ -875,8 +880,6 @@ body {
 }
 
 /* ***************************WELCOME BLOCK**********************/
-
-.welcome-to-academy {}
 
 .welcome-title {
     font-family: var(--font-family);
