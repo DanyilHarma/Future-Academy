@@ -436,7 +436,7 @@ body {
     margin-top: 40px;
     margin-bottom: 70px;
     display: flex;
-    gap: 70px;
+    gap: 80px;
 }
 
 .chess-section-content {
@@ -529,6 +529,12 @@ body {
     margin-bottom: 30px;
 }
 
+.owl-carousel,
+.owl-stage-outer,
+.owl-stage {
+    max-height: 200px;
+}
+
 .owl-item {
     margin-right: 20px !important;
 }
@@ -540,7 +546,6 @@ body {
 
 .price {
     position: relative;
-    margin-top: -200px;
 }
 
 .price hr {
@@ -553,7 +558,6 @@ body {
 
 .slider-container {
     width: 100%;
-    max-width: 1180px;
     height: 3px;
     position: relative;
     background-color: #fff;
@@ -568,4 +572,105 @@ body {
     height: 4px;
     background: linear-gradient(90deg, #f7941d 0%, #27aae1 100%);
     transition: left .3s ease;
+}
+
+.price-info {
+    margin-top: 100px;
+    position: relative;
+}
+
+.price-info h2 {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 94%;
+    color: #000;
+    margin-bottom: 30px;
+}
+
+.price-info p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 144%;
+    color: #000;
+    margin-bottom: 35px;
+}
+
+.price-info>img {
+    position: absolute;
+}
+
+.price-content {
+    position: relative;
+    display: flex;
+    gap: 40px;
+    margin-bottom: 30px;
+}
+
+.owl-price {
+    position: relative;
+    top: -60px;
+}
+
+.price-content div {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.price-content div>span {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 14px;
+    color: #00093c;
+}
+
+.owl-price img {
+    position: absolute;
+    z-index: 1;
+}
+
+.PRICE {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.PRICE span {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 28px;
+    color: #00093c;
+}
+
+.price-text-union {
+    position: relative;
+}
+
+.price-text-union span {
+    position: absolute;
+    left: 53%;
+    top: -13px;
+    z-index: 2;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 24px;
+    color: #000;
+}
+
+.price-btn {
+    margin: 40px 0;
+    background-color: #f7941d;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 190px;
+    height: 50px;
+    line-height: 48px;
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 14px;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
 }
