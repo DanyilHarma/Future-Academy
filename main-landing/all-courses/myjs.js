@@ -13,22 +13,22 @@ document.addEventListener("DOMContentLoaded", function () {
     openPopup.addEventListener("click", function () {
         if (popup.style.display === "none") {
             popup.style.display = "block";
-            arrow.src = "images//Vector 198.png"
+            arrow.src = "../../images/images-all-courses-page/Vector 198.png"
         } else {
             closePopup();
-            arrow.src = "images/Vector 197.png";
+            arrow.src = "../../images/images-all-courses-page/Vector 197.png";
         }
     })
 
     closeBtn.addEventListener("click", function () {
         closePopup();
-        arrow.src = "images/Vector 197.png";
+        arrow.src = "../../images/images-all-courses-page/Vector 197.png";
     })
 
     document.addEventListener("click", function (event) {
         if (!openPopup.contains(event.target) && !popup.contains(event.target)) {
             closePopup();
-            arrow.src = "images/Vector 197.png";
+            arrow.src = "../../images/images-all-courses-page/Vector 197.png";
         }
     })
 })
@@ -107,22 +107,28 @@ document.addEventListener("DOMContentLoaded", function () {
 /////////////////////////////////GO TO PAGE/////////////////////////////////
 
 document.addEventListener("DOMContentLoaded", function () {
-    let links = document.querySelectorAll(".clickable");
+    // Находим все элементы, содержащие атрибут data-link
+    let dataLinkElements = document.querySelectorAll("[data-link]");
 
-    links.forEach((link) => {
-        link.addEventListener("click", function () {
-            let dataLink = link.getAttribute("data-link");
+    dataLinkElements.forEach(element => {
+        element.addEventListener("click", function (event) {
+            event.preventDefault();
+
+            // Получаем значение атрибута data-link
+            let dataLink = element.getAttribute("data-link");
+
             if (dataLink) {
+                // Перенаправляем на URL из атрибута data-link
                 window.location.href = dataLink;
             }
-        })
-    })
-})
+        });
+    });
+});
 
 /////////////////////////////////FOOTER/////////////////////////////////
 
 document.addEventListener("DOMContentLoaded", () => {
-    fetch("../footer-data.json")
+    fetch("../../for-all/footer-data.json")
         .then(response => response.json())
         .then(data => {
             for (info in data) {
