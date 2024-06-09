@@ -13,22 +13,22 @@ document.addEventListener("DOMContentLoaded", function () {
     openPopup.addEventListener("click", function () {
         if (popup.style.display === "none") {
             popup.style.display = "block";
-            arrow.src = "images//Vector 198.png"
+            arrow.src = "../../images/images-chess-page/Vector 198.png"
         } else {
             closePopup();
-            arrow.src = "images/Vector 197.png";
+            arrow.src = "../../images/images-chess-page/Vector 197.png";
         }
     })
 
     closeBtn.addEventListener("click", function () {
         closePopup();
-        arrow.src = "images/Vector 197.png";
+        arrow.src = "../../images/images-chess-page/Vector 197.png";
     })
 
     document.addEventListener("click", function (event) {
         if (!openPopup.contains(event.target) && !popup.contains(event.target)) {
             closePopup();
-            arrow.src = "images/Vector 197.png";
+            arrow.src = "../../images/images-chess-page/Vector 197.png";
         }
     })
 })
@@ -36,18 +36,23 @@ document.addEventListener("DOMContentLoaded", function () {
 /////////////////////////////////GO TO LINK/////////////////////////////////
 
 document.addEventListener("DOMContentLoaded", function () {
-    let links = document.querySelectorAll(".first-li-header-top li a");
+    // Находим все элементы, содержащие атрибут data-link
+    let dataLinkElements = document.querySelectorAll("[data-link]");
 
-    links.forEach((link) => {
-        link.addEventListener("click", function (event) {
+    dataLinkElements.forEach(element => {
+        element.addEventListener("click", function (event) {
             event.preventDefault();
-            let dataLink = link.parentElement.getAttribute("data-link");
+
+            // Получаем значение атрибута data-link
+            let dataLink = element.getAttribute("data-link");
+
             if (dataLink) {
+                // Перенаправляем на URL из атрибута data-link
                 window.location.href = dataLink;
             }
-        })
-    })
-})
+        });
+    });
+});
 
 /////////////////////////////////IMAGE HEADER/////////////////////////////////
 
@@ -127,3 +132,76 @@ $(document).ready(function () {
         slider.css("left", percentage + "%");
     }
 });
+
+/////////////////////////////////ACCORDION/////////////////////////////////
+
+$(document).ready(function () {
+    $("#accordion1").accordion({
+        collapsible: true,
+        heightStyle: "content",
+        active: false // Все панели свернуты по умолчанию
+    });
+
+    $("#accordion2").accordion({
+        collapsible: true,
+        heightStyle: "content",
+        active: false
+    });
+
+    $("#accordion3").accordion({
+        collapsible: true,
+        heightStyle: "content",
+        active: false
+    });
+
+    $("#accordion4").accordion({
+        collapsible: true,
+        heightStyle: "content",
+        active: false
+    });
+});
+
+document.addEventListener("DOMContentLoaded", function () {
+    let clickZones = document.querySelectorAll(".title-accordion");
+
+    clickZones.forEach(function (clickZone) {
+        clickZone.addEventListener("click", function () {
+            let img = this.querySelector("img");
+            img.classList.toggle("active");
+            let panel = this.nextElementSibling;
+
+            $(panel).slideToggle(function () {
+                // Проверяем текущее состояние панели после анимации
+                if ($(panel).is(":visible")) {
+                    // Если панель видима, добавляем класс active к изображению
+                    img.classList.add("active");
+                } else {
+                    // Если панель скрыта, удаляем класс active с изображения
+                    img.classList.remove("active");
+                }
+            });
+        })
+    })
+})
+
+/////////////////////////////////FOOTER/////////////////////////////////
+
+document.addEventListener("DOMContentLoaded", () => {
+    fetch("../../for-all/footer-data.json")
+        .then(response => response.json())
+        .then(data => {
+            for (info in data) {
+                if (data.hasOwnProperty(info)) {
+                    let container = document.getElementById(info);
+                    let infoData = data[info];
+                    infoData.text.forEach(item => {
+                        let a = document.createElement(infoData.tag);
+                        a.className = "a-footer";
+                        a.textContent = item;
+                        a.href = "#";
+                        container.appendChild(a);
+                    })
+                }
+            }
+        })
+})

@@ -1,18 +1,22 @@
 /////////////////////////////////DATA-LINK/////////////////////////////////
 document.addEventListener("DOMContentLoaded", function () {
-    let links = document.querySelectorAll(".first-li-header-top li a")
+    // Находим все элементы, содержащие атрибут data-link
+    let dataLinkElements = document.querySelectorAll("[data-link]");
 
-    links.forEach((link) => {
-        link.addEventListener("click", function (event) {
+    dataLinkElements.forEach(element => {
+        element.addEventListener("click", function (event) {
             event.preventDefault();
 
-            let dataLink = link.parentElement.getAttribute("data-link");
+            // Получаем значение атрибута data-link
+            let dataLink = element.getAttribute("data-link");
+
             if (dataLink) {
+                // Перенаправляем на URL из атрибута data-link
                 window.location.href = dataLink;
             }
-        })
-    })
-})
+        });
+    });
+});
 
 
 
@@ -31,22 +35,22 @@ document.addEventListener("DOMContentLoaded", function () {
     openPopup.addEventListener("click", function () {
         if (popup.style.display === "none") {
             popup.style.display = "block";
-            arrow.src = "images/header-top-images/Vector 198.png"
+            arrow.src = "../../images/header-top-images/Vector 198.png"
         } else {
             closePopup();
-            arrow.src = "images/header-top-images/Vector 197.png";
+            arrow.src = "../../images/header-top-images/Vector 197.png";
         }
     })
 
     closeBtn.addEventListener("click", function () {
         closePopup();
-        arrow.src = "images/header-top-images/Vector 197.png";
+        arrow.src = "../../images/header-top-images/Vector 197.png";
     })
 
     document.addEventListener("click", function (event) {
         if (!openPopup.contains(event.target) && !popup.contains(event.target)) {
             closePopup();
-            arrow.src = "images/header-top-images/Vector 197.png";
+            arrow.src = "../../images/header-top-images/Vector 197.png";
         }
     })
 })
@@ -134,7 +138,7 @@ $(document).ready(function () {
 /////////////////////////////////FOOTER/////////////////////////////////
 
 document.addEventListener("DOMContentLoaded", () => {
-    fetch("footer-data.json")
+    fetch("../../for-all/footer-data.json")
         .then(response => response.json())
         .then(data => {
             for (info in data) {
