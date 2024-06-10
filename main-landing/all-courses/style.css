@@ -29,6 +29,7 @@ body {
 
 .first-li-header-top a,
 .second-li-header-top a {
+    display: flex;
     text-decoration: none;
     color: #fff;
 }

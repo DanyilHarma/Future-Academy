@@ -9,6 +9,8 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
         rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <title>Вход и регистрация</title>
     <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/17/17047.png" type="image/png">
 </head>
@@ -20,22 +22,22 @@
                 <img src="../../images/images-all-courses-page/Group 1.png" alt="">
             </a>
             <ul class="first-li-header-top">
-                <li id="all-courses" data-link="" data-target="0">
+                <li id="all-courses" data-link="../all-courses/index.html">
                     <a href="">
                         <img src="../../images/images-all-courses-page/Group 14.png" alt=""> Все курсы
                     </a>
                 </li>
-                <li id="events" data-link="" data-target="1">
+                <li id="events" data-link="">
                     <a href="">
                         Мероприятия
                     </a>
                 </li>
-                <li id="data-base" data-link="" data-target="2">
+                <li id="data-base" data-link="">
                     <a href="">
                         Базы знаний
                     </a>
                 </li>
-                <li id="career" data-link="" data-target="3">
+                <li id="career" data-link="">
                     <a href="">
                         Карьера
                     </a>
@@ -90,7 +92,102 @@
         </div>
     </header>
 
+    <div class="form-container">
+        <div class="owl-container">
+            <img src="../../images/images-form-registration/owl.png" alt="">
+            <div class="union-text">Войдите в систему <br>
+                или зарегистрируйтесь, <br>
+                если у вас ещё нет аккаунта</div>
+            <img src="../../images/images-form-registration/Union.png" alt="">
+        </div>
+        <div class="form-title">
+            <div class="titles">
+                <div><span class="enter">Вход</span></div>
+                <div><span class="registration">Регистрация</span></div>
+            </div>
+            <div class="indicator-container">
+                <hr class="indicator">
+            </div>
+            <hr>
+            <form action="">
+                <div class="inputs-enter">
+                    <input type="tel" placeholder="Введите ваш номер телефона" class="input" required>
+                    <input type="email" placeholder="Введите ваш Email" class="input" required>
+                    <input type="password" placeholder="Введите ваш пароль" class="input" required>
+                </div>
+                <div class="inputs-registration">
+                    <div class="name-surname">
+                        <input type="text" placeholder="Введите ваше имя" class="input" required>
+                        <input type="text" placeholder="Введите ваше имя" class="input" required>
+                    </div>
 
+                    <input type="email" placeholder="Введите ваш Email" class="input" required>
+                    <input type="password" placeholder="Введите ваш пароль" name="password" class="input" required>
+                    <input type="password" placeholder="Введите ваш пароль повторно" name="confirm-password"
+                        class="input" required>
+                </div>
+                <div class="society-container">
+                    <span>Войти с помощью соцсетей:</span>
+                    <div class="society">
+                        <a href="https://vk.com/academyxod"><img src="../../images/images-form-registration/vk.png"
+                                alt=""></a>
+                        <a href=""><img src="../../images/images-form-registration/instagram.png" alt=""></a>
+                        <a href=""><img src="../../images/images-form-registration/facebook.png" alt=""></a>
+                        <a href="https://www.youtube.com/channel/UCAmIzaYYrC-X3D2F6G-0xwA"><img
+                                src="../../images/images-form-registration/youtube.png" alt=""></a>
+                        <a href="https://t.me/academyxodonline_bot"><img
+                                src="../../images/images-form-registration/telegram.png" alt=""></a>
+                    </div>
+                    <button class="button-form">Войти</button>
+                </div>
+            </form>
+
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="footer-container">
+                <div class="info-block-footer">
+                    <a href="../main-nanding/index.html"><img src="../../images/footer/Group 802.png" alt=""
+                            class="logo-footer"></a>
+
+                    <div class="info-contact-footer">
+                        <a href="tel:+37368432044">8 800 950-33-98 </a>
+                        <div>г. Дубоссары, ул. Кирова, д. 82</div>
+                        <a href="mailto:danilagarma1999@mail.ru">danilagarma1999@mail.ru</a>
+                    </div>
+
+                    <div class="society-footer">
+                        <a href=""><img src="../../images/footer/vk.png" alt=""></a>
+                        <a href=""><img src="../../images/footer/instagram.png" alt=""></a>
+                        <a href=""><img src="../../images/footer/facebook.png" alt=""></a>
+                        <a href=""><img src="../../images/footer/youtube.png" alt=""></a>
+                        <a href=""><img src="../../images/footer/telegram.png" alt=""></a>
+                    </div>
+
+                    <div>© ХОД, Future Academy</div>
+                </div>
+
+                <div class="sections-col-footer">
+                    <div class="lasts-col">
+                        <div class="li" id="children">
+                            <h5>Детям</h5>
+                        </div>
+                        <div class="li" id="teenagers">
+                            <h5>Подросткам</h5>
+                        </div>
+                        <div class="li" id="adults">
+                            <h5>Взрослым</h5>
+                        </div>
+                        <div class="li" id="information-footer">
+                            <h5>Информация</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
     <script src="myjs.js"></script>
 </body>
 

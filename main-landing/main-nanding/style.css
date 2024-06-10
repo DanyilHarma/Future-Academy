@@ -31,7 +31,8 @@ body {
     color: #000;
 }
 
-.first-li-header-top a:hover {
+.first-li-header-top a:hover,
+.second-li-header-top a:hover {
     color: #000;
 }
 
