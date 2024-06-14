@@ -175,8 +175,8 @@ document.addEventListener("DOMContentLoaded", () => {
                     infoData.text.forEach(item => {
                         let a = document.createElement(infoData.tag);
                         a.className = "a-footer";
-                        a.textContent = item;
-                        a.href = "#";
+                        a.textContent = item.label;
+                        a.href = item.link;
                         container.appendChild(a);
                     })
                 }
