@@ -183,25 +183,3 @@ document.addEventListener("DOMContentLoaded", function () {
         })
     })
 })
-
-/////////////////////////////////FOOTER/////////////////////////////////
-
-document.addEventListener("DOMContentLoaded", () => {
-    fetch("../../for-all/footer-data.json")
-        .then(response => response.json())
-        .then(data => {
-            for (info in data) {
-                if (data.hasOwnProperty(info)) {
-                    let container = document.getElementById(info);
-                    let infoData = data[info];
-                    infoData.text.forEach(item => {
-                        let a = document.createElement(infoData.tag);
-                        a.className = "a-footer";
-                        a.textContent = item;
-                        a.href = "#";
-                        container.appendChild(a);
-                    })
-                }
-            }
-        })
-})

@@ -359,7 +359,7 @@ body {
     color: #000;
 }
 
-/* ****************************QUESTIONS BLOCK******************************* */
+/* ****************************PROGRAMM BLOCK******************************* */
 
 .question {
     position: relative;
@@ -475,8 +475,7 @@ body {
 
 #accordion1,
 #accordion2,
-#accordion3,
-#accordion4 {
+#accordion3 {
     position: relative;
     z-index: 1;
     padding: 15px;
@@ -501,8 +500,7 @@ body {
 
 #accordion1 h4,
 #accordion2 h4,
-#accordion3 h4,
-#accordion4 h4 {
+#accordion3 h4 {
     font-family: var(--font-family);
     font-weight: 500;
     font-size: 18px;
@@ -512,8 +510,7 @@ body {
 
 #accordion1 div p,
 #accordion2 div p,
-#accordion3 div p,
-#accordion4 div p {
+#accordion3 div p {
     font-family: var(--font-family);
     font-weight: 400;
     font-size: 14px;
@@ -529,7 +526,7 @@ body {
     height: 600px;
     background-color: #00093c;
     overflow: hidden;
-    margin-bottom: 100px;
+    margin-bottom: 80px;
 }
 
 .background-image-container {
