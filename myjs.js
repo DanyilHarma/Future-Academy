@@ -63,7 +63,7 @@ $(document).ready(function () {
         }
     });
     function updateSlider(event) {
-        let items = event.item.count;//получае общее количество элементов в карусели.Это включает все видимые и клонированные элементы
+        let items = event.item.count;//получаем общее количество элементов в карусели.Это включает все видимые и клонированные элементы
         // ,которые используются для бесконечного циклического прокручивания.
 
         let item = event.item.index - event.relatedTarget._clones.length / 2;

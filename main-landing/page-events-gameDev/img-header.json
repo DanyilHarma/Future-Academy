@@ -1,0 +1,51 @@
+{
+    "monitor": {
+        "tag": "img",
+        "src": "/images/images-events/gameDev/free-icon-game-development-9495838.png",
+        "position": "absolute",
+        "top": "60%",
+        "left": "-10%"
+    },
+    "gamepad-1": {
+        "tag": "img",
+        "src": "/images/images-events/gameDev/free-icon-game-console.png",
+        "position": "absolute",
+        "top": "70%",
+        "left": "40%",
+        "transform": "rotate(10deg)"
+    },
+    "gamepad-2": {
+        "tag": "img",
+        "src": "/images/images-events/gameDev/free-icon-game-console (1).png",
+        "position": "absolute",
+        "top": "7%",
+        "left": "35%"
+    },
+    "x": {
+        "tag": "img",
+        "src": "/images/images-chess-page/Vector (3).png",
+        "position": "absolute",
+        "top": "5%",
+        "left": "-5%",
+        "transform": "rotate(5deg)"
+    },
+    "gamepad-3": {
+        "tag": "img",
+        "src": "/images/images-events/gameDev/free-icon-game-controller.png",
+        "position": "absolute",
+        "top": "10%",
+        "left": "103%",
+        "maxWidth": "100px",
+        "transform": "rotate(10deg)"
+    },
+    "line-last": {
+        "tag": "img",
+        "src": "/images/images-events/gameDev/free-icon-joystick.png",
+        "position": "absolute",
+        "top": "60%",
+        "left": "100%",
+        "width": "17%",
+        "transform": "rotate(-20deg)",
+        "maxWidth": "100px"
+    }
+}
