@@ -13,22 +13,22 @@ document.addEventListener("DOMContentLoaded", function () {
     openPopup.addEventListener("click", function () {
         if (popup.style.display === "none") {
             popup.style.display = "block";
-            arrow.src = "../../images/images-all-courses-page/Vector 198.png"
+            arrow.src = "/images/images-all-courses-page/Vector 198.png"
         } else {
             closePopup();
-            arrow.src = "../../images/images-all-courses-page/Vector 197.png";
+            arrow.src = "/images/images-all-courses-page/Vector 197.png";
         }
     })
 
     closeBtn.addEventListener("click", function () {
         closePopup();
-        arrow.src = "../../images/images-all-courses-page/Vector 197.png";
+        arrow.src = "/images/images-all-courses-page/Vector 197.png";
     })
 
     document.addEventListener("click", function (event) {
         if (!openPopup.contains(event.target) && !popup.contains(event.target)) {
             closePopup();
-            arrow.src = "../../images/images-all-courses-page/Vector 197.png";
+            arrow.src = "/images/images-all-courses-page/Vector 197.png";
         }
     })
 })
@@ -89,7 +89,7 @@ document.addEventListener("DOMContentLoaded", function () {
 /////////////////////////////////FOOTER/////////////////////////////////
 
 document.addEventListener("DOMContentLoaded", () => {
-    fetch("../../for-all/footer-data.json")
+    fetch("/for-all/footer-data.json")
         .then(response => response.json())
         .then(data => {
             for (info in data) {
