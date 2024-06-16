@@ -23,7 +23,7 @@
             },
             {
                 "label": "Шахматы",
-                "link": "../chess-page/index.html"
+                "link": "/main-landing/chess-page/index.html"
             },
             {
                 "label": "Блогинг",
@@ -146,7 +146,7 @@
             },
             {
                 "label": "Мероприятия",
-                "link": "../all-events/index.html"
+                "link": "/main-landing/all-events/index.html"
             },
             {
                 "label": "Новости",
