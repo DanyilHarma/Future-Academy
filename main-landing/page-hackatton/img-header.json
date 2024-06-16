@@ -1,42 +1,42 @@
 {
     "line-first": {
         "tag": "img",
-        "src": "../../images/images-chess-page/Vector 178.png",
+        "src": "/images/images-chess-page/Vector 178.png",
         "position": "absolute",
         "top": "60%",
         "left": "-10%"
     },
     "line-third": {
         "tag": "img",
-        "src": "../../images/images-chess-page/Vector 181.png",
+        "src": "/images/images-chess-page/Vector 181.png",
         "position": "absolute",
         "top": "84%",
         "left": "26%"
     },
     "trianlge-small": {
         "tag": "img",
-        "src": "../../images/images-chess-page/Vector (1).png",
+        "src": "/images/images-chess-page/Vector (1).png",
         "position": "absolute",
         "top": "55%",
         "left": "35%"
     },
     "x": {
         "tag": "img",
-        "src": "../../images/images-chess-page/Vector (3).png",
+        "src": "/images/images-chess-page/Vector (3).png",
         "position": "absolute",
         "top": "1%",
         "left": "-5%"
     },
     "triangle-big": {
         "tag": "img",
-        "src": "../../images/images-chess-page/Vector (4).png",
+        "src": "/images/images-chess-page/Vector (4).png",
         "position": "absolute",
         "top": "10%",
         "left": "103%"
     },
     "line-last": {
         "tag": "img",
-        "src": "../../images/images-chess-page/Vector 182.png",
+        "src": "/images/images-chess-page/Vector 182.png",
         "position": "absolute",
         "top": "88%",
         "left": "97%",

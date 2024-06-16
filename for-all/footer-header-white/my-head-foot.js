@@ -18,8 +18,8 @@ document.addEventListener("DOMContentLoaded", function () {
             .catch(error => console.error(error));
     }
 
-    loadHTML("../../for-all/footer-header-white/header.html", "header", setupHeader);
-    loadHTML("../../for-all/footer-header-white/footer.html", "footer", setupFooter);
+    loadHTML("/for-all/footer-header-white/header.html", "header", setupHeader);
+    loadHTML("/for-all/footer-header-white/footer.html", "footer", setupFooter);
 
     function setupHeader() {
         let openPopup = document.querySelector(".city-pick-header-top");
@@ -34,22 +34,22 @@ document.addEventListener("DOMContentLoaded", function () {
         openPopup.addEventListener("click", function () {
             if (popup.style.display === "none") {
                 popup.style.display = "block";
-                arrow.src = "../../images/images-chess-page/Vector 198.png"
+                arrow.src = "/images/images-chess-page/Vector 198.png"
             } else {
                 closePopup();
-                arrow.src = "../../images/images-chess-page/Vector 197.png";
+                arrow.src = "/images/images-chess-page/Vector 197.png";
             }
         })
 
         closeBtn.addEventListener("click", function () {
             closePopup();
-            arrow.src = "../../images/images-chess-page/Vector 197.png";
+            arrow.src = "/images/images-chess-page/Vector 197.png";
         })
 
         document.addEventListener("click", function (event) {
             if (!openPopup.contains(event.target) && !popup.contains(event.target)) {
                 closePopup();
-                arrow.src = "../../images/images-chess-page/Vector 197.png";
+                arrow.src = "/images/images-chess-page/Vector 197.png";
             }
         })
         dataLink();
@@ -74,7 +74,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     function setupFooter() {
-        fetch("../../for-all/footer-data.json")
+        fetch("/for-all/footer-data.json")
             .then(response => response.json())
             .then(data => {
                 for (info in data) {
