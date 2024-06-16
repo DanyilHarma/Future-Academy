@@ -82,7 +82,8 @@ document.addEventListener("DOMContentLoaded", function () {
             links.forEach(link => {
                 let data = link.getAttribute("data-link");
                 if (data.startsWith("../")) {
-                    link.setAttribute("data-link", "main-landing/" + data.substring(3));
+                    let newLink = "main-landing/" + data.substring(3);
+                    link.setAttribute("data-link", "/" + newLink);
                 }
             });
         }
