@@ -76,7 +76,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     function changeLinkForMain() {
-        if (window.location.pathname === "/index.html" || window.location.hostname === "https://master--ra40k.netlify.app/") {
+        if (window.location.pathname === "/index.html" || window.location.hostname.includes("netlify.app")) {
             let links = document.querySelectorAll("[data-link]");
             links.forEach(link => {
                 let data = link.getAttribute("data-link");
