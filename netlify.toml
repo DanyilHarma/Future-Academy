@@ -1,5 +1,5 @@
 [build]
-  publish = "project-5"
+  publish = "."
   command = ""
 
 [[redirects]]
