@@ -18,10 +18,8 @@ document.addEventListener("DOMContentLoaded", function () {
             .catch(error => console.error(error));
     }
 
-    loadHTML("/for-all/footer-header-white/header.html", "header", () => {
-        setupHeader();
-        changeLinkForMain();
-    });
+    loadHTML("/for-all/footer-header-white/header.html", "header", setupHeader);
+
     loadHTML("/for-all/footer-header-white/footer.html", "footer", setupFooter);
 
     function setupHeader() {
@@ -55,6 +53,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 arrow.src = "/images/images-chess-page/Vector 197.png";
             }
         })
+        changeLinkForMain();
         dataLink();
     }
 
@@ -77,7 +76,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     function changeLinkForMain() {
-        if (window.location.pathname === "/index.html") {
+        if (window.location.pathname === "/index.html" || window.location.hostname === "https://master--ra40k.netlify.app/") {
             let links = document.querySelectorAll("[data-link]");
             links.forEach(link => {
                 let data = link.getAttribute("data-link");
