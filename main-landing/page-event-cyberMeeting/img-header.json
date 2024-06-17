@@ -1,0 +1,30 @@
+{
+    "cyber-1": {
+        "tag": "img",
+        "src": "/images/images-events/cyber-meeting/free-icon-cyber-4736067.png",
+        "position": "absolute",
+        "top": "48%",
+        "left": "-5%"
+    },
+    "cyber-2": {
+        "tag": "img",
+        "src": "/images/images-events/cyber-meeting/free-icon-cyber-eye-8335360.png",
+        "position": "absolute",
+        "top": "2%",
+        "left": "50%"
+    },
+    "cyber-3": {
+        "tag": "img",
+        "src": "/images/images-events/cyber-meeting/free-icon-cyber-security-6468991.png",
+        "position": "absolute",
+        "top": "68%",
+        "left": "45%"
+    },
+    "cyber-4": {
+        "tag": "img",
+        "src": "/images/images-events/cyber-meeting/icons8-cyber-96.png",
+        "position": "absolute",
+        "top": "70%",
+        "left": "100%"
+    }
+}
