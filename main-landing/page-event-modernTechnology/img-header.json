@@ -1,0 +1,60 @@
+{
+    "react": {
+        "tag": "img",
+        "src": "/images/images-events/modernTechnology/icons8-react-native-64.png",
+        "position": "absolute",
+        "top": "10%",
+        "left": "-5%"
+    },
+    "angular": {
+        "tag": "img",
+        "src": "/images/images-events/modernTechnology/icons8-angularjs-64.png",
+        "position": "absolute",
+        "top": "20%",
+        "left": "45%"
+    },
+    "vue": {
+        "tag": "img",
+        "src": "/images/images-events/modernTechnology/icons8-vue-js-64.png",
+        "position": "absolute",
+        "top": "70%",
+        "left": "-5%"
+    },
+    "json": {
+        "tag": "img",
+        "src": "/images/images-events/modernTechnology/icons8-json-64.png",
+        "position": "absolute",
+        "top": "77%",
+        "left": "40%"
+    },
+    "css": {
+        "tag": "img",
+        "src": "/images/images-events/modernTechnology/icons8-css-96.png",
+        "position": "absolute",
+        "top": "47%",
+        "left": "100%",
+        "transform": "rotate(-20deg)"
+    },
+    "html": {
+        "tag": "img",
+        "src": "/images/images-events/modernTechnology/icons8-html-64.png",
+        "position": "absolute",
+        "top": "7%",
+        "left": "65%"
+    },
+    "js": {
+        "tag": "img",
+        "src": "/images/images-events/modernTechnology/icons8-js-96.png",
+        "position": "absolute",
+        "top": "10%",
+        "left": "103%",
+        "transform": "rotate(20deg)"
+    },
+    "line-last": {
+        "tag": "img",
+        "src": "/images/images-events/modernTechnology/icons8-web-96.png",
+        "position": "absolute",
+        "top": "75%",
+        "left": "100%"
+    }
+}
