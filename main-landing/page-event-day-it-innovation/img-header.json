@@ -1,0 +1,37 @@
+{
+    "item-1": {
+        "tag": "img",
+        "src": "/images/images-events/day-of-it-innovation/free-icon-innovation-4694421.png",
+        "position": "absolute",
+        "top": "48%",
+        "left": "-5%"
+    },
+    "item-2": {
+        "tag": "img",
+        "src": "/images/images-events/day-of-it-innovation/free-icon-financial-3051062.png",
+        "position": "absolute",
+        "top": "2%",
+        "left": "50%"
+    },
+    "item-3": {
+        "tag": "img",
+        "src": "/images/images-events/day-of-it-innovation/free-icon-innovation-2171099.png",
+        "position": "absolute",
+        "top": "68%",
+        "left": "45%"
+    },
+    "item-4": {
+        "tag": "img",
+        "src": "/images/images-events/day-of-it-innovation/free-icon-innovation-2452628.png",
+        "position": "absolute",
+        "top": "70%",
+        "left": "100%"
+    },
+    "item-5": {
+        "tag": "img",
+        "src": "/images/images-events/day-of-it-innovation/free-icon-innovation-6254533.png",
+        "position": "absolute",
+        "top": "10%",
+        "left": "105%"
+    }
+}

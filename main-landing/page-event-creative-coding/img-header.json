@@ -1,0 +1,44 @@
+{
+    "item-1": {
+        "tag": "img",
+        "src": "/images/images-events/creative-coding/free-icon-brainstorming-8431389.png",
+        "position": "absolute",
+        "top": "75%",
+        "left": "-3%"
+    },
+    "item-2": {
+        "tag": "img",
+        "src": "/images/images-events/creative-coding/free-icon-creative-design-1875744.png",
+        "position": "absolute",
+        "top": "8%",
+        "left": "47%"
+    },
+    "item-3": {
+        "tag": "img",
+        "src": "/images/images-events/creative-coding/free-icon-creative-design-6551563.png",
+        "position": "absolute",
+        "top": "68%",
+        "left": "45%"
+    },
+    "item-4": {
+        "tag": "img",
+        "src": "/images/images-events/creative-coding/free-icon-creative-idea-6446979.png",
+        "position": "absolute",
+        "top": "70%",
+        "left": "100%"
+    },
+    "item-5": {
+        "tag": "img",
+        "src": "/images/images-events/creative-coding/free-icon-creative-thinking-4691466.png",
+        "position": "absolute",
+        "top": "7%",
+        "left": "-6%"
+    },
+    "item-6": {
+        "tag": "img",
+        "src": "/images/images-events/creative-coding/free-icon-creative-thinking-7977960.png",
+        "position": "absolute",
+        "top": "10%",
+        "left": "105%"
+    }
+}
