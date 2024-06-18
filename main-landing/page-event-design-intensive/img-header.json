@@ -1,0 +1,44 @@
+{
+    "item-1": {
+        "tag": "img",
+        "src": "/images/images-events/design-intensive/free-icon-web-design-2868174.png",
+        "position": "absolute",
+        "top": "35%",
+        "left": "-10%"
+    },
+    "item-2": {
+        "tag": "img",
+        "src": "/images/images-events/design-intensive/free-icon-website-design-1878372.png",
+        "position": "absolute",
+        "top": "2%",
+        "left": "50%"
+    },
+    "item-3": {
+        "tag": "img",
+        "src": "/images/images-events/design-intensive/free-icon-pen-tool-6642232.png",
+        "position": "absolute",
+        "top": "79%",
+        "left": "8%"
+    },
+    "item-4": {
+        "tag": "img",
+        "src": "/images/images-events/design-intensive/free-icon-magic-wand-2868130.png",
+        "position": "absolute",
+        "top": "87%",
+        "left": "100%"
+    },
+    "item-5": {
+        "tag": "img",
+        "src": "/images/images-events/design-intensive/free-icon-edit-tools-8378452.png",
+        "position": "absolute",
+        "top": "70%",
+        "left": "50%"
+    },
+    "item-6": {
+        "tag": "img",
+        "src": "/images/images-events/design-intensive/free-icon-mockup-design-6612013.png",
+        "position": "absolute",
+        "top": "30%",
+        "left": "105%"
+    }
+}
