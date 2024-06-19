@@ -14,8 +14,8 @@ body {
     padding: 30px 200px;
     display: flex;
     align-items: center;
-    justify-content: center;
     gap: 70px;
+    justify-content: center;
     position: relative;
     background-color: #00093c;
 }
@@ -165,268 +165,120 @@ body {
 
 /* ****************************MAIN******************************* */
 
-.all-events {
+.container {
     margin-top: 50px;
 }
 
-.all-events h1 {
+.container h1 {
+    padding-left: 30px;
     font-family: var(--font-family);
     font-weight: 700;
     font-size: 36px;
     color: #000;
 }
 
-.all-events-content {
+.main-wrap {
     display: flex;
     flex-direction: column;
     gap: 20px;
+    padding: 20px 30px;
 }
 
-/* ***************first-block-once************* */
-.day-of-open-door {
-    margin-top: 60px;
-    display: flex;
-    align-items: center;
-    background-color: #F7BC75;
-    border-radius: 10px;
-    padding: 15px 30px;
-    padding-bottom: 5px;
-    max-width: 1180px;
-    width: 100%;
-}
-
-.svg-day-of {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 15px;
-}
-
-.text-day-of {
-    margin-top: 16px;
-    display: flex;
-    flex-direction: column;
-    margin-left: 50px;
-}
-
-.text-day-of span {
-    font-family: var(--font-family);
-    font-weight: 500;
-    font-size: 36px;
-    line-height: 72%;
-    color: #000;
-    margin-bottom: 35px;
-}
-
-.text-day-of p {
-    font-family: var(--font-family);
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 144%;
-    color: #333;
-}
-
-.button-day-of-container {
-    display: flex;
-    align-items: center;
-    margin-left: 210px;
-    border: 2px solid #000;
-    border-radius: 10px;
-    width: 100%;
-    max-width: 222px;
-    height: 60px;
-    cursor: pointer;
-}
-
-.button-day-of {
-    display: block;
-    margin: 0 auto;
-}
-
-.button-day-of span {
-    font-family: var(--font-family);
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 186%;
-    color: #000
-}
-
-.button-day-of svg {
-    margin-left: 5px;
-}
-
-/* ***************section-events************* */
-
-.all-events-content {
-    margin-bottom: 50px;
-}
-
-.events-sections {
-    display: flex;
-    gap: 20px;
-}
-
-.gradient-container {
+.container-gradient {
     position: relative;
-    overflow: visible;
+    max-width: 395px;
 }
 
-.gradient {
+.gradient-shadow {
     background: linear-gradient(90deg, #f7941d 0%, #27aae1 100%);
     filter: blur(5px);
-    opacity: 0.4;
+    opacity: 0.2;
     position: absolute;
-    top: -1px;
-    left: -1px;
-    right: -1px;
-    bottom: -1px;
+    top: -3px;
+    left: -3px;
+    right: -3px;
+    bottom: -3px;
     z-index: -1;
     border-radius: 20px;
     width: 100%;
-    transition: all 0.3s ease;
+    transition: all .3s ease;
 }
 
-.event {
-    padding: 25px 25px;
+.news {
     position: relative;
-    background-color: #C7EEFF;
-    border-radius: 20px;
-    z-index: 1;
     width: 100%;
     max-width: 380px;
-    height: 250px;
-    cursor: pointer;
     transition: transform .3s;
 }
 
-.event:hover {
+.news:hover {
     transform: scale(1.03);
 }
 
-.gradient-container:not(.big-block):hover .gradient {
+.container-gradient:hover .gradient-shadow {
     filter: blur(15px);
     opacity: 0.6;
     position: absolute;
-    top: -10px;
-    left: -10px;
-    right: -10px;
-    bottom: -10px;
+    top: -5px;
+    left: -5px;
+    right: -5px;
+    bottom: -5px;
     width: auto;
 }
 
-.event-content {
+.news-content {
+    background-color: #fff;
     display: flex;
-    gap: 13px;
     flex-direction: column;
+    gap: 15px;
+    padding: 20px 30px;
+    border-radius: 0 0 20px 20px;
+    height: 330px;
 }
 
-.event-content span:first-of-type {
+.news-content span {
     font-family: var(--font-family);
     font-weight: 400;
     font-size: 12px;
-    color: #4f4f4f;
+    color: #000;
 }
 
-.event-title {
-    display: flex;
-    align-items: center;
-    gap: 20px;
-}
-
-.event-title img {
-    max-width: 60px;
-    height: 50px;
-}
-
-.event-title h3 {
+.news-content h3 {
     font-family: var(--font-family);
     font-weight: 500;
     font-size: 18px;
     color: #00093c;
 }
 
-.event-content p {
+.news-content p {
     font-family: var(--font-family);
     font-weight: 400;
     font-size: 12px;
     line-height: 150%;
     color: #4f4f4f;
-    margin-bottom: 0;
 }
 
-.event-content span:last-of-type {
-    font-family: var(--font-family);
-    font-weight: 400;
-    font-size: 12px;
-    color: #000;
-}
-
-.big-block {
-    max-width: 780px;
+.news-content span:last-of-type {
+    display: inline-block;
     position: relative;
-}
-
-.big-block::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 40%;
-    height: 100%;
-    border-radius: 20px 0 0 20px;
-    background-image: url(/images/images-all-events/DALL·E\ 2024-06-11\ 17.32.26.webp);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    transition: transform .3s;
-}
-
-.images-back {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-image: url(/images/images-all-events/DALL·E\ 2024-06-11\ 18.01.30.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    z-index: -1;
-    border-radius: 20px;
-}
-
-.images-back::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.75);
-    z-index: 1;
-    border-radius: 20px;
-}
-
-.event.images-event span {
     font-family: var(--font-family);
-    font-weight: 400;
-    font-size: 12px;
-    color: #fff;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 186%;
+    color: #00093c;
+    cursor: pointer;
+    width: fit-content;
 }
 
-.images-event h3 {
-    font-family: var(--font-family);
-    font-weight: 600;
-    font-size: 24px;
-    color: #fff;
+.news-content .arrow {
+    position: absolute;
+    top: 5px;
+    right: -25px;
+    transition: right .3s;
 }
 
-.images-event p {
-    font-family: var(--font-family);
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 150%;
-    color: #fff;
+.news-content span:last-of-type:hover .arrow {
+    right: -32px;
 }
 
 /* ***************************FORM HELP CHOICE**********************/
@@ -438,7 +290,8 @@ body {
     width: 100%;
     max-width: 1180px;
     height: 270px;
-    margin-bottom: -30px;
+    margin-bottom: -80px;
+    margin-left: 20px;
 }
 
 .form-shadow {
@@ -457,7 +310,7 @@ body {
 .form-help-choice {
     position: relative;
     padding: 40px;
-    margin-top: 150px;
+    margin-top: 50px;
     width: 100%;
     max-width: 1180px;
     height: 270px;
