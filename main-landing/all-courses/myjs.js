@@ -105,6 +105,7 @@ document.addEventListener("DOMContentLoaded", function () {
 })
 
 /////////////////////////////////FILTER/////////////////////////////////
+
 document.addEventListener("DOMContentLoaded", function () {
     const filterComplexityBox = document.querySelectorAll(".complexity .li-radio input");
     const filterCategoryBox = document.querySelectorAll(".type-of-education .li-radio input");
@@ -220,6 +221,7 @@ document.addEventListener("DOMContentLoaded", function () {
         filterGoods();
     }
 });
+
 /////////////////////////////////GO TO PAGE/////////////////////////////////
 
 document.addEventListener("DOMContentLoaded", function () {
