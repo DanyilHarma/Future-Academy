@@ -126,37 +126,42 @@
 
             <div class="all-courses-filter">
                 <h6>Уровень сложности</h6>
-                <form action="">
+                <form action="" class="complexity">
                     <div class="li-radio">
-                        <input type="radio" id="newbie" name="difficult" value="newbie">
+                        <input type="radio" id="all" name="difficult" value="all" data-filter="all">
+                        <label for="all">Все</label>
+                    </div>
+                    <div class="li-radio">
+                        <input type="radio" id="newbie" name="difficult" value="newbie" data-filter="newbie">
                         <label for="newbie">Новичок</label>
                     </div>
                     <div class="li-radio">
-                        <input type="radio" id="user" name="difficult" value="user">
+                        <input type="radio" id="user" name="difficult" value="user" data-filter="user">
                         <label for="user">Пользователь</label>
                     </div>
                     <div class="li-radio">
-                        <input type="radio" id="proffessional" name="difficult" value="profi">
+                        <input type="radio" id="proffessional" name="difficult" value="profi"
+                            data-filter="proffessional">
                         <label for="proffessional">Проффесионал</label>
                     </div>
                     <div class="li-radio">
-                        <input type="radio" id="cheater" name="difficult" value="cheater">
+                        <input type="radio" id="cheater" name="difficult" value="cheater" data-filter="cheater">
                         <label for="cheater">Читер</label>
                     </div>
                 </form>
                 <hr class="filter-hr">
                 <h6>Тип обучения</h6>
-                <form action="">
+                <form action="" class="type-of-education">
                     <div class="li-radio">
-                        <input type="radio" id="any" name="type" value="any">
+                        <input type="radio" id="any" name="type" value="any" data-f-ed="any">
                         <label for="any">Любой</label>
                     </div>
                     <div class="li-radio">
-                        <input type="radio" id="profession" name="type" value="profession">
+                        <input type="radio" id="profession" name="type" value="profession" data-f-ed="proffession">
                         <label for="profession">Профессия</label>
                     </div>
                     <div class="li-radio">
-                        <input type="radio" id="course" name="type" value="course">
+                        <input type="radio" id="course" name="type" value="course" data-f-ed="cours">
                         <label for="course">Курс</label>
                     </div>
                 </form>
@@ -289,7 +294,7 @@
                 </div>
                 <div class="courses-section" data-target="0">
                     <div class="section-row">
-                        <div class="courses-section-container">
+                        <div class="courses-section-container box cheater proffession">
                             <div class="shadow-develop"></div>
                             <div class="develop-cours">
                                 <span>Программа</span>
@@ -305,7 +310,7 @@
                                 <span>24 месяца</span>
                             </div>
                         </div>
-                        <div class="courses-section-container">
+                        <div class="courses-section-container box cheater proffession">
                             <div class="shadow-develop"></div>
                             <div class="develop-cours" style="background-color: #FFCE94;">
                                 <span>Программа</span>
@@ -322,7 +327,7 @@
                         </div>
                     </div>
                     <div class="section-row">
-                        <div class="courses-section-container">
+                        <div class="courses-section-container box proffessional proffession">
                             <div class="shadow-develop"></div>
                             <div class="develop-cours" style="background-color: #FFE38E;">
                                 <span>Программа</span>
@@ -336,7 +341,7 @@
                                 <span>6 месяца</span>
                             </div>
                         </div>
-                        <div class="courses-section-container">
+                        <div class="courses-section-container box newbie cours">
                             <div class="shadow-develop"></div>
                             <div class="develop-cours" style="background-color: #DDDDFF;">
                                 <span>Программа</span>
@@ -352,7 +357,7 @@
                         </div>
                     </div>
                     <div class="section-row">
-                        <div class="courses-section-container">
+                        <div class="courses-section-container box newbie cours">
                             <div class="shadow-develop"></div>
                             <div class="develop-cours clickable" data-link="../chess-page/index.html"
                                 style="background-color: #B8EFCF;">
@@ -368,7 +373,7 @@
                                 <div class="sale">-10%</div>
                             </div>
                         </div>
-                        <div class="courses-section-container">
+                        <div class="courses-section-container box user proffession">
                             <div class="shadow-develop"></div>
                             <div class="develop-cours">
                                 <span>Программа</span>
@@ -385,7 +390,7 @@
                         </div>
                     </div>
                     <div class="section-row">
-                        <div class="courses-section-container">
+                        <div class="courses-section-container box newbie cours">
                             <div class="shadow-develop"></div>
                             <div class="develop-cours" style="background-color: #C5DDFF;">
                                 <span>Программа</span>
@@ -400,7 +405,7 @@
                                 <span>12 месяца</span>
                             </div>
                         </div>
-                        <div class="courses-section-container">
+                        <div class="courses-section-container box newbie cours">
                             <div class="shadow-develop"></div>
                             <div class="develop-cours" style="background-color: #FFE9A8;">
                                 <span>Программа</span>
@@ -416,7 +421,7 @@
                         </div>
                     </div>
                     <div class="section-row">
-                        <div class="courses-section-container">
+                        <div class="courses-section-container box newbie cours">
                             <div class="shadow-develop"></div>
                             <div class="develop-cours" style="background-color: #FFEEF6;">
                                 <span>Программа</span>
@@ -435,7 +440,7 @@
                 </div>
                 <div class="courses-section" data-target="1" style="display:none;">
                     <div class="section-row">
-                        <div class="courses-section-container">
+                        <div class="courses-section-container box cheater proffession">
                             <div class="shadow-develop"></div>
                             <div class="develop-cours">
                                 <span>Программа</span>
@@ -451,7 +456,7 @@
                                 <span>24 месяца</span>
                             </div>
                         </div>
-                        <div class="courses-section-container">
+                        <div class="courses-section-container box cheater proffession">
                             <div class="shadow-develop"></div>
                             <div class="develop-cours" style="background-color: #FFCE94;">
                                 <span>Программа</span>
@@ -468,7 +473,7 @@
                         </div>
                     </div>
                     <div class="section-row">
-                        <div class="courses-section-container">
+                        <div class="courses-section-container box user cours">
                             <div class="shadow-develop"></div>
                             <div class="develop-cours" style="background-color: #DDDDFF;">
                                 <span>Программа</span>
@@ -482,7 +487,7 @@
                                 <span>3 месяца</span>
                             </div>
                         </div>
-                        <div class="courses-section-container">
+                        <div class="courses-section-container box newbie cours">
                             <div class="shadow-develop"></div>
                             <div class="develop-cours" style="background-color: #FFEEF6;">
                                 <span>Программа</span>
@@ -499,7 +504,7 @@
                         </div>
                     </div>
                     <div class="section-row">
-                        <div class="courses-section-container">
+                        <div class="courses-section-container box user cours">
                             <div class="shadow-develop"></div>
                             <div class="develop-cours clickable" data-link="../chess-page/index.html"
                                 style="background-color: #B8EFCF;">
@@ -515,7 +520,7 @@
                                 <div class="sale">-10%</div>
                             </div>
                         </div>
-                        <div class="courses-section-container">
+                        <div class="courses-section-container box proffessional proffession">
                             <div class="shadow-develop"></div>
                             <div class="develop-cours">
                                 <span>Программа</span>
@@ -532,7 +537,7 @@
                         </div>
                     </div>
                     <div class="section-row">
-                        <div class="courses-section-container">
+                        <div class="courses-section-container box user cours">
                             <div class="shadow-develop"></div>
                             <div class="develop-cours" style="background-color: #C5DDFF;">
                                 <span>Программа</span>
@@ -547,7 +552,7 @@
                                 <span>24 месяца</span>
                             </div>
                         </div>
-                        <div class="courses-section-container">
+                        <div class="courses-section-container box newbie cours">
                             <div class="shadow-develop"></div>
                             <div class="develop-cours" style="background-color: #FFE9A8;">
                                 <span>Программа</span>
@@ -563,7 +568,7 @@
                         </div>
                     </div>
                     <div class="section-row">
-                        <div class="courses-section-container">
+                        <div class="courses-section-container box proffessional cours">
                             <div class="shadow-develop"></div>
                             <div class="develop-cours" style="background-color: #FFE9A8;">
                                 <span>Программа</span>
@@ -577,7 +582,7 @@
                                 <span>1 месяц</span>
                             </div>
                         </div>
-                        <div class="courses-section-container">
+                        <div class="courses-section-container box newbie cours">
                             <div class="shadow-develop"></div>
                             <div class="develop-cours" style="background-color: #a8ffd5;">
                                 <span>Программа</span>
@@ -596,7 +601,7 @@
                 </div>
                 <div class="courses-section" data-target="2" style="display:none;">
                     <div class="section-row">
-                        <div class="courses-section-container">
+                        <div class="courses-section-container box cheater proffession">
                             <div class="shadow-develop"></div>
                             <div class="develop-cours">
                                 <span>Программа</span>
@@ -612,7 +617,7 @@
                                 <span>24 месяца</span>
                             </div>
                         </div>
-                        <div class="courses-section-container">
+                        <div class="courses-section-container box cheater proffession">
                             <div class="shadow-develop"></div>
                             <div class="develop-cours" style="background-color: #FFCE94;">
                                 <span>Программа</span>
@@ -629,7 +634,7 @@
                         </div>
                     </div>
                     <div class="section-row">
-                        <div class="courses-section-container">
+                        <div class="courses-section-container box proffessional cours">
                             <div class="shadow-develop"></div>
                             <div class="develop-cours" style="background-color: #DDDDFF;">
                                 <span>Программа</span>
@@ -643,7 +648,7 @@
                                 <span>6 месяца</span>
                             </div>
                         </div>
-                        <div class="courses-section-container">
+                        <div class="courses-section-container box user proffession">
                             <div class="shadow-develop"></div>
                             <div class="develop-cours" style="background-color: #FFEEF6;">
                                 <span>Программа</span>
@@ -660,7 +665,7 @@
                         </div>
                     </div>
                     <div class="section-row">
-                        <div class="courses-section-container">
+                        <div class="courses-section-container box proffessional cours">
                             <div class="shadow-develop"></div>
                             <div class="develop-cours clickable" data-link="../chess-page/index.html"
                                 style="background-color: #B8EFCF;">
@@ -676,7 +681,7 @@
                                 <div class="sale">-10%</div>
                             </div>
                         </div>
-                        <div class="courses-section-container">
+                        <div class="courses-section-container box proffessional proffession">
                             <div class="shadow-develop"></div>
                             <div class="develop-cours">
                                 <span>Программа</span>
@@ -693,7 +698,7 @@
                         </div>
                     </div>
                     <div class="section-row">
-                        <div class="courses-section-container">
+                        <div class="courses-section-container box user cours">
                             <div class="shadow-develop"></div>
                             <div class="develop-cours" style="background-color: #C5DDFF;">
                                 <span>Программа</span>
@@ -708,7 +713,7 @@
                                 <span>12 месяца</span>
                             </div>
                         </div>
-                        <div class="courses-section-container">
+                        <div class="courses-section-container box newbie cours">
                             <div class="shadow-develop"></div>
                             <div class="develop-cours" style="background-color: #FFE9A8;">
                                 <span>Программа</span>
@@ -724,7 +729,7 @@
                         </div>
                     </div>
                     <div class="section-row">
-                        <div class="courses-section-container">
+                        <div class="courses-section-container box proffessional cours">
                             <div class="shadow-develop"></div>
                             <div class="develop-cours" style="background-color: #FFE9A8;">
                                 <span>Программа</span>
@@ -738,7 +743,7 @@
                                 <span>1 месяц</span>
                             </div>
                         </div>
-                        <div class="courses-section-container">
+                        <div class="courses-section-container box user cours">
                             <div class="shadow-develop"></div>
                             <div class="develop-cours" style="background-color: #a8ffd5;">
                                 <span>Программа</span>
