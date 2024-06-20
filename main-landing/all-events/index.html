@@ -13,6 +13,7 @@
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <title>Мероприятия</title>
     <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/17/17047.png" type="image/png">
+    <script src="/for-all/breadcrumbjs.js" defer></script>
 </head>
 
 <body>
@@ -91,6 +92,13 @@
             <hr class="indicator-header" style="height:5px;">
         </div>
     </header>
+
+    <div class="container">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb" id="breadcrumb">
+            </ol>
+        </nav>
+    </div>
 
     <div class="container all-events">
         <h1>Все мероприятия</h1>
@@ -268,7 +276,7 @@
                 <div class="gradient-container">
                     <div class="gradient"></div>
                     <div class="event" style="background-color:#FFCE94;">
-                        <div class="event-content">
+                        <div class="event-content" data-link="page-event-design-intensive/index.html">
                             <span>Интенсив</span>
                             <div class="event-title">
                                 <img src="/images/images-all-events/free-icon-web-design-13191231.png" alt="">
