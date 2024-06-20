@@ -177,9 +177,12 @@ ol.breadcrumb {
 }
 
 .breadcrumb-content::after {
-    content: ">";
+    content: "→";
     padding: 0 5px;
-    padding-bottom: 5px;
+    padding-bottom: 4px;
+    font-weight: 400;
+    font-size: 20px;
+    color: #828282;
 }
 
 .breadcrumb-item-last {
@@ -208,11 +211,6 @@ ol.breadcrumb {
 .breadcrumb-content a:hover {
     text-decoration: underline;
     color: #828282;
-}
-
-
-.all-events {
-    margin-top: 50px;
 }
 
 .all-events h1 {
