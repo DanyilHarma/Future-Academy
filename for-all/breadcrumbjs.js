@@ -25,20 +25,6 @@ document.addEventListener("DOMContentLoaded", function () {
             // Для последнего элемента используем title страницы
             const pageTitle = document.title;
             listItem.textContent = pageTitle ? pageTitle : decodeURIComponent(part.replace(/-/g, " "));
-            // } else {
-            //     // Для остальных используем пути, но текст берем из заранее заданного объекта
-            //     const link = document.createElement("a");
-            //     link.href = currentPath;
-
-            //     // Маппинг путей к заголовкам
-            //     const pathTitles = {
-            //         "/main-landing/all-courses.index.html": "Все курсы",
-            //         "/main-landing/all-events/index.html": "Все мероприятия",
-            //         "/main-landing/news/index.html": "Новости"
-            //     };
-
-            //     link.textContent = pathTitles[part] || decodeURIComponent(part.replace(/-/g, " "));
-            //     listItem.appendChild(link);
         }
         breadcrumb.appendChild(listItem);
     });
