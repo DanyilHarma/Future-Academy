@@ -164,6 +164,52 @@ body {
 }
 
 /* ****************************MAIN******************************* */
+/* *****************breadcrumb************ */
+
+.breadcrumb {
+    margin-top: 15px;
+    display: flex;
+    list-style-type: none;
+}
+
+ol.breadcrumb {
+    background-color: #fff;
+}
+
+.breadcrumb-content::after {
+    content: ">";
+    padding: 0 5px;
+    padding-bottom: 5px;
+}
+
+.breadcrumb-item-last {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 12px;
+    color: #828282;
+}
+
+.breadcrumb-content {
+    display: flex;
+    align-items: center;
+}
+
+.breadcrumb-content a {
+    text-decoration: none;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 12px;
+    color: #828282;
+}
+
+.breadcrumb-content a:hover {
+    text-decoration: underline;
+    color: #828282;
+}
+
 
 .all-events {
     margin-top: 50px;
