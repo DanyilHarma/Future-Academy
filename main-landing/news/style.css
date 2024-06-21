@@ -15,7 +15,6 @@ body {
     display: flex;
     align-items: center;
     gap: 70px;
-    justify-content: center;
     position: relative;
     background-color: #00093c;
 }
@@ -171,7 +170,6 @@ nav {
     margin-top: 15px;
     display: flex;
     list-style-type: none;
-    padding-left: 32px;
 }
 
 ol.breadcrumb {
@@ -215,9 +213,9 @@ ol.breadcrumb {
     color: #828282;
 }
 
+/* *****************news-summary************ */
 
-.container h1 {
-    padding-left: 30px;
+.main-news h1 {
     font-family: var(--font-family);
     font-weight: 700;
     font-size: 36px;
@@ -228,7 +226,7 @@ ol.breadcrumb {
     display: flex;
     flex-direction: column;
     gap: 20px;
-    padding: 20px 30px;
+    padding: 20px 0;
 }
 
 .container-gradient {
@@ -328,6 +326,61 @@ ol.breadcrumb {
     right: -32px;
 }
 
+/* *****************news-detail************ */
+
+.full-news-container button {
+    margin-bottom: 20px;
+    padding: 0;
+    background-color: #fff;
+    border: none;
+    outline: none;
+}
+
+.full-news-container button img {
+    max-width: 32px;
+}
+
+.full-news-content {
+    max-width: 1125px;
+}
+
+.full-news-content h1 {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 36px;
+    color: #000;
+}
+
+.full-news-content span {
+    display: inline-block;
+    margin: 15px 0;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 12px;
+    color: #000;
+}
+
+.full-news-content p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 144%;
+    color: #000;
+}
+
+.full-news-content p:last-of-type {
+    margin-bottom: 100px;
+}
+
+.full-news-content img {
+    width: 100%;
+    max-width: 750px;
+    max-height: 430px;
+    margin: 70px auto;
+    display: flex;
+    border-radius: 40px;
+}
+
 /* ***************************FORM HELP CHOICE**********************/
 
 .form-shadow-container {
@@ -338,7 +391,6 @@ ol.breadcrumb {
     max-width: 1180px;
     height: 270px;
     margin-bottom: -80px;
-    margin-left: 20px;
 }
 
 .form-shadow {
@@ -473,6 +525,7 @@ footer {
 }
 
 .footer-container {
+    margin-top: 50px;
     display: flex;
     gap: 70px;
 }
