@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="style.css">
+    <link rel=" stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
+        integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <title>Тест</title>
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/17/17047.png" type="image/png">
+</head>
+
+<body>
+
+    <header>
+        <div class="header-top">
+            <a href="/index.html">
+                <img src="/images/images-all-courses-page/Group 1.png" alt="">
+            </a>
+            <ul class="first-li-header-top">
+                <li id="all-courses" data-link="/main-landing/all-courses/index.html" data-target="0">
+                    <a href="">
+                        <img src="/images/images-all-courses-page/Group 14.png" alt=""> Все курсы
+                    </a>
+                </li>
+                <li id="events" data-link="../all-events/index.html" data-target="1">
+                    <a href="">
+                        Мероприятия
+                    </a>
+                </li>
+                <li id="data-base" data-link="../news/index.html" data-target="2">
+                    <a href="">
+                        Новости
+                    </a>
+                </li>
+                <li id="career" data-link="" data-target="3">
+                    <a href="">
+                        Карьера
+                    </a>
+                </li>
+            </ul>
+            <ul class="second-li-header-top">
+                <div class="city-pick-header-top-wrapper">
+                    <img src="/images/images-all-courses-page/Group 830.png" alt=""
+                        style="margin-right: 8px; cursor: auto;" class="geo">
+                    <li class="city-pick-header-top"> Дубоссары</li>
+                    <img src="/images/images-all-courses-page/Vector 197.png" alt="" class="city-pick-header-top-arrow">
+                </div>
+                <li>
+                    <a href="tel:+37368432044">
+                        +37368432044
+                    </a>
+                </li>
+                <li data-link="../form-header/index.html">
+                    <a href="">
+                        <img src="/images/images-all-courses-page/Group 593.png" alt="">Войти
+                    </a>
+                </li>
+            </ul>
+            <div class="popup-city-container">
+                <div class="shadow-gradient-popup-city">
+                    <div class="popup-city">
+                        <div class="title-wrap">
+                            <h2>Выберите свой город</h2>
+                            <img src="/images/images-all-courses-page/Group 858.png" alt="" class="close-popup">
+                        </div>
+                        <div class="cities">
+                            <div class="cities-col">
+                                <span>Бендеры</span>
+                                <span>Григориополь</span>
+                                <span>Дубоссары</span>
+                            </div>
+                            <div class="cities-col">
+                                <span>Днестровск</span>
+                                <span>Каменка</span>
+                                <span>Рыбница</span>
+                            </div>
+                            <div class="cities-col">
+                                <span>Слободзея</span>
+                                <span>Тирасполь</span>
+                                <span>Ягорлык</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="test-container">
+            <div class="help">Если у вас есть вопросы по анкете или вам нужна помощь в ее заполнении, то вы можете
+                позвонить <br>
+                по круглосуточному номеру 8 800 950-33-98</div>
+
+            <div class="test-content">
+                <form action="" id="test-form">
+                    <div class="question">
+                        <p>Что вам больше нравится?</p>
+                        <div class="radio-container">
+                            <div class="li-radio">
+                                <input type="radio" id="first" name="question1" value="1">
+                                <label for="first">Создавать красивые и интерактивные пользовательские интерфейсы.
+                                </label>
+                            </div>
+                            <div class="li-radio">
+                                <input type="radio" id="second" name="question1" value="2">
+                                <label for="second">Работать над созданием увлекательных игровых миров и
+                                    механик.</label>
+                            </div>
+                            <div class="li-radio">
+                                <input type="radio" id="third" name="question1" value="3">
+                                <label for="third">Создавать графику и анимацию.</label>
+                            </div>
+                            <div class="li-radio">
+                                <input type="radio" id="fourth" name="question1" value="4">
+                                <label for="fourth">Разрабатывать мобильные приложения.</label>
+                            </div>
+                        </div>
+                        <div class="button-container">
+                            <button type="button" class="prev"><svg width="21" height="16" viewBox="0 0 21 16"
+                                    fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M0.292892 8.70711C-0.0976315 8.31658 -0.0976315 7.68342 0.292892 7.29289L6.65685 0.928932C7.04738 0.538408 7.68054 0.538408 8.07107 0.928932C8.46159 1.31946 8.46159 1.95262 8.07107 2.34315L2.41421 8L8.07107 13.6569C8.46159 14.0474 8.46159 14.6805 8.07107 15.0711C7.68054 15.4616 7.04738 15.4616 6.65685 15.0711L0.292892 8.70711ZM21 9H1V7H21V9Z"
+                                        fill="#00093C" />
+                                </svg> Назад</button>
+                            <button type="button" class="next">Дальше <svg width="21" height="16" viewBox="0 0 21 16"
+                                    fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M20.7071 8.70711C21.0976 8.31658 21.0976 7.68342 20.7071 7.29289L14.3431 0.928932C13.9526 0.538408 13.3195 0.538408 12.9289 0.928932C12.5384 1.31946 12.5384 1.95262 12.9289 2.34315L18.5858 8L12.9289 13.6569C12.5384 14.0474 12.5384 14.6805 12.9289 15.0711C13.3195 15.4616 13.9526 15.4616 14.3431 15.0711L20.7071 8.70711ZM0 9H20V7H0V9Z"
+                                        fill="#00093C" />
+                                </svg></button>
+                        </div>
+                    </div>
+                    <div class="question">
+                        <p>Какой тип проекта вам интереснее?</p>
+                        <div class="radio-container">
+                            <div class="li-radio">
+                                <input type="radio" id="first2" name="question2" value="1">
+                                <label for="first2">Веб-приложение с продвинутым интерфейсом.
+                                </label>
+                            </div>
+                            <div class="li-radio">
+                                <input type="radio" id="second2" name="question2" value="2">
+                                <label for="second2">Проектировать и программировать искусственный интеллект для NPC
+                                    (неигровых персонажей).</label>
+                            </div>
+                            <div class="li-radio">
+                                <input type="radio" id="third2" name="question2" value="3">
+                                <label for="third2">Креативный проект с графикой и анимацией.</label>
+                            </div>
+                            <div class="li-radio">
+                                <input type="radio" id="fourth2" name="question2" value="4">
+                                <label for="fourth2">Проект по разработке удобного мобильного приложения.</label>
+                            </div>
+                        </div>
+                        <div class="button-container">
+                            <button type="button" class="prev"><svg width="21" height="16" viewBox="0 0 21 16"
+                                    fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M0.292892 8.70711C-0.0976315 8.31658 -0.0976315 7.68342 0.292892 7.29289L6.65685 0.928932C7.04738 0.538408 7.68054 0.538408 8.07107 0.928932C8.46159 1.31946 8.46159 1.95262 8.07107 2.34315L2.41421 8L8.07107 13.6569C8.46159 14.0474 8.46159 14.6805 8.07107 15.0711C7.68054 15.4616 7.04738 15.4616 6.65685 15.0711L0.292892 8.70711ZM21 9H1V7H21V9Z"
+                                        fill="#00093C" />
+                                </svg> Назад</button>
+                            <button type="button" class="next">Дальше <svg width="21" height="16" viewBox="0 0 21 16"
+                                    fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M20.7071 8.70711C21.0976 8.31658 21.0976 7.68342 20.7071 7.29289L14.3431 0.928932C13.9526 0.538408 13.3195 0.538408 12.9289 0.928932C12.5384 1.31946 12.5384 1.95262 12.9289 2.34315L18.5858 8L12.9289 13.6569C12.5384 14.0474 12.5384 14.6805 12.9289 15.0711C13.3195 15.4616 13.9526 15.4616 14.3431 15.0711L20.7071 8.70711ZM0 9H20V7H0V9Z"
+                                        fill="#00093C" />
+                                </svg></button>
+                        </div>
+                    </div>
+                    <div class="question">
+                        <p>Какую задачу вам хотелось бы решать?</p>
+                        <div class="radio-container">
+                            <div class="li-radio">
+                                <input type="radio" id="first3" name="question3" value="1">
+                                <label for="first3">Делать сайты и приложения удобными и приятными для пользователя.
+                                </label>
+                            </div>
+                            <div class="li-radio">
+                                <input type="radio" id="second3" name="question3" value="2">
+                                <label for="second3">Создавать реалистичную физику и анимацию для игрового
+                                    процесса.</label>
+                            </div>
+                            <div class="li-radio">
+                                <input type="radio" id="third3" name="question3" value="3">
+                                <label for="third3">Создавать визуальные концепции и макеты.</label>
+                            </div>
+                            <div class="li-radio">
+                                <input type="radio" id="fourth3" name="question3" value="4">
+                                <label for="fourth3">Разрабатывать мобильные приложения.</label>
+                            </div>
+                        </div>
+                        <div class="button-container">
+                            <button type="button" class="prev"><svg width="21" height="16" viewBox="0 0 21 16"
+                                    fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M0.292892 8.70711C-0.0976315 8.31658 -0.0976315 7.68342 0.292892 7.29289L6.65685 0.928932C7.04738 0.538408 7.68054 0.538408 8.07107 0.928932C8.46159 1.31946 8.46159 1.95262 8.07107 2.34315L2.41421 8L8.07107 13.6569C8.46159 14.0474 8.46159 14.6805 8.07107 15.0711C7.68054 15.4616 7.04738 15.4616 6.65685 15.0711L0.292892 8.70711ZM21 9H1V7H21V9Z"
+                                        fill="#00093C" />
+                                </svg> Назад</button>
+                            <button type="button" class="next">Дальше <svg width="21" height="16" viewBox="0 0 21 16"
+                                    fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M20.7071 8.70711C21.0976 8.31658 21.0976 7.68342 20.7071 7.29289L14.3431 0.928932C13.9526 0.538408 13.3195 0.538408 12.9289 0.928932C12.5384 1.31946 12.5384 1.95262 12.9289 2.34315L18.5858 8L12.9289 13.6569C12.5384 14.0474 12.5384 14.6805 12.9289 15.0711C13.3195 15.4616 13.9526 15.4616 14.3431 15.0711L20.7071 8.70711ZM0 9H20V7H0V9Z"
+                                        fill="#00093C" />
+                                </svg></button>
+                        </div>
+                    </div>
+                    <div class="question">
+                        <p>Какой из языков вам кажется наиболее интересным?</p>
+                        <div class="radio-container">
+                            <div class="li-radio">
+                                <input type="radio" id="first4" name="question4" value="1">
+                                <label for="first4">JavaScript
+                                </label>
+                            </div>
+                            <div class="li-radio">
+                                <input type="radio" id="second4" name="question4" value="2">
+                                <label for="second4">C++</label>
+                            </div>
+                            <div class="li-radio">
+                                <input type="radio" id="third4" name="question4" value="3">
+                                <label for="third4">HTML/CSS</label>
+                            </div>
+                            <div class="li-radio">
+                                <input type="radio" id="fourth4" name="question4" value="4">
+                                <label for="fourth4">Swift или Kotlin</label>
+                            </div>
+                        </div>
+                        <div class="button-container">
+                            <button type="button" class="prev"><svg width="21" height="16" viewBox="0 0 21 16"
+                                    fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M0.292892 8.70711C-0.0976315 8.31658 -0.0976315 7.68342 0.292892 7.29289L6.65685 0.928932C7.04738 0.538408 7.68054 0.538408 8.07107 0.928932C8.46159 1.31946 8.46159 1.95262 8.07107 2.34315L2.41421 8L8.07107 13.6569C8.46159 14.0474 8.46159 14.6805 8.07107 15.0711C7.68054 15.4616 7.04738 15.4616 6.65685 15.0711L0.292892 8.70711ZM21 9H1V7H21V9Z"
+                                        fill="#00093C" />
+                                </svg> Назад</button>
+                            <button type="button" class="next">Дальше <svg width="21" height="16" viewBox="0 0 21 16"
+                                    fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M20.7071 8.70711C21.0976 8.31658 21.0976 7.68342 20.7071 7.29289L14.3431 0.928932C13.9526 0.538408 13.3195 0.538408 12.9289 0.928932C12.5384 1.31946 12.5384 1.95262 12.9289 2.34315L18.5858 8L12.9289 13.6569C12.5384 14.0474 12.5384 14.6805 12.9289 15.0711C13.3195 15.4616 13.9526 15.4616 14.3431 15.0711L20.7071 8.70711ZM0 9H20V7H0V9Z"
+                                        fill="#00093C" />
+                                </svg></button>
+                        </div>
+                    </div>
+                    <div class="question">
+                        <p>Что вам больше нравится?</p>
+                        <div class="radio-container">
+                            <div class="li-radio">
+                                <input type="radio" id="first5" name="question5" value="1">
+                                <label for="first5">Работать с визуальными элементами и стилями.
+                                </label>
+                            </div>
+                            <div class="li-radio">
+                                <input type="radio" id="second5" name="question5" value="2">
+                                <label for="second5">Проектировать и программировать пользовательский интерфейс для
+                                    игр.</label>
+                            </div>
+                            <div class="li-radio">
+                                <input type="radio" id="third5" name="question5" value="3">
+                                <label for="third5">Создавать уникальные дизайны и анимации.</label>
+                            </div>
+                            <div class="li-radio">
+                                <input type="radio" id="fourth5" name="question5" value="4">
+                                <label for="fourth5">Создавать мобильные приложения, которые работают на разных
+                                    платформах.</label>
+                            </div>
+                        </div>
+                        <div class="button-container">
+                            <button type="button" class="prev"><svg width="21" height="16" viewBox="0 0 21 16"
+                                    fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M0.292892 8.70711C-0.0976315 8.31658 -0.0976315 7.68342 0.292892 7.29289L6.65685 0.928932C7.04738 0.538408 7.68054 0.538408 8.07107 0.928932C8.46159 1.31946 8.46159 1.95262 8.07107 2.34315L2.41421 8L8.07107 13.6569C8.46159 14.0474 8.46159 14.6805 8.07107 15.0711C7.68054 15.4616 7.04738 15.4616 6.65685 15.0711L0.292892 8.70711ZM21 9H1V7H21V9Z"
+                                        fill="#00093C" />
+                                </svg> Назад</button>
+                            <button type="button" class="next">Дальше <svg width="21" height="16" viewBox="0 0 21 16"
+                                    fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M20.7071 8.70711C21.0976 8.31658 21.0976 7.68342 20.7071 7.29289L14.3431 0.928932C13.9526 0.538408 13.3195 0.538408 12.9289 0.928932C12.5384 1.31946 12.5384 1.95262 12.9289 2.34315L18.5858 8L12.9289 13.6569C12.5384 14.0474 12.5384 14.6805 12.9289 15.0711C13.3195 15.4616 13.9526 15.4616 14.3431 15.0711L20.7071 8.70711ZM0 9H20V7H0V9Z"
+                                        fill="#00093C" />
+                                </svg></button>
+                        </div>
+                    </div>
+                    <div class="question">
+                        <p>Какую работу вы предпочитаете?</p>
+                        <div class="radio-container">
+                            <div class="li-radio">
+                                <input type="radio" id="first6" name="question6" value="1">
+                                <label for="first6">Работу, связанную с интерфейсами и взаимодействием с пользователем.
+                                </label>
+                            </div>
+                            <div class="li-radio">
+                                <input type="radio" id="second6" name="question6" value="2">
+                                <label for="second6">Работать над оптимизацией производительности игр на различных
+                                    платформах.</label>
+                            </div>
+                            <div class="li-radio">
+                                <input type="radio" id="third6" name="question6" value="3">
+                                <label for="third6">Работу, связанную с созданием графических элементов и
+                                    макетов.</label>
+                            </div>
+                            <div class="li-radio">
+                                <input type="radio" id="fourth6" name="question6" value="4">
+                                <label for="fourth6">Работу, связанную с разработкой мобильных приложений.</label>
+                            </div>
+                        </div>
+                        <div class="button-container">
+                            <button type="button" class="prev"><svg width="21" height="16" viewBox="0 0 21 16"
+                                    fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M0.292892 8.70711C-0.0976315 8.31658 -0.0976315 7.68342 0.292892 7.29289L6.65685 0.928932C7.04738 0.538408 7.68054 0.538408 8.07107 0.928932C8.46159 1.31946 8.46159 1.95262 8.07107 2.34315L2.41421 8L8.07107 13.6569C8.46159 14.0474 8.46159 14.6805 8.07107 15.0711C7.68054 15.4616 7.04738 15.4616 6.65685 15.0711L0.292892 8.70711ZM21 9H1V7H21V9Z"
+                                        fill="#00093C" />
+                                </svg> Назад</button>
+                            <button type="button" class="next">Дальше <svg width="21" height="16" viewBox="0 0 21 16"
+                                    fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M20.7071 8.70711C21.0976 8.31658 21.0976 7.68342 20.7071 7.29289L14.3431 0.928932C13.9526 0.538408 13.3195 0.538408 12.9289 0.928932C12.5384 1.31946 12.5384 1.95262 12.9289 2.34315L18.5858 8L12.9289 13.6569C12.5384 14.0474 12.5384 14.6805 12.9289 15.0711C13.3195 15.4616 13.9526 15.4616 14.3431 15.0711L20.7071 8.70711ZM0 9H20V7H0V9Z"
+                                        fill="#00093C" />
+                                </svg></button>
+                        </div>
+                    </div>
+                    <div class="question">
+                        <p>Что вам больше нравится?</p>
+                        <div class="radio-container">
+                            <div class="li-radio">
+                                <input type="radio" id="first7" name="question7" value="1">
+                                <label for="first7">Работать с JavaScript и библиотеками для создания пользовательских
+                                    интерфейсов.
+                                </label>
+                            </div>
+                            <div class="li-radio">
+                                <input type="radio" id="second7" name="question7" value="2">
+                                <label for="second7">Создавать визуальные эффекты и графику для игр.</label>
+                            </div>
+                            <div class="li-radio">
+                                <input type="radio" id="third7" name="question7" value="3">
+                                <label for="third7">Работать с графическими редакторами и анимационными
+                                    инструментами.</label>
+                            </div>
+                            <div class="li-radio">
+                                <input type="radio" id="fourth7" name="question7" value="4">
+                                <label for="fourth7">Быть ответственным за разработку и тестирование мобильных
+                                    приложений.</label>
+                            </div>
+                        </div>
+                        <div class="button-container">
+                            <button type="button" class="prev"><svg width="21" height="16" viewBox="0 0 21 16"
+                                    fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M0.292892 8.70711C-0.0976315 8.31658 -0.0976315 7.68342 0.292892 7.29289L6.65685 0.928932C7.04738 0.538408 7.68054 0.538408 8.07107 0.928932C8.46159 1.31946 8.46159 1.95262 8.07107 2.34315L2.41421 8L8.07107 13.6569C8.46159 14.0474 8.46159 14.6805 8.07107 15.0711C7.68054 15.4616 7.04738 15.4616 6.65685 15.0711L0.292892 8.70711ZM21 9H1V7H21V9Z"
+                                        fill="#00093C" />
+                                </svg> Назад</button>
+                            <button type="button" class="next">Дальше <svg width="21" height="16" viewBox="0 0 21 16"
+                                    fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M20.7071 8.70711C21.0976 8.31658 21.0976 7.68342 20.7071 7.29289L14.3431 0.928932C13.9526 0.538408 13.3195 0.538408 12.9289 0.928932C12.5384 1.31946 12.5384 1.95262 12.9289 2.34315L18.5858 8L12.9289 13.6569C12.5384 14.0474 12.5384 14.6805 12.9289 15.0711C13.3195 15.4616 13.9526 15.4616 14.3431 15.0711L20.7071 8.70711ZM0 9H20V7H0V9Z"
+                                        fill="#00093C" />
+                                </svg></button>
+                        </div>
+                    </div>
+                    <div class="question">
+                        <p>Какой тип задач вам больше по душе?</p>
+                        <div class="radio-container">
+                            <div class="li-radio">
+                                <input type="radio" id="first8" name="question8" value="1">
+                                <label for="first8">Оптимизация пользовательского интерфейса и улучшение UX.
+                                </label>
+                            </div>
+                            <div class="li-radio">
+                                <input type="radio" id="second8" name="question8" value="2">
+                                <label for="second8">Разрабатывать и интегрировать звуковые эффекты и музыку в
+                                    игры.</label>
+                            </div>
+                            <div class="li-radio">
+                                <input type="radio" id="third8" name="question8" value="3">
+                                <label for="third8">Создание визуального контента и графического дизайна.</label>
+                            </div>
+                            <div class="li-radio">
+                                <input type="radio" id="fourth8" name="question8" value="4">
+                                <label for="fourth8">Работа с мобильными технологиями и платформами.</label>
+                            </div>
+                        </div>
+                        <div class="button-container">
+                            <button type="button" class="prev"><svg width="21" height="16" viewBox="0 0 21 16"
+                                    fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M0.292892 8.70711C-0.0976315 8.31658 -0.0976315 7.68342 0.292892 7.29289L6.65685 0.928932C7.04738 0.538408 7.68054 0.538408 8.07107 0.928932C8.46159 1.31946 8.46159 1.95262 8.07107 2.34315L2.41421 8L8.07107 13.6569C8.46159 14.0474 8.46159 14.6805 8.07107 15.0711C7.68054 15.4616 7.04738 15.4616 6.65685 15.0711L0.292892 8.70711ZM21 9H1V7H21V9Z"
+                                        fill="#00093C" />
+                                </svg> Назад</button>
+                            <button type="button" class="next">Дальше <svg width="21" height="16" viewBox="0 0 21 16"
+                                    fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M20.7071 8.70711C21.0976 8.31658 21.0976 7.68342 20.7071 7.29289L14.3431 0.928932C13.9526 0.538408 13.3195 0.538408 12.9289 0.928932C12.5384 1.31946 12.5384 1.95262 12.9289 2.34315L18.5858 8L12.9289 13.6569C12.5384 14.0474 12.5384 14.6805 12.9289 15.0711C13.3195 15.4616 13.9526 15.4616 14.3431 15.0711L20.7071 8.70711ZM0 9H20V7H0V9Z"
+                                        fill="#00093C" />
+                                </svg></button>
+                        </div>
+                    </div>
+                    <div class="question">
+                        <p>Какую роль вы предпочитаете в проекте?</p>
+                        <div class="radio-container">
+                            <div class="li-radio">
+                                <input type="radio" id="first9" name="question9" value="1">
+                                <label for="first9">Быть ответственным за пользовательский интерфейс и опыт.
+                                </label>
+                            </div>
+                            <div class="li-radio">
+                                <input type="radio" id="second9" name="question9" value="2">
+                                <label for="second9">Быть ответственным за управление базами данных для игровых
+                                    проектов.</label>
+                            </div>
+                            <div class="li-radio">
+                                <input type="radio" id="third9" name="question9" value="3">
+                                <label for="third9">Быть ответственным за визуальный стиль и дизайн.</label>
+                            </div>
+                            <div class="li-radio">
+                                <input type="radio" id="fourth9" name="question9" value="4">
+                                <label for="fourth9">Быть ответственным за разработку и тестирование мобильных
+                                    приложений.</label>
+                            </div>
+                        </div>
+                        <div class="button-container">
+                            <button type="button" class="prev"><svg width="21" height="16" viewBox="0 0 21 16"
+                                    fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M0.292892 8.70711C-0.0976315 8.31658 -0.0976315 7.68342 0.292892 7.29289L6.65685 0.928932C7.04738 0.538408 7.68054 0.538408 8.07107 0.928932C8.46159 1.31946 8.46159 1.95262 8.07107 2.34315L2.41421 8L8.07107 13.6569C8.46159 14.0474 8.46159 14.6805 8.07107 15.0711C7.68054 15.4616 7.04738 15.4616 6.65685 15.0711L0.292892 8.70711ZM21 9H1V7H21V9Z"
+                                        fill="#00093C" />
+                                </svg> Назад</button>
+                            <button type="button" class="next">Дальше <svg width="21" height="16" viewBox="0 0 21 16"
+                                    fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M20.7071 8.70711C21.0976 8.31658 21.0976 7.68342 20.7071 7.29289L14.3431 0.928932C13.9526 0.538408 13.3195 0.538408 12.9289 0.928932C12.5384 1.31946 12.5384 1.95262 12.9289 2.34315L18.5858 8L12.9289 13.6569C12.5384 14.0474 12.5384 14.6805 12.9289 15.0711C13.3195 15.4616 13.9526 15.4616 14.3431 15.0711L20.7071 8.70711ZM0 9H20V7H0V9Z"
+                                        fill="#00093C" />
+                                </svg></button>
+                        </div>
+                    </div>
+                    <div class="question">
+                        <p>Какой инструмент вам кажется наиболее интересным?</p>
+                        <div class="radio-container">
+                            <div class="li-radio">
+                                <input type="radio" id="first10" name="question10" value="1">
+                                <label for="first10">React или Vue.js
+                                </label>
+                            </div>
+                            <div class="li-radio">
+                                <input type="radio" id="second10" name="question10" value="2">
+                                <label for="second10">Unity или Unreal Engine</label>
+                            </div>
+                            <div class="li-radio">
+                                <input type="radio" id="third10" name="question10" value="3">
+                                <label for="third10">Adobe Photoshop или Figma</label>
+                            </div>
+                            <div class="li-radio">
+                                <input type="radio" id="fourth10" name="question10" value="4">
+                                <label for="fourth10">Flutter или React Native</label>
+                            </div>
+                        </div>
+                        <div class="button-container">
+                            <button type="button" class="prev"><svg width="21" height="16" viewBox="0 0 21 16"
+                                    fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M0.292892 8.70711C-0.0976315 8.31658 -0.0976315 7.68342 0.292892 7.29289L6.65685 0.928932C7.04738 0.538408 7.68054 0.538408 8.07107 0.928932C8.46159 1.31946 8.46159 1.95262 8.07107 2.34315L2.41421 8L8.07107 13.6569C8.46159 14.0474 8.46159 14.6805 8.07107 15.0711C7.68054 15.4616 7.04738 15.4616 6.65685 15.0711L0.292892 8.70711ZM21 9H1V7H21V9Z"
+                                        fill="#00093C" />
+                                </svg> Назад</button>
+                            <button type="button" class="result" onclick="calculateResult()">Узнать<img src="i.png"
+                                    alt="">
+                                </svg></button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="progress-container">
+        <svg class="progress-circle" width="80" height="80" viewBox="0 0 80 80" fill="none"
+            xmlns="http://www.w3.org/2000/svg">
+            <circle class="progress-bg" cx="40" cy="40" r="38" stroke="#E0E0E0" stroke-width="4" />
+            <circle class="progress-bar" cx="40" cy="40" r="38" stroke="url(#paint0_linear_188_9437)"
+                stroke-width="4" />
+            <defs>
+                <linearGradient id="paint0_linear_188_9437" x1="41" y1="36" x2="78" y2="36"
+                    gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#F7941D" />
+                    <stop offset="100" stop-color="#27AAE1" />
+                </linearGradient>
+            </defs>
+        </svg>
+        <span class="progress-number">1/10</span>
+    </div>
+
+    <div class="overlay"></div>
+    <div class="modal-window">
+        <div class="window-content">
+            <span class="close">&times;</span>
+            <p class="result-proffession"></p>
+            <div class="link"><a href="">Ссылка на курс</a></div>
+        </div>
+    </div>
+
+    <script src="myjs.js"></script>
+</body>
+
+</html>
