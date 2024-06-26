@@ -223,12 +223,13 @@ ol.breadcrumb {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 50px;
+    gap: 40px;
 }
 
 .contact {
     gap: 5px;
 }
+
 
 .number {
     font-weight: 600 !important;
@@ -247,6 +248,10 @@ ol.breadcrumb {
     display: flex;
     gap: 20px;
     align-items: center;
+}
+
+.contacts>a {
+    margin-top: -20px;
 }
 
 /* ***************************FORM HELP CHOICE**********************/
